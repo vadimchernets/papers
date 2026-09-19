@@ -9,12 +9,12 @@ In Robert Sheckley’s 1953 story “Watchbird”, machines built to prevent mur
 | | |
 |---|---|
 | **Version of record** | [SSRN 7473658](https://ssrn.com/abstract=7473658) · DOI [10.2139/ssrn.7473658](https://doi.org/10.2139/ssrn.7473658) |
-| **Archived, citable** | in preparation |
+| **Archived, citable** | [10.5281/zenodo.22849138](https://doi.org/10.5281/zenodo.22849138) — concept DOI, always resolves to the latest version |
 | **Readable HTML** | [https://vadymchernets.netlify.app/ai-watchbird.html](https://vadymchernets.netlify.app/ai-watchbird.html) |
 | **Full text here** | [paper.md](paper.md) |
 | **PDF here** | [ai-watchbird.pdf](ai-watchbird.pdf) · 3.0 MB |
 
-The same text is on three surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one. SSRN also disallows AI crawlers site-wide in its `robots.txt`, which is why these mirrors exist.
+The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one. SSRN also disallows AI crawlers site-wide in its `robots.txt`, which is why these mirrors exist.
 
 ## Keywords
 

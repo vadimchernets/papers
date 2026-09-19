@@ -3,11 +3,11 @@
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
 - Version of record: [SSRN 7473658](https://ssrn.com/abstract=7473658) · DOI [10.2139/ssrn.7473658](https://doi.org/10.2139/ssrn.7473658)
-- Archived copy: in preparation
+- Archived copy, citable and downloadable: [10.5281/zenodo.22849138](https://doi.org/10.5281/zenodo.22849138) — concept DOI, always resolves to the latest version
 - Full text as Markdown and PDF: [GitHub](https://github.com/vadimchernets/papers/tree/main/ai-watchbird)
 - Readable HTML: [https://vadymchernets.netlify.app/ai-watchbird.html](https://vadymchernets.netlify.app/ai-watchbird.html)
 
-*The same text is on three surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
+*The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
 
 ---
 
