@@ -3,7 +3,7 @@
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
 - Version of record: [SSRN 7390698](https://ssrn.com/abstract=7390698)
-- Archived open-access copy: [10.5281/zenodo.22821595](https://doi.org/10.5281/zenodo.22821595)
+- Archived open-access copy: [10.5281/zenodo.22683716](https://doi.org/10.5281/zenodo.22683716)
 - HTML: https://vadymchernets.netlify.app/agreement-not-evidence.html
 
 ---
