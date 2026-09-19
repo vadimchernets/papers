@@ -33,14 +33,25 @@ User-agent: Google-Extended
 Disallow: /
 ```
 
-Those three cover OpenAI's training crawler, the fetcher that runs when a person asks ChatGPT to
-open a link, and the control Google uses for Gemini and for grounding its AI answers. The
-exclusion is enforced rather than merely declared: a request carrying the user agent `GPTBot/1.0`
-returns HTTP 403, while a plain `curl` user agent returns 200. The same request returns 200 here.
+The first two are crawlers: `GPTBot` collects training data, and `ChatGPT-User` is the fetcher that
+runs when a person asks that assistant to open a link. The third is not a crawler at all.
+Google-Extended is a control token with no user agent of its own; by Google's documentation it
+governs whether content Google has already crawled may be used to train Gemini or to ground its
+answers, and it does not affect a site's inclusion in Google Search. So the three lines do two
+different things: they refuse two crawlers outright, and they withhold the site from one assistant's
+training and grounding.
 
-So a person can open a paper on SSRN, and an AI system acting for that person cannot. This
-repository, the Zenodo deposits and the HTML pages exist so that the text is reachable. Nothing
-here is a separate publication. Cite the SSRN version of record.
+For the first of the three the refusal is enforced rather than merely declared. A request carrying
+the user agent `GPTBot/1.0` returns HTTP 403 where a generic client user agent returns 200, both
+tested on 19 September 2026 from one network path. The same request against this repository returns
+200. That is a difference between two requests, not a proof that every automated client is turned
+away; a search-based tool did retrieve the abstract page during the same test, because the page is
+present in conventional search indexes.
+
+The narrower and more durable point stands: a person can open a paper on SSRN, and a crawler acting
+for that person is told not to. This repository, the Zenodo deposits and the HTML pages exist so
+that the text is reachable by both. Nothing here is a separate publication. Cite the SSRN version
+of record.
 
 ## Layout
 
