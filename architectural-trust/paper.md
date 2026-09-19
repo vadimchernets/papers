@@ -1,4 +1,4 @@
-# Consumer Trust in Agentic Commerce: From Model Properties to Verifiable Architecture
+# Architectural Trust: Why Consumer Trust in Agentic Commerce Migrates from AI Models to Verifiable Architecture
 
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
@@ -12,6 +12,8 @@
 ---
 
 **Consumer Trust in Agentic Commerce**
+
+*Published on SSRN and indexed under the title "Architectural Trust: Why Consumer Trust in Agentic Commerce Migrates from AI Models to Verifiable Architecture". Cite that form.*
 
 *From Model Properties to Verifiable Architecture*
 
