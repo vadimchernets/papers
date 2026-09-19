@@ -2,9 +2,12 @@
 
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
-- Version of record: [SSRN 7296358](https://ssrn.com/abstract=7296358)
-- Archived open-access copy: [10.5281/zenodo.22166896](https://doi.org/10.5281/zenodo.22166896) — concept DOI, always resolves to the latest version
-- HTML: https://vadymchernets.netlify.app/download-metrics.html
+- Version of record: [SSRN 7296358](https://ssrn.com/abstract=7296358) · DOI [10.2139/ssrn.7296358](https://doi.org/10.2139/ssrn.7296358)
+- Archived copy, citable and downloadable: [10.5281/zenodo.22166896](https://doi.org/10.5281/zenodo.22166896) — concept DOI, always resolves to the latest version
+- Full text as Markdown and PDF: [GitHub](https://github.com/vadimchernets/papers/tree/main/download-metrics)
+- Readable HTML: [https://vadymchernets.netlify.app/download-metrics.html](https://vadymchernets.netlify.app/download-metrics.html)
+
+*The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
 
 ---
 
@@ -30,7 +33,7 @@ The available evidence shows why simple averages mislead. In the only recent pub
 
 From that evidence the article builds an interpretation framework for post-rankings SSRN metrics, which separates exposure, abstract view, full-text download, and downstream use, and it adds a reach-by-conversion diagnostic that distinguishes invisibility from rejection. In place of a single vanity number it proposes the Cold-Start Scholarly Attention Benchmark (CSAB), a multidimensional alternative. A dossier protocol accompanies it, under which every reported metric carries its source, time window, reference class, and limitations. The article then sets out a preregistration-ready agenda for rebuilding the missing scale: a prospective panel of new SSRN papers observed from day 1 to day 180, quasi-experiments using curated email-alert distribution and the Rankings retirement itself, a community-built percentile benchmark, and an audit of preprint visibility in AI answer engines. The evidence base combines the cited studies with the nonrepresentative archival cross-section of Appendix E; the article specifies how the missing benchmark can be rebuilt, and why no download count should circulate without its context on a platform that supplies none of it.
 
-**Keywords:** SSRN; preprints; downloads; abstract views; scholarly attention; scientometrics; benchmarking; research evaluation; rankings; Matthew effect; cumulative advantage; metric interpretability; metric blindness; preprint repositories; generative engines; platform design
+**Keywords:** download counts; usage metrics; field normalization; research assessment; research evaluation; preprints; scientometrics; promotion and tenure; legal scholarship; altmetrics; Matthew effect; cumulative advantage; attention economy; abstract views; predatory journals; generative engine optimization. 
 
 **JEL classification:** A14; D83; I23; O33; L86
 

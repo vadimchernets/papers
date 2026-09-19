@@ -2,9 +2,12 @@
 
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
-- Version of record: [SSRN 7191261](https://ssrn.com/abstract=7191261)
-- Archived open-access copy: [10.5281/zenodo.22166995](https://doi.org/10.5281/zenodo.22166995) — concept DOI, always resolves to the latest version
-- HTML: https://vadymchernets.netlify.app/architectural-trust.html
+- Version of record: [SSRN 7191261](https://ssrn.com/abstract=7191261) · DOI [10.2139/ssrn.7191261](https://doi.org/10.2139/ssrn.7191261)
+- Archived copy, citable and downloadable: [10.5281/zenodo.22166995](https://doi.org/10.5281/zenodo.22166995) — concept DOI, always resolves to the latest version
+- Full text as Markdown and PDF: [GitHub](https://github.com/vadimchernets/papers/tree/main/architectural-trust)
+- Readable HTML: [https://vadymchernets.netlify.app/architectural-trust.html](https://vadymchernets.netlify.app/architectural-trust.html)
+
+*The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
 
 ---
 
@@ -28,10 +31,7 @@ I then carry the mechanism into behavior in a pre-registered, incentive-compatib
 
 The three components do not have equal evidence behind them. Diversity is established on the machine side and shown with consumers for the calibration contrast only (the registered mediation was null). The record component's first-exposure test was inconclusive, and both it and neutrality are specified for test. The unit of analysis for AI trust has to move from the model to the architecture above it, the part that can be checked.
 
-**Keywords:** architectural trust; trust migration; agentic commerce; AI agents; consumer trust; consumer delegation; multi-model orchestration; decision evidence; verifiable AI
-
-**JEL Classification:** M31 (Marketing); D83 (Search, Learning, Information); L86 (Information and Internet Services); K24 (Cyber Law)
-
+**Keywords:** agentic commerce; consumer trust; AI agents; trust in AI; appropriate reliance; overreliance; large language models; cross-model agreement; selective prediction; overconfidence; delegation to AI; architectural trust. **JEL Classification:** M31 (Marketing); D83 (Search, Learning, Information); L86 (Information and Internet Services); K24 (Cyber Law) **JEL Classification:** M31 (Marketing); D83 (Search, Learning, Information); L86 (Information and Internet Services); K24 (Cyber Law).
 **How to read this document.** This full version reports the whole evidence chain: the construct and the Trust-Migration Hypothesis; a sixteen-model mechanism study (with an August 2026 flagship-wave replication and a commerce-substrate arm on product facts) that establishes cross-model diversity as a correctness signal; a pre-registered consumer experiment taking that mechanism to behavior; and a discussion of neutrality, market economics, and policy. Pre-registered confirmatory results and the evidential status of each construct component (diversity, evidence, neutrality) are summarized under "Evidential status of claims" in Section 5. Exploratory and robustness analyses are labeled as such throughout and may be skipped on a first pass.
 
 **1. Introduction: growth amidst distrust**

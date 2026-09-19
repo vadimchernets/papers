@@ -2,15 +2,16 @@
 
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
-- Version of record: [SSRN 7390698](https://ssrn.com/abstract=7390698)
-- Archived open-access copy: [10.5281/zenodo.22683716](https://doi.org/10.5281/zenodo.22683716)
-- HTML: https://vadymchernets.netlify.app/agreement-not-evidence.html
+- Version of record: [SSRN 7390698](https://ssrn.com/abstract=7390698) · DOI [10.2139/ssrn.7390698](https://doi.org/10.2139/ssrn.7390698)
+- Archived copy, citable and downloadable: [10.5281/zenodo.22683716](https://doi.org/10.5281/zenodo.22683716) — concept DOI, always resolves to the latest version
+- Full text as Markdown and PDF: [GitHub](https://github.com/vadimchernets/papers/tree/main/agreement-not-evidence)
+- Readable HTML: [https://vadymchernets.netlify.app/agreement-not-evidence.html](https://vadymchernets.netlify.app/agreement-not-evidence.html)
+
+*The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
 
 ---
 
-**Keywords:** multi-model orchestration; large language models; ensembling; mixture-of-agents; correlated errors; algorithmic monoculture; effective sample size; design effect; provenance; auditability; evidence aggregation; indirect prompt injection; accessibility
-
-**JEL Classification:** C11; C18; D71; D83; L86; O33
+**Keywords:** large language models; correlated errors; wisdom of crowds; Condorcet jury theorem; algorithmic monoculture; multi-agent debate; effective sample size; design effect; ensemble diversity; provenance. **JEL Classification:** C11; C18; D71; D83; L86; O33
 
 ------------------------------------------------------------------------
 

@@ -2,14 +2,16 @@
 
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
-- Version of record: [SSRN 7473658](https://ssrn.com/abstract=7473658)
-- HTML: https://vadymchernets.netlify.app/ai-watchbird.html
+- Version of record: [SSRN 7473658](https://ssrn.com/abstract=7473658) · DOI [10.2139/ssrn.7473658](https://doi.org/10.2139/ssrn.7473658)
+- Archived copy: in preparation
+- Full text as Markdown and PDF: [GitHub](https://github.com/vadimchernets/papers/tree/main/ai-watchbird)
+- Readable HTML: [https://vadymchernets.netlify.app/ai-watchbird.html](https://vadymchernets.netlify.app/ai-watchbird.html)
+
+*The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
 
 ---
 
-**Keywords:** AI-Watchbird; Sheckley; automated oversight; AI guardrails; mandate expansion; over-refusal; human oversight; recursive oversight; multi-agent systems; embodied AI; robots; drones; autonomous vehicles; model critics; AI control; specification gaming; safety science
-
-**JEL Classification:** D83; K23; L86; O33
+**Keywords:** AI oversight; human oversight; guardrails; over-refusal; automation bias; multi-agent systems; specification gaming; embodied AI; AI control; scalable oversight; safety case; autonomous weapon systems; predictive policing; safety science; AI governance. **JEL Classification:** D83; K23; L86; O33
 
 ------------------------------------------------------------------------
 
