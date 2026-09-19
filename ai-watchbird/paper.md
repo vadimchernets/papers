@@ -7,7 +7,7 @@
 - Full text as Markdown and PDF: [GitHub](https://github.com/vadimchernets/papers/tree/main/ai-watchbird)
 - Readable HTML: [https://vadymchernets.netlify.app/ai-watchbird.html](https://vadymchernets.netlify.app/ai-watchbird.html)
 
-*The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
+*The same text is on three surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
 
 ---
 

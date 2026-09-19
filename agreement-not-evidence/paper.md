@@ -11,7 +11,7 @@
 
 ---
 
-**Keywords:** large language models; correlated errors; wisdom of crowds; Condorcet jury theorem; algorithmic monoculture; multi-agent debate; effective sample size; design effect; ensemble diversity; provenance. **JEL Classification:** C11; C18; D71; D83; L86; O33
+**Keywords:** large language models; correlated errors; wisdom of crowds; Condorcet jury theorem; algorithmic monoculture; multi-agent debate; effective sample size; design effect; ensemble; provenance. **JEL Classification:** C11; C18; D71; D83; L86; O33
 
 ------------------------------------------------------------------------
 
