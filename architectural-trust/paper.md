@@ -3,7 +3,7 @@
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
 - Version of record: [SSRN 7191261](https://ssrn.com/abstract=7191261)
-- Archived open-access copy: [10.5281/zenodo.22820644](https://doi.org/10.5281/zenodo.22820644)
+- Archived open-access copy: [10.5281/zenodo.22166995](https://doi.org/10.5281/zenodo.22166995) — concept DOI, always resolves to the latest version
 - HTML: https://vadymchernets.netlify.app/architectural-trust.html
 
 ---

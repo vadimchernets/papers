@@ -3,7 +3,7 @@
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
 - Version of record: [SSRN 7296358](https://ssrn.com/abstract=7296358)
-- Archived open-access copy: [10.5281/zenodo.22821582](https://doi.org/10.5281/zenodo.22821582)
+- Archived open-access copy: [10.5281/zenodo.22166896](https://doi.org/10.5281/zenodo.22166896) — concept DOI, always resolves to the latest version
 - HTML: https://vadymchernets.netlify.app/download-metrics.html
 
 ---
