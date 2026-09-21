@@ -118,7 +118,7 @@ Level 3: an agent on one's own computer. The agent runs on the person's machine 
 
 Level 4: repeatable, orchestrated work. The person directs several models or agents, in parallel or in sequence, on work that recurs, and the reach now spans vendors. There are two layers. In *web orchestration* one question goes to several consumer chatbots in the browser, by hand or with a tool, and the answers are compared. In *CLI orchestration* one agent calls other agents' command-line tools, collects their outputs and merges or checks them. The person's role is that of a manager: they set the goal, allocate the work, decide what counts as done, and reconcile disagreement. The work becomes repeatable when it is written down in a form the agents can run again, as an instruction file, a skill or a scheduled job. "Repeatable" describes the workflow, not the output. The same instruction file run next week will produce a different draft, and what repeats is the sequence of inputs, steps, checks and deliverable. A recurring single-agent job written down this way is level-3 work made repeatable, and it becomes level 4 when a second model family is directed and the results reconciled (transition 3, Section 3.3).
 
-**Table 1. The four levels.**
+**Table 1.** *The four levels.*
 
 | Level | Reach of the model | Role of the person | Typical surfaces, September 2026 | Crossing is shown by | What the level does not establish | Main barrier at entry |
 |---|---|---|---|---|---|---|
@@ -147,9 +147,11 @@ The levels are ordered by reach and by the responsibility they place on the pers
 
 One family of tools belongs beside the ladder and on no rung of it. Browser application builders let a person describe an application and receive a running preview inside a platform the vendor hosts. They matter, and they are a different thing from level 2, where an agent acts on the person's own files under a permission model; an application builder acts on a project the platform owns. Confusing the two produces a false sense that non-programmers have already arrived. The four-level model leaves application builders on a side branch with its own ceiling and its own security profile, and the vibe-coding literature is the place to read about them (Sarkar & Drosos, 2025; Ge et al., 2025). Figure 1 draws the four levels, the artefact that marks each transition, the recorded skip and the side branch.
 
+**Figure 1.** *Four levels and three artefact-defined transitions.*
+
 ![](figures/figure-1-four-levels.png)
 
-**Figure 1. Four levels and three artefact-defined transitions.** The four levels of Section 3.2, ordered upward by reach (what the model may touch) and by the responsibility placed on the person. Each transition, T1 to T3, is crossed only when an agent has produced the artefact named beside its arrow, and an installation counts as an attempt (Section 3.3 and Table 1). The dashed arrow on the left is the recorded skip from chat to an agent on the person's own computer that the registered route takes (Sections 3.4 and 9.2); the dashed box on the right is the side branch of browser application builders, and the note at T1 records the merging of chat and agent surfaces by vendors in July and September 2026 (Section 4.3).
+Note: The four levels of Section 3.2, ordered upward by reach (what the model may touch) and by the responsibility placed on the person. Each transition, T1 to T3, is crossed only when an agent has produced the artefact named beside its arrow, and an installation counts as an attempt (Section 3.3 and Table 1). The dashed arrow on the left is the recorded skip from chat to an agent on the person's own computer that the registered route takes (Sections 3.4 and 9.2); the dashed box on the right is the side branch of browser application builders, and the note at T1 records the merging of chat and agent surfaces by vendors in July and September 2026 (Section 4.3).
 
 ### 3.5 The terminal is no longer a terminal
 
@@ -179,7 +181,7 @@ A teaching layer has grown around the step in the meantime. Vendor academies off
 
 The largest change of 2026 is structural. Each of the three frontier laboratories, and Microsoft, now ships a level-2 agent, and two of them have begun to fold level 2 back into chat.
 
-**Table 2. Vendor moves that reshaped the road from chat to agent, January to September 2026.**
+**Table 2.** *Vendor moves that reshaped the road from chat to agent, January to September 2026.*
 
 | Date (2026) | Vendor | Move | Effect on the levels | Source |
 |---|---|---|---|---|
@@ -205,9 +207,11 @@ The best single datum on non-programmers inside a terminal-heritage agent comes 
 
 Beside that datum stands the broad and shallow pattern of Section 1. The surveys disagree on the level and agree on the shape: about half of US adults use chatbots (Pew Research Center, 2026), 52% of US workers use AI in their role (Gallup, 2026), and 45% of workers and 62% of adults use generative AI by the St. Louis Fed's measure (Bick et al., 2026), while about one in seven workers uses it daily and automation is a minority use. Figure 2 draws the Gallup and St. Louis Fed worker series beside the developers' figures from Section 1, one panel per survey, because the surveys differ in question and denominator. Among developers, coding agents are nearly universal and use is still cautious: in a May 2026 pulse survey of about 1,100 technologists, 69% used a single agent, 59% rarely or never let agents run unsupervised, and 60% blocked agents from making unapproved changes to their systems (Stack Overflow, 2026). Level 4, in other words, is still a frontier even for the programmers who use level 3 every day.
 
+**Figure 2.** *Broad and shallow: adoption among developers and among other workers.*
+
 ![](figures/figure-2-broad-and-shallow.png)
 
-**Figure 2. Broad and shallow: adoption among developers and among other workers.** Adoption figures from the surveys cited in Sections 1 and 4.4: professional developers in two vendor surveys (JetBrains Research, 2026a, 2026b), US workers (Gallup, 2026) and US workers using generative AI for their jobs (Bick et al., 2026). Each panel has its own question, period and denominator, and the 16 per cent in the third panel is a share of AI users, so each panel is read on its own. The vendor's count of knowledge workers inside its coding agent (Section 4.4) is a share of one product's users and is not drawn, and no figure here comes from the cohort programme of Section 9.
+Note: Adoption figures from the surveys cited in Sections 1 and 4.4: professional developers in two vendor surveys (JetBrains Research, 2026a, 2026b), US workers (Gallup, 2026) and US workers using generative AI for their jobs (Bick et al., 2026). Each panel has its own question, period and denominator, and the 16 per cent in the third panel is a share of AI users, so each panel is read on its own. The vendor's count of knowledge workers inside its coding agent (Section 4.4) is a share of one product's users and is not drawn, and no figure here comes from the cohort programme of Section 9.
 
 ### 4.5 Where this leaves the argument
 
@@ -217,7 +221,7 @@ Taken together, the evidence of this section persuades me of one thing and leave
 
 Once the installer has stopped being the wall, something else is. The evidence of 2025 and 2026 points to six barriers, each of which bites at a particular transition and each of which already has a partial answer visible in the market. Table 3 summarises them, and the subsections that follow give the evidence.
 
-**Table 3. Barriers after installation.**
+**Table 3.** *Barriers after installation.*
 
 | Barrier | Where it bites | Evidence (Section) | What reduces it |
 |---|---|---|---|
@@ -276,7 +280,7 @@ What they cannot easily check is the machinery, the script that produced the tab
 
 A reader may object that people do not delegate because agents cannot yet do their work, and that the barrier is therefore still technical, only on the model's side. The objection has real support. On a benchmark of real freelance projects the best automation rate measured by mid-2026 was 15.8%, up from 2.5% at the benchmark's release the previous autumn, which means that more than four projects in five still fail end to end (Center for AI Safety, 2026). In a simulated software company the best agent completed 30% of long professional tasks (Xu et al., 2024). On open-ended computer use the 2024 baseline was 12.24% for the best agent against 72.36% for people (Xie et al., 2024), and by September 2026 an aggregator's leaderboard for the verified version of that benchmark showed the top agents at 85 to 86%, above the human baseline, on vendor-reported scores for scripted desktop tasks (BenchLM, 2026). That last result points the other way: on such tasks capability is no longer the barrier. The best model in an evaluation across 44 occupations won or tied against professionals in fewer than half of comparisons (Patwardhan et al., 2025). The length of software task that agents complete half the time has been doubling roughly every seven months (Kwa et al., 2025), so the trend is steep and the present is modest. Capability is uneven across tasks, and the "jagged frontier" is not visible from outside (Dell'Acqua et al., 2026). Table 4 collects these published figures with the date each source gives and the caveat I attach to it.
 
-**Table 4. Published capability figures behind the objection.**
+**Table 4.** *Published capability figures behind the objection.*
 
 | Comparison | Figure as published | Date as stated | Source | Read with care |
 |---|---|---|---|---|
@@ -288,7 +292,7 @@ A reader may object that people do not delegate because agents cannot yet do the
 | Length of software task agents complete half the time | Doubling roughly every seven months | 2025 study | Kwa et al. (2025); Section 5.7 | A trend: "the trend is steep and the present is modest" |
 | Defects in pull requests | 470 pull requests; 10.83 issues per AI-authored change against 6.45 for human-only changes; some categories of security issue up to 2.74 times more frequent | n.d. | CodeRabbit (n.d.); Section 5.6 | Vendor study; one industry analysis; defects in code, the machinery a non-programmer cannot easily check |
 
-Source note: all figures are as published in the cited sources and are repeated from Sections 5.6 and 5.7 and Appendix B; none comes from the programme of Section 9.
+Source: the cited publications, as repeated in Sections 5.6 and 5.7 and Appendix B; none of these figures comes from the programme of Section 9.
 
 The two explanations are parts of one explanation more than they are rivals. Workflow vocabulary includes knowing which of one's tasks lie inside the frontier. A person who hands an agent a whole project it cannot do learns to stop delegating, while a person who hands it the extraction, the reconciliation and the first draft learns to continue. The explanations still make different predictions. If model capability were the binding constraint, persistence at levels 2 and 3 would track the type of task and not the person: people with the same kinds of work would persist at similar rates whatever their ability to specify and check. If workflow vocabulary were binding, persistence would track the person's ability to state a delegation contract even within the same kind of work. Proposition P15 in Section 10 is written to tell the two apart.
 
@@ -314,9 +318,11 @@ A second limit is fragility, and it comes in several forms. Consumer chat interf
 
 The third limit is the one that matters most: agreement among models is not independent evidence. When models share training data and methods, their errors correlate. A study of more than 350 language models found that when two models both erred they agreed on the same wrong answer about 60% of the time, and that larger, more accurate models were more correlated, even across providers (Kim et al., 2025). The companion paper in this series gives the arithmetic: with average pairwise error correlation rho, N agreeing models are worth N_eff = N / (1 + (N - 1) rho) independent opinions, and no number of models is worth more than 1/rho (Chernets, 2026a). At rho = 0.5, ten agreeing chatbots are worth fewer than two independent ones. Figure 3 draws the formula for the four illustrative values of rho in Appendix D, with the ceiling 1/rho that no number of agreeing models can pass. The 60% of Kim et al. is the share of joint errors in which two models gave the same wrong answer, which is not the error correlation rho of the formula. In the domain at hand, rho has to be estimated on items with known answers (listing C4), and the values used here and in Appendix D are illustrations. Diversity matters more than count. Debate among copies of one model often fails to beat a single model given the same compute, while heterogeneous models help (Zhang et al., 2025), and two diverse agents can match or beat sixteen homogeneous ones (Yang et al., 2026). Generative AI also homogenises output across its users (Doshi & Hauser, 2024), and a model asked to judge tends to prefer its own writing (Panickssery et al., 2024), which matters when one model writes the merged answer.
 
+**Figure 3.** *What agreement is worth.*
+
 ![](figures/figure-3-agreement.png)
 
-**Figure 3. What agreement is worth.** The effective number of independent opinions, N_eff = N / (1 + (N - 1) rho), for N agreeing models whose errors have mean pairwise correlation rho (Chernets, 2026a; Section 6.3). The markers are the cells of Appendix D, the curves between them follow the same formula, and the dashed segments on the right are the ceilings 1/rho. The four values of rho are illustrations, as in Appendix D; rho has to be estimated on items with known answers in the domain at hand (listing C4).
+Note: The effective number of independent opinions, N_eff = N / (1 + (N - 1) rho), for N agreeing models whose errors have mean pairwise correlation rho (Chernets, 2026a; Section 6.3). The markers are the cells of Appendix D, the curves between them follow the same formula, and the dashed segments on the right are the ceilings 1/rho. The four values of rho are illustrations, as in Appendix D; rho has to be estimated on items with known answers in the domain at hand (listing C4).
 
 For the person at the bridge the practical rules are short. Count model families, since an office assistant running on one vendor's model is no second opinion on that vendor's chatbot. Agreement among models can tell you where to spend less checking effort. It cannot tell you that a claim is right. Treat a point made by one model alone as a lead to verify, because it may be the most valuable thing in the comparison or its only error, and hold on to a dissent that comes with evidence instead of voting it out. Check claims against sources: agreement on a wrong date is a documented failure mode, and the primary page fixes it where a fifth model would not. Estimate rho on a small set of questions in your own domain that you can mark, before trusting a council on a question you cannot. Keep who said what, because a merged answer that hides its sources brings back the single confident voice that orchestration was meant to question.
 
@@ -332,7 +338,7 @@ At level 3 each agent has a command-line interface that can run without a person
 
 In 2026 this pattern went from a developer's trick to a vendor-sanctioned practice. OpenAI published an official plugin that runs its coding agent inside Anthropic's, "for code reviews or to delegate tasks", with commands for an ordinary review, an adversarial review in which the second agent assumes the work is broken and hunts, and a rescue of a stuck task. It works through the locally installed tool and its existing login, is usable with any ChatGPT subscription including the free tier, and had about 33,400 stars on GitHub in September 2026 (OpenAI, 2026a). The mass pair of 2026 is Claude Code writing and Codex checking through that official plugin (OpenAI, 2026a), while councils of three or more remain small tools without a leader. GitHub made Anthropic's and OpenAI's agents available inside its own Copilot service in February 2026, "fully included with your existing Copilot subscription" (GitHub, 2026c). xAI's command-line agent ships a headless mode and support for the Agent Client Protocol so that users can "build your own bots and agent orchestration apps" (xAI, 2026). Google's reason for retiring its first command-line agent was that users "require multiple agents communicating with each other" (Google, 2026). Open-source tools that let one agent consult others have large followings: a multi-provider server for model-to-model consultation had about 11,800 stars, a consensus-oriented plugin about 4,100 (GitHub, 2026d). Underneath, the Model Context Protocol, donated to a Linux Foundation body in December 2025 with more than 10,000 published servers and about 97 million monthly SDK downloads at the time (Linux Foundation, 2025), reported close to half a billion SDK downloads a month by its July 2026 specification release, which also made the protocol stateless and promised twelve months' notice before any deprecation (Model Context Protocol, 2026). It is how an agent on a laptop reaches the rest of a person's tools without a vendor-specific plugin for each, and it has already become boring in the way that a web protocol is boring: present, documented, ignored until something breaks. A second standard, Google's Agent2Agent protocol for agents talking to agents across vendors, reached version 1.0 in March 2026 (Google Open Source Blog, 2026). It is level-4 plumbing, and today it is no consumer on-ramp.
 
-**Table 5. The orchestration landscape by pattern, September 2026.**
+**Table 5.** *The orchestration landscape by pattern, September 2026.*
 
 | Pattern | Examples (September 2026) | Level | Built for | What it buys | Record it leaves | Main risk |
 |---|---|---|---|---|---|---|
@@ -377,7 +383,7 @@ At level 1 the person produces and the model assists. At levels 3 and 4 the mode
 
 Managing an agent is therefore a different job with its own competence, and the competence does not come free with the tool. It consists in choosing what to delegate, stating the delegation contract of Section 7.3, reading an agent's trace, and deciding when the result is good enough. I break the job into four practices. Delegation names the work as a deliverable with a boundary. Supervision watches the plan, the intermediate output or the tool trace and intervenes when the task drifts, without approving every keystroke, because approval of everything is fatigue and fatigue is how people click yes. Verification checks sources, sums, transformations and the claims a decision rests on, in proportion to the risk and by a method other than rereading the agent's own confidence: tests and diffs for code, a spot check against a page the person opens themselves for a folder of contracts, and for a literature table a row-by-row check of identifiers. Revocation narrows the workspace, stops a run or removes access when a condition changes. A person who does all four is managing an agent even through a graphical desktop application. A person who hands a task to an opaque service and accepts the first answer is outsourcing judgement, which is a different practice. Parasuraman and Riley (1997) named the two ways to fail at it. Disuse is the person who could delegate and never does, stuck at level 1 by habit or fear. Misuse is the person who delegates without checks and accepts what comes back. Both are visible in 2026. The broad-and-shallow adoption data describe disuse at scale (Section 2.2), and the file-loss reports and database deletions of Section 5.3 describe misuse, sometimes by professionals who knew better. Table 6 sets each practice beside the part of the delegation contract it enforces, the risk it meets and the dated trace by which a study can see that it happened.
 
-**Table 6. The manager's four practices: what each enforces, the risk it meets, and the trace it leaves.**
+**Table 6.** *The manager's four practices: what each enforces, the risk it meets, and the trace it leaves.*
 
 | Practice | What the person does | Contract part it enforces | Risk if it is missing | Observable trace |
 |---|---|---|---|---|
@@ -386,13 +392,15 @@ Managing an agent is therefore a different job with its own competence, and the 
 | Verification | Checks sources, sums, transformations and the claims a decision rests on, by a method other than rereading the agent's own confidence (8.1) | Check: how the person will know the artefact is right, decided before the work starts; when to stop (7.3) | Misuse: "the person who delegates without checks and accepts what comes back" (8.1); correlated errors among models (6.3) | A diff or output rejected; a second model family asked; a denominator recorded: asked, answered, timed out (Appendix A) |
 | Revocation | Narrows the workspace, stops a run or removes access when a condition changes (8.1) | Boundary, applied again: what is kept out, and how to undo a mistake (3.2, 7.3) | A long task that could not be stopped, after which deleting the task deleted the files (5.3) | None among the dated traces of Appendix A; a dated stop, narrowed permission or removed access would serve |
 
-Note: a person who hands a task to an opaque service and accepts the first answer is "outsourcing judgement", which is a different practice (8.1).
+Note: A person who hands a task to an opaque service and accepts the first answer is "outsourcing judgement", which is a different practice (8.1).
 
 One small device holds the role together across all four practices, and I call it an acceptance record. For a consequential or recurring task it holds the intended deliverable, the inputs used, the constraints and permissions, where the output went, any material disagreement or failure, the checks performed, and the person's decision to accept, revise, escalate or discard. It draws a line between what the agent produced and what the person relied on. To the individual it is useful because it turns a feeling of trust into a checkable decision, to a team because a colleague can inspect the work without a private chat history, and to a researcher because it separates a completed run from a relied-on result. It is also a restraint. A person may decide, after failing to write an acceptance criterion, that the task should stay at level 1, and the model counts that as mature management rather than as lagging adoption. In the vocabulary of human-AI collaboration, the move from level 1 to level 4 keeps the human in the loop and changes what the loop is, from reading each answer to setting the terms on which answers are accepted. Figure 4 draws that loop with the four practices, the risk at each step, the return after a failed check and the acceptance record.
 
+**Figure 4.** *The manager's control loop.*
+
 ![](figures/figure-4-control-loop.png)
 
-**Figure 4. The manager's control loop.** The manager's work as a loop the person runs (Sections 7.3 and 8.1): delegation states the contract (goal, boundary, artefact, check), the agent acts, the person supervises and verifies, and then accepts, revokes or discards the result and writes the acceptance record. The grey italic labels name the risk at each step (Sections 5.3, 6.3 and 8.1). The heavy arrow is the return from a failed check to a revised contract, and every exit from the acceptance node is a decision of the person.
+Note: The manager's work as a loop the person runs (Sections 7.3 and 8.1): delegation states the contract (goal, boundary, artefact, check), the agent acts, the person supervises and verifies, and then accepts, revokes or discards the result and writes the acceptance record. The grey italic labels name the risk at each step (Sections 5.3, 6.3 and 8.1). The heavy arrow is the return from a failed check to a revised contract, and every exit from the acceptance node is a decision of the person.
 
 ### 8.2 Experienced users delegate less
 
@@ -444,7 +452,7 @@ The cohort is a feasibility study, and most of the propositions of Section 10 ne
 
 The model of Section 3 and the argument of Sections 4 to 8 imply claims that can fail. Table 7 states fifteen of them, each with a measure, a result that would falsify it, and who is placed to run the test. They are written for the field as a whole. The programme of Section 9, for one, can test only a few; several others can be tested with vendor telemetry, with survey panels or with a small study in one organisation. None is a finding of the cohort.
 
-**Table 7. Propositions, measures, falsifiers, and who can test them.**
+**Table 7.** *Propositions, measures, falsifiers, and who can test them.*
 
 | # | Proposition | Measure | Falsified if | Who can run it |
 |---|---|---|---|---|
@@ -526,7 +534,7 @@ What is offered here is a model, an evidence synthesis and a measurement design,
 
 **Status of claims.** Table 8 applies the series' confidence language to the elements of the argument, so that a reader can see how firmly each is held.
 
-**Table 8. Status of the claims in this paper.**
+**Table 8.** *Status of the claims in this paper.*
 
 | Element | How it is said here | Basis |
 |---|---|---|
