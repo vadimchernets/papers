@@ -1,6 +1,6 @@
 # Papers — Vadym Chernets
 
-Full text of five papers, as Markdown and PDF, so that they can be read without an access
+Full text of six papers, as Markdown and PDF, so that they can be read without an access
 challenge. The version of record for each is on SSRN; this repository is a readable mirror,
 not a separate publication, and it mints no DOI.
 
@@ -15,7 +15,8 @@ ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 | **Consumer Trust in Agentic Commerce.** From model properties to verifiable architecture | [SSRN 7191261](https://ssrn.com/abstract=7191261) | [10.5281/zenodo.22166995](https://doi.org/10.5281/zenodo.22166995) | [read](https://vadymchernets.netlify.app/architectural-trust.html) |
 | **Agreement Is Not Independent Evidence.** Auditable multi-model synthesis without an API | [SSRN 7390698](https://ssrn.com/abstract=7390698) | [10.5281/zenodo.22683716](https://doi.org/10.5281/zenodo.22683716) | [read](https://vadymchernets.netlify.app/agreement-not-evidence.html) |
 | **The Missing Variable in AI-Assisted Litigation.** Architecture and the quality of pro se access to justice | [SSRN 7120940](https://ssrn.com/abstract=7120940) | [10.5281/zenodo.22168724](https://doi.org/10.5281/zenodo.22168724) | [read](https://vadymchernets.netlify.app/missing-variable.html) |
-| **AI-Watchbird (Sheckley).** When automated oversight widens its own mandate and harms what it guards | [SSRN 7473658](https://ssrn.com/abstract=7473658) | in preparation | [read](https://vadymchernets.netlify.app/ai-watchbird.html) |
+| **AI-Watchbird (Sheckley).** When automated oversight widens its own mandate and harms what it guards | [SSRN 7473658](https://ssrn.com/abstract=7473658) | [10.5281/zenodo.22849138](https://doi.org/10.5281/zenodo.22849138) | [read](https://vadymchernets.netlify.app/ai-watchbird.html) |
+| **After Chat.** The three transitions between non-programmers and agentic AI | submitted; link added when the record is live | in preparation | [read here](after-chat/paper.md) |
 
 ## Why this repository exists
 
@@ -59,6 +60,7 @@ Each folder holds `paper.md` (full text, with figures and tables) and the PDF as
 
 ## Data and tools
 
+- **after-chat** — teaching code for *After Chat* (Appendix C): one question to several AI agent command-line tools, who said what, how much agreement is worth, crossing records, safe agent settings: https://github.com/vadimchernets/after-chat
 - **ssrn-benchmark** — reference distribution of SSRN download counts from 1,360 archived
   papers, with a command-line tool: https://github.com/vadimchernets/ssrn-benchmark
 - **Dataset** — [10.5281/zenodo.22285871](https://doi.org/10.5281/zenodo.22285871), CC BY 4.0
