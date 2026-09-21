@@ -63,6 +63,8 @@ Each folder holds `paper.md` (full text, with figures and tables) and the PDF as
 - **after-chat**: teaching code for *After Chat* (Appendix C): one question to several AI agent command-line tools, who said what, how much agreement is worth, crossing records, safe agent settings: https://github.com/vadimchernets/after-chat
 - **docprep**: runnable reference implementation of the architecture in *The Missing Variable in AI-Assisted
   Litigation*: https://github.com/vadimchernets/docprep
+- **Sidecall** and **Roundcall**: Claude Code plugins built on the patterns of *After Chat*:
+  https://github.com/vadimchernets/sidecall, https://github.com/vadimchernets/roundcall
 - **ssrn-benchmark**: reference distribution of SSRN download counts from 1,360 archived
   papers, with a command-line tool: https://github.com/vadimchernets/ssrn-benchmark
 - **Dataset**: [10.5281/zenodo.22285871](https://doi.org/10.5281/zenodo.22285871), CC BY 4.0

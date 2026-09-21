@@ -512,11 +512,11 @@ The model can fail, and Section 10 says how. The programme of Section 9 will tes
 
 **Funding.** No external funding supported this work.
 
-**Competing interests.** The author develops multi-model orchestration methods and has filed related patent applications (pending; no patent has been granted). The author designed the preregistered cohort programme described in Section 9 and its materials. No finding in this paper depends on the author's implementation; every pattern in Appendix C is reproducible with publicly available tools.
+**Competing interests.** The author develops multi-model orchestration methods and has filed related patent applications (pending; no patent has been granted). The author designed the preregistered cohort programme described in Section 9 and its materials. No finding in this paper depends on the author's implementation; every pattern in Appendix C is reproducible with publicly available tools. The author also maintains the two open-source plugins named in Appendix C; they are free and open source (Apache License 2.0), and no finding in this paper depends on them.
 
 **Tools and verification.** AI assistants were used as instruments under the author's direction; the ideas, research and conclusions are the author's. All quantitative claims and citations were checked against primary sources or archived copies as of 21 September 2026 or, where a source is marked secondary or vendor in the text and in the timeline of Appendix B, against the best available report; figures reported by vendors about their own products are marked as such. Where a primary page could not be retrieved during the research window (several pages on one vendor's site returned an access error), the claim is cited from a named secondary source and labelled, or it is omitted. Press titles given in square brackets in the references are descriptive titles for pages whose headline was not re-read verbatim.
 
-**Data and code availability.** The code in Appendix C, with its tests, is deposited under the MIT licence at https://github.com/vadimchernets/after-chat and archived on Zenodo.
+**Data and code availability.** The code in Appendix C, with its tests, is deposited under the MIT licence at https://github.com/vadimchernets/after-chat and archived on Zenodo. Two plugins built on the same patterns, Roundcall and Sidecall, are at https://github.com/vadimchernets/roundcall and https://github.com/vadimchernets/sidecall (Apache License 2.0).
 
 **Ethics.** This paper reports no data from human participants. The cohort programme it describes is preregistered (OSF, DOI 10.17605/OSF.IO/X4EGQ); its results will be reported separately.
 
@@ -914,6 +914,8 @@ Entries marked VERIFIED were opened on a primary page, or on a named secondary p
 ## Appendix C. Teaching code
 
 The listings below teach the patterns of Sections 5 to 9. They use only the Python standard library and the vendors' own command-line tools, signed in with the user's own subscriptions; none reads an API key. Each is short enough to read in one sitting, and each states what it teaches and where it stops. They are deposited with tests in the companion repository under the MIT licence, and every listing was run before inclusion (each on its demo input, the fan-out on stub tools). Every pattern here already exists in some form in open-source tools (Section 7.1); the value of the listings is that they are small, commented and tied to the argument. None is a teaching route, a diagnostic of a learner, a curriculum or an implementation of the author's tools. A non-programmer does not run these files by hand: they are the kind of thing an agent wraps as a skill or a desktop shell exposes as a button, and the point of printing them is that a reader can see what such a button does.
+
+Two installable Claude Code plugins put these patterns to everyday use. Roundcall asks the AI chat sites a person is already signed in to, through their own browser and at a person's pace; Sidecall asks the command-line agents installed on their machine, with a budget setting that chooses each vendor's model. Both return one report of who said what, where the answers disagree and what only one source said. They are open source under the Apache License 2.0 at https://github.com/vadimchernets/roundcall and https://github.com/vadimchernets/sidecall.
 
 **Before running any of them:** check each tool's `--help` on your installed version, because flags change between releases; run them in a working folder that holds copies, not originals; and read Listing C6 first.
 
