@@ -7,7 +7,7 @@
 **Download this paper**
 
 - **SSRN** (version of record): link added when the record is live
-- **Zenodo** (archived, open access): link added when the record is live
+- **Zenodo** (archived, open access): [doi.org/10.5281/zenodo.22943314](https://doi.org/10.5281/zenodo.22943314)
 - **GitHub** (full text as Markdown and PDF): [github.com/vadimchernets/papers/tree/main/after-chat](https://github.com/vadimchernets/papers/tree/main/after-chat); code: [github.com/vadimchernets/after-chat](https://github.com/vadimchernets/after-chat)
 
 *The same text is in three places so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
