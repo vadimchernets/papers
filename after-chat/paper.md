@@ -6,7 +6,7 @@
 
 **Download this paper**
 
-- **SSRN** (version of record): link added when the record is live
+- **SSRN** (version of record): [ssrn.com/abstract=7520019](https://ssrn.com/abstract=7520019) · DOI [10.2139/ssrn.7520019](https://doi.org/10.2139/ssrn.7520019)
 - **Zenodo** (archived, open access): [doi.org/10.5281/zenodo.22943314](https://doi.org/10.5281/zenodo.22943314)
 - **GitHub** (full text as Markdown and PDF): [github.com/vadimchernets/papers/tree/main/after-chat](https://github.com/vadimchernets/papers/tree/main/after-chat); code: [github.com/vadimchernets/after-chat](https://github.com/vadimchernets/after-chat)
 
