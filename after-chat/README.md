@@ -11,8 +11,8 @@ Most professionals meet AI as a chatbot, while the same models, as AI agents, no
 | | |
 |---|---|
 | **Version of record** | [SSRN 7520019](https://ssrn.com/abstract=7520019) · DOI [10.2139/ssrn.7520019](https://doi.org/10.2139/ssrn.7520019) |
-| **Archived, citable** | [10.5281/zenodo.22943314](https://doi.org/10.5281/zenodo.22943314) |
-| **Code (Appendix C)** | [github.com/vadimchernets/after-chat](https://github.com/vadimchernets/after-chat) |
+| **Archived, citable** | [10.5281/zenodo.22943313](https://doi.org/10.5281/zenodo.22943313) |
+| **Code (Appendix C)** | [github.com/vadimchernets/after-chat](https://github.com/vadimchernets/after-chat) · archived at [10.5281/zenodo.22944451](https://doi.org/10.5281/zenodo.22944451) |
 | **Full text here** | [paper.md](paper.md) |
 | **PDF here** | added with the final SSRN version |
 

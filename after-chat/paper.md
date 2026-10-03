@@ -7,7 +7,7 @@
 **Download this paper**
 
 - **SSRN** (version of record): [ssrn.com/abstract=7520019](https://ssrn.com/abstract=7520019) · DOI [10.2139/ssrn.7520019](https://doi.org/10.2139/ssrn.7520019)
-- **Zenodo** (archived, open access): [doi.org/10.5281/zenodo.22943314](https://doi.org/10.5281/zenodo.22943314)
+- **Zenodo** (archived, open access): [doi.org/10.5281/zenodo.22943313](https://doi.org/10.5281/zenodo.22943313)
 - **GitHub** (full text as Markdown and PDF): [github.com/vadimchernets/papers/tree/main/after-chat](https://github.com/vadimchernets/papers/tree/main/after-chat); code: [github.com/vadimchernets/after-chat](https://github.com/vadimchernets/after-chat)
 
 *The same text is in three places so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
@@ -568,7 +568,7 @@ The model can fail, and Section 10 says how. The programme of Section 9 will tes
 
 **Tools and verification.** AI assistants were used as instruments under the author's direction; the ideas, research and conclusions are the author's. All quantitative claims and citations were checked against primary sources or archived copies as of 21 September 2026 or, where a source is marked secondary or vendor in the text and in the timeline of Appendix B, against the best available report; figures reported by vendors about their own products are marked as such. Where a primary page could not be retrieved during the research window (several pages on one vendor's site returned an access error), the claim is cited from a named secondary source and labelled, or it is omitted. Press titles given in square brackets in the references are descriptive titles for pages whose headline was not re-read verbatim.
 
-**Data and code availability.** The code in Appendix C, with its tests, is deposited under the MIT licence at https://github.com/vadimchernets/after-chat and archived on Zenodo. Two plugins built on the same patterns, Roundcall and Sidecall, are at https://github.com/vadimchernets/roundcall and https://github.com/vadimchernets/sidecall (Apache License 2.0). Five kits that apply the same patterns to trades outside software are at https://github.com/vadimchernets/calling-kits (MIT). They have not been tried by practitioners of those trades, which the repository states, and no claim in this paper rests on them.
+**Data and code availability.** The code in Appendix C, with its tests, is deposited under the MIT licence at https://github.com/vadimchernets/after-chat and archived on Zenodo, https://doi.org/10.5281/zenodo.22944451. Two plugins built on the same patterns, Roundcall and Sidecall, are at https://github.com/vadimchernets/roundcall and https://github.com/vadimchernets/sidecall (Apache License 2.0). Five kits that apply the same patterns to trades outside software are at https://github.com/vadimchernets/calling-kits (MIT). They have not been tried by practitioners of those trades, which the repository states, and no claim in this paper rests on them.
 
 **Ethics.** This paper reports no data from human participants. The cohort programme it describes is preregistered (OSF, DOI 10.17605/OSF.IO/X4EGQ); its results will be reported separately.
 
