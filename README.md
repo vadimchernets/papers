@@ -16,6 +16,7 @@ ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 | **Agreement Is Not Independent Evidence.** Auditable multi-model synthesis without an API | [SSRN 7390698](https://ssrn.com/abstract=7390698) | [10.5281/zenodo.22683716](https://doi.org/10.5281/zenodo.22683716) | [read](https://vadymchernets.netlify.app/agreement-not-evidence.html) |
 | **The Missing Variable in AI-Assisted Litigation.** Architecture and the quality of pro se access to justice | [SSRN 7120940](https://ssrn.com/abstract=7120940) | [10.5281/zenodo.22168724](https://doi.org/10.5281/zenodo.22168724) | [read](https://vadymchernets.netlify.app/missing-variable.html) |
 | **AI-Watchbird (Sheckley).** When automated oversight widens its own mandate and harms what it guards | [SSRN 7473658](https://ssrn.com/abstract=7473658) | [10.5281/zenodo.22849138](https://doi.org/10.5281/zenodo.22849138) | [read](https://vadymchernets.netlify.app/ai-watchbird.html) |
+| **Guards That Add Guards.** Automated oversight in multi-agent AI: a field record, public incidents, and a 144-run randomized test | [SSRN 7496678](https://ssrn.com/abstract=7496678) | in preparation | [read here](guards-that-add-guards/paper.md) |
 | **After Chat.** The three transitions between non-programmers and agentic AI | [SSRN 7520019](https://ssrn.com/abstract=7520019) | [10.5281/zenodo.22943313](https://doi.org/10.5281/zenodo.22943313) | [read here](after-chat/paper.md) |
 
 ## Why this repository exists
