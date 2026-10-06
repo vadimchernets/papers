@@ -19,6 +19,16 @@ ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 | **Guards That Add Guards.** Automated oversight in multi-agent AI: a field record, public incidents, and a 144-run randomized test | [SSRN 7496678](https://ssrn.com/abstract=7496678) | in preparation | [read here](guards-that-add-guards/paper.md) |
 | **After Chat.** The three transitions between non-programmers and agentic AI | [SSRN 7520019](https://ssrn.com/abstract=7520019) | [10.5281/zenodo.22943313](https://doi.org/10.5281/zenodo.22943313) | [read here](after-chat/paper.md) |
 
+## Workshop papers, NeurIPS 2026
+
+Two papers accepted as posters at NeurIPS 2026 workshops (Sydney, December 2026). The workshops are
+non-archival, so for these two the Zenodo record, not SSRN, is the citable version.
+
+| Paper | Workshop | Archived copy | Text |
+|---|---|---|---|
+| **Verification Theater.** Measured failure modes of AI verifier panels | Who Verifies the Agents? | [10.5281/zenodo.23197641](https://doi.org/10.5281/zenodo.23197641) | [read here](verification-theater/paper.md) |
+| **Weakly Discriminative, Not Repaired by Profile Injection, and Manipulable.** Self-confidence in LLM evaluation | TAE (Trust-AI-Eval) | [10.5281/zenodo.23197651](https://doi.org/10.5281/zenodo.23197651) | [read here](self-confidence-evaluation/paper.md) |
+
 ## Why this repository exists
 
 SSRN is closed to AI crawlers by policy, for the whole site. Its `robots.txt`, retrieved on
