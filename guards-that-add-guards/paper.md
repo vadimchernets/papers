@@ -8,15 +8,11 @@
 - Archived copy: in preparation
 - Full text as Markdown and PDF: [GitHub](https://github.com/vadimchernets/papers/tree/main/guards-that-add-guards)
 - Readable HTML: [https://vadymchernets.netlify.app/guards-that-add-guards.html](https://vadymchernets.netlify.app/guards-that-add-guards.html)
-- Full study, with the case catalogue and the theory: [*AI-Watchbird (Sheckley)*, SSRN 7473658](https://ssrn.com/abstract=7473658)
+- Companion paper, the full study with the case catalog, the public cases and the theory: *AI-Watchbird (Sheckley): When Automated Oversight Widens Its Own Mandate and Harms What It Guards*, [SSRN 7473658](https://ssrn.com/abstract=7473658) · DOI [10.2139/ssrn.7473658](https://doi.org/10.2139/ssrn.7473658), archived at [10.5281/zenodo.22849138](https://doi.org/10.5281/zenodo.22849138)
 
-*The same text is on three surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
+*The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
 
 ---
-
-**Keywords:** automated oversight; AI guardrails; AI agents; multi-agent systems; LLM-as-a-judge; over-refusal; AI control; specification gaming; control tax; AI safety; randomized experiment; AI-Watchbird
-
-------------------------------------------------------------------------
 
 ## Abstract
 
@@ -211,7 +207,7 @@ Wethington, C., & Tierney, B. (2025, Feb 7). New proposal to expand concealed we
 
 **How this record was made.** The field entries were extracted by ten AI agents, each reading a disjoint slice of the corpora under one protocol that fixed a closed typology of nine failure types, a strength grade, an evidence rule tying every claim to a dated file by path and line, and a sensitivity flag. Part of the coding of the public cases was done the same way: three coders worked independently, each without the others' codes, and the three were models of three different vendors rather than three sessions of one. They gave identical codes for 20 of the 32 public cases, and the rest were settled by majority. The layer that measured this record is therefore built from the same kind of component the paper is about. On 14 September 2026 every run number used here was checked again against the run logs, and every external figure against the regulator document, the publisher's page or the paper itself, and figures that could not be confirmed were dropped. AI assistants were used as instruments under my direction.
 
-**Data and code availability.** The module, its tests, the replay logs and the script that regenerates them are archived at Zenodo as AI-Watchbird-Sheckley version 1.1.0 under the concept identifier https://doi.org/10.5281/zenodo.22774269, which resolves to the current version. The same record holds the case catalog, with the description, source and grade of each entry, and the case analyses the field entries were extracted from, each entry carrying the file and the passage it rests on; those analyses were written in the working language of the records and are published in English translation, produced by machine and checked against the originals, with identifiers, paths, dates and quoted strings carried across unchanged. The randomized test of Section 3 is archived in the same record with its preregistration, the inventory of planted defects, the check that each defect is detected alone, the harness, the analysis script and the event log of every one of the 144 runs. The underlying coordination records are available from me on request. The full version of this work, with the field catalog and the case tables, is archived in the same record.
+**Data and code availability.** The module, its tests, the replay logs and the script that regenerates them are archived at Zenodo as AI-Watchbird-Sheckley version 1.1.0 under the concept identifier https://doi.org/10.5281/zenodo.22774269, which resolves to the current version. The same record holds the case catalog, with the description, source and grade of each entry, and the case analyses the field entries were extracted from, each entry carrying the file and the passage it rests on; those analyses were written in the working language of the records and are published in English translation, produced by machine and checked against the originals, with identifiers, paths, dates and quoted strings carried across unchanged. The randomized test of Section 3 is archived in the same record with its preregistration, the inventory of planted defects, the check that each defect is detected alone, the harness, the analysis script and the event log of every one of the 144 runs. The underlying coordination records are available from me on request. The full version of this work, with the case tables and the theory, is archived as a separate record at https://doi.org/10.5281/zenodo.22849138.
 
 **Ethics.** The records describe the evaluated systems. Decisions of the human principal are reported as dated facts. Third parties appear only through their public documents. No human participants were recruited.
 
