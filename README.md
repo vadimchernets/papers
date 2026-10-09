@@ -18,6 +18,7 @@ ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 | **AI-Watchbird (Sheckley).** When automated oversight widens its own mandate and harms what it guards | [SSRN 7473658](https://ssrn.com/abstract=7473658) | [10.5281/zenodo.22849138](https://doi.org/10.5281/zenodo.22849138) | [read](https://vadymchernets.netlify.app/ai-watchbird.html) |
 | **Guards That Add Guards.** Automated oversight in multi-agent AI: a field record, public incidents, and a 144-run randomized test | [SSRN 7496678](https://ssrn.com/abstract=7496678) | in preparation | [read here](guards-that-add-guards/paper.md) |
 | **After Chat.** The three transitions between non-programmers and agentic AI | [SSRN 7520019](https://ssrn.com/abstract=7520019) | [10.5281/zenodo.22943313](https://doi.org/10.5281/zenodo.22943313) | [read here](after-chat/paper.md) |
+| **After the Programmer Divide.** One measure for people who build through AI agents | [SSRN 7589918](https://ssrn.com/abstract=7589918) | [{{ZENODO_DOI}}](https://doi.org/{{ZENODO_DOI}}) | [read here](after-the-programmer-divide/paper.md) |
 
 ## Workshop papers, NeurIPS 2026
 
@@ -72,6 +73,7 @@ Each folder holds `paper.md` (full text, with figures and tables) and the PDF as
 ## Data and tools
 
 - **after-chat**: teaching code for *After Chat* (Appendix C): one question to several AI agent command-line tools, who said what, how much agreement is worth, crossing records, safe agent settings: https://github.com/vadimchernets/after-chat
+- **delegation-horizon**: measurement code for *After the Programmer Divide* (Appendix C): the verified delegation horizon, the record card, Brier scoring of the registered predictions: https://github.com/vadimchernets/delegation-horizon
 - **docprep**: runnable reference implementation of the architecture in *The Missing Variable in AI-Assisted
   Litigation*: https://github.com/vadimchernets/docprep
 - **Sidecall** and **Roundcall**: Claude Code plugins built on the patterns of *After Chat*:
