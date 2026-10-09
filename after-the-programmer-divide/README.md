@@ -11,18 +11,18 @@ A bookkeeper asks an agent for a reconciliation tool; a developer asks one to ch
 | | |
 |---|---|
 | **Version of record** | [SSRN 7589918](https://ssrn.com/abstract=7589918) · DOI [10.2139/ssrn.7589918](https://doi.org/10.2139/ssrn.7589918) |
-| **Archived, citable** | [{{ZENODO_DOI}}](https://doi.org/{{ZENODO_DOI}}) |
-| **Code (Appendix C)** | [github.com/vadimchernets/delegation-horizon](https://github.com/vadimchernets/delegation-horizon) · archived at [{{CODE_DOI}}](https://doi.org/{{CODE_DOI}}) |
-| **Predictions registered on OSF** | [{{OSF_DOI}}](https://doi.org/{{OSF_DOI}}) |
+| **Archived, citable** | [10.5281/zenodo.23267267](https://doi.org/10.5281/zenodo.23267267) |
+| **Code (Appendix C)** | [github.com/vadimchernets/delegation-horizon](https://github.com/vadimchernets/delegation-horizon) · archived at [10.5281/zenodo.23267444](https://doi.org/10.5281/zenodo.23267444) |
+| **Predictions registered on OSF** | [10.17605/OSF.IO/VW6P9](https://doi.org/10.17605/OSF.IO/VW6P9) |
 | **Full text here** | [paper.md](paper.md) |
-| **PDF here** | added with the final SSRN version |
+| **PDF here** | [after-the-programmer-divide.pdf](after-the-programmer-divide.pdf) (as archived on Zenodo) |
 
 The same text is in three places so that it can be reached when one of them cannot serve it. SSRN holds the version
 of record; cite that one. SSRN also disallows AI crawlers site-wide in its `robots.txt`, which is why these mirrors exist.
 
 ## Keywords
 
-AI agents; agentic AI; non-programmers; job titles; verified delegation horizon; amplification gain; acceptance literacy; background neutrality; credential crossover point; skills-based hiring; principal-agent theory; end-user software engineering; Goodhart's law; guarantor; AI literacy; preregistered predictions; Brier score.
+AI agents; agentic AI; non-programmers; coding agents; job titles; skills-based hiring; principal-agent theory; end-user software engineering; AI literacy; verified delegation horizon; credential crossover point; preregistered predictions.
 
 ## Licence
 

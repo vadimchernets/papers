@@ -7,13 +7,13 @@
 **Download this paper**
 
 - **SSRN** (version of record): [ssrn.com/abstract=7589918](https://ssrn.com/abstract=7589918) · DOI [10.2139/ssrn.7589918](https://doi.org/10.2139/ssrn.7589918)
-- **Zenodo** (archived, open access): [doi.org/{{ZENODO_DOI}}](https://doi.org/{{ZENODO_DOI}})
-- **OSF** (the 41 predictions, registered 9 October 2026): [doi.org/{{OSF_DOI}}](https://doi.org/{{OSF_DOI}})
+- **Zenodo** (archived, open access): [doi.org/10.5281/zenodo.23267267](https://doi.org/10.5281/zenodo.23267267)
+- **OSF** (the 41 predictions, registered 9 October 2026): [doi.org/10.17605/OSF.IO/VW6P9](https://doi.org/10.17605/OSF.IO/VW6P9)
 - **GitHub** (full text as Markdown): [github.com/vadimchernets/papers/tree/main/after-the-programmer-divide](https://github.com/vadimchernets/papers/tree/main/after-the-programmer-divide); code of Appendix C: [github.com/vadimchernets/delegation-horizon](https://github.com/vadimchernets/delegation-horizon)
 
 *SSRN holds the version of record; cite that one.*
 
-**Keywords:** AI agents; agentic AI; non-programmers; job titles; verified delegation horizon; amplification gain; acceptance literacy; background neutrality; credential crossover point; skills-based hiring; principal-agent theory; end-user software engineering; Goodhart's law; guarantor; AI literacy; preregistered predictions; Brier score
+**Keywords:** AI agents; agentic AI; non-programmers; coding agents; job titles; skills-based hiring; principal-agent theory; end-user software engineering; AI literacy; verified delegation horizon; credential crossover point; preregistered predictions
 
 ---
 
@@ -31,7 +31,7 @@ The names are not settled. Builder, agentic engineer, agent manager, AI operator
 
 The market has already tried a shortcut. In 2026 token counts were tried as a measure of staff at large employers and failed within months: an employee's unofficial ranking at Meta was taken down and the company's official guidance later ruled out token counts, a leaderboard at Amazon was gamed with empty tasks and removed, and Uber spent its annual AI budget in four months. A count of inputs rewards spending. A count of accepted work, checked independently, is harder to inflate that way, by design rather than yet by measurement, although it can still be gamed through easy checks, generous raters, hidden help and work sliced into pieces. Section 5.8 lists those routes with a defence against each: random audits, independent raters of hours, a public record of failures, a coherent unit of work and planted errors.
 
-Two predictions carry my dated thesis. Background neutrality says that at the same rung a programming education stops predicting checked quality. The credential crossover point is the moment, in a domain, when products made by people without an IT education begin to overtake those of programmers using the same agents, after which a degree and the labels junior and senior lose weight. Quality parity comes before that moment, a crossing of degree requirements in job postings is its visible sign, and each part is dated and tested on its own. The main prediction runs against current opinion, and the paper says so where it states the prediction. Each prediction also names the result that would refute it, so a reader can see in advance what a failure would look like. All 41 appear in a table with probabilities, thresholds, fallback sources and final dates, registered on OSF on 9 October 2026 (DOI {{OSF_DOI}}) and scored by the Brier rule each year until 2031. Twenty-seven resolve from public data. Fourteen need studies registered separately before data are collected, and missing or inconclusive evidence is recorded as unresolved and does not count as a success; a study that is never run is a failure of the testing programme and stays on the scorecard. The probabilities were fixed on 9 October 2026 as the median of three blind model forecasts, which I adopted, and are registered on OSF; the probability of overtaking in one's own domain is 0.35.
+Two predictions carry my dated thesis. Background neutrality says that at the same rung a programming education stops predicting checked quality. The credential crossover point is the moment, in a domain, when products made by people without an IT education begin to overtake those of programmers using the same agents, after which a degree and the labels junior and senior lose weight. Quality parity comes before that moment, a crossing of degree requirements in job postings is its visible sign, and each part is dated and tested on its own. The main prediction runs against current opinion, and the paper says so where it states the prediction. Each prediction also names the result that would refute it, so a reader can see in advance what a failure would look like. All 41 appear in a table with probabilities, thresholds, fallback sources and final dates, registered on OSF on 9 October 2026 (DOI 10.17605/OSF.IO/VW6P9) and scored by the Brier rule each year until 2031. Twenty-seven resolve from public data. Fourteen need studies registered separately before data are collected, and missing or inconclusive evidence is recorded as unresolved and does not count as a success; a study that is never run is a failure of the testing programme and stays on the scorecard. The probabilities were fixed on 9 October 2026 as the median of three blind model forecasts, which I adopted, and are registered on OSF; the probability of overtaking in one's own domain is 0.35.
 
 When building costs little, trust becomes the scarce filter. App stores and code hosts are flooded, platforms are closing their doors to unknown contributors, and agents increasingly write a solution instead of adopting someone else's. Beside the person who builds, two partner functions are visible: a finisher brings the product to people, and a guarantor signs for it. The second name comes from a 2025 description of the role, and I propose a measure for the guarantor too.
 
@@ -211,7 +211,7 @@ The two axes are linked by a ceiling. Attention goes into setting a piece of wor
 
 GDPval shows what the bound means in practice. Its experts reported (and the authors verified) on average 404 minutes per task by hand, and reviewing a deliverable took a measured 109 minutes, about 27%, which puts the ceiling near ×3.7 for tasks of that kind. The models produced their drafts 90 to 327 times faster than the experts. Yet in the scenario where a person tries the model and then fixes its work, the authors' calculation (not a measurement) gave GPT-5 a speedup of 1.12 when the model is tried once and 1.39 when it is tried several times, two separate columns of the same table (Patwardhan et al., 2025). Whatever the agent's speed, the price of checking sets the ceiling, and that price rises with the rung, since a larger piece costs more to check. Kamara (2026) calls this cost verification friction. Practitioners in the threads of Section 9 put it in their own words: past a point, checking agent code "differs less and less from rewriting it by hand", and can take longer than writing it oneself (translated).
 
-The same gain can be reached by two roads. A long leash hands over a large piece and checks it at the end; short, fast loops hand over small pieces and check each as it lands. My hypothesis is that checking small pieces along the way is often cheaper than checking a large result at the end, and Anthropic's data point that way. Conversations succeeded more often than one-shot requests, and by the authors' own extrapolation one-shot requests reach 50% success on tasks of about 3.5 hours while conversations would reach it on tasks of about 19 hours (Anthropic, 2026a). The share of collaborative use fell below automation in August 2025 and was back in front, 52% to 45%, by November. Predictions F19 to F21 in Section 11 test the short-loop road.
+The same gain can be reached by two roads. A long leash hands over a large piece and checks it at the end; short, fast loops hand over small pieces and check each as it lands. My hypothesis is that checking small pieces along the way is often cheaper than checking a large result at the end, and Anthropic's data point that way. Conversations succeeded more often than one-shot requests, and by the authors' own extrapolation one-shot requests reach 50% success on tasks of about 3.5 hours while conversations would reach it on tasks of about 19 hours (Anthropic, 2026a). The share of collaborative use fell below automation in August 2025 and was back in front, 52% to 45%, by November. The short-loop road is close to what the human-AI collaboration literature studies, and amplification gain credits it as fully as long delegation. Predictions F19 to F21 in Section 11 test the short-loop road.
 
 **Figure 4.** *Two axes, four profiles and the ceilings that checking sets.*
 
@@ -476,7 +476,7 @@ On 9 October 2026 I searched Metaculus, Manifold, Good Judgment Open, Kalshi, Po
 
 Where should a prediction live so that nobody, its author included, can quietly change it? Of the places this series uses, only one freezes. An OSF registration cannot be edited or deleted; it can be withdrawn, but a page with its title, dates, DOI and the reason for withdrawal remains (OSF, 2026). Zenodo lets the depositor change or delete files for 30 days after publication, and only new versions after that (OpenAIRE, 2025). SSRN replaces the PDF on revision. So the predictions will be registered on OSF first, as an open-ended registration made public immediately, with no embargo, because an embargo would hide the record and withhold its DOI, and a priority nobody can see is worth little.
 
-On 9 October 2026 the table was registered on OSF as a set of preregistered predictions (DOI {{OSF_DOI}}), and the paper was posted on SSRN and Zenodo; snapshots of every baseline source are archived in the Wayback Machine. Each year from 2027 to 2031, on the anniversary of the registration, a scorecard is published that lists every prediction without exception, its status (came true, did not, not yet due, unresolved, not conducted) and the evidence. It reports the Brier score over resolved predictions overall, by set and by family, where linked predictions (F1 and F1b; F2, F3 and F3b; F4a and F4b; F15 and F16; F17 and F17b; F28 and F28b) count once; the share resolved; a worst bound in which every prediction past its final date and still unresolved, and every prediction not conducted, is scored as if the forecast had been wrong; the score with and without the predictions not conducted; and the Brier skill score against three references: a flat 0.5, the pooled model forecasters of Table 4, and the market price where a market existed on the registration day. Selective non-resolution therefore cannot improve the score. The scorecard is itself registered on OSF, linked to the original by DOI, and deposited on Zenodo. Models from at least two families check each scorecard independently against the frozen rules; where they disagree the rule decides and the disagreement is reported. The registration text is in Appendix D, and Figure A1 (Appendix D) shows the full calendar of check and final dates. Two commitments fall due before the scoring starts. The sample of agent-built products for F27 is frozen on Zenodo by 31 December 2026, and the baselines of F5 and F30 are computed and archived before registration.
+On 9 October 2026 the table was registered on OSF as a set of preregistered predictions (DOI 10.17605/OSF.IO/VW6P9), and the paper was posted on SSRN and Zenodo; snapshots of every baseline source are archived in the Wayback Machine. Each year from 2027 to 2031, on the anniversary of the registration, a scorecard is published that lists every prediction without exception, its status (came true, did not, not yet due, unresolved, not conducted) and the evidence. It reports the Brier score over resolved predictions overall, by set and by family, where linked predictions (F1 and F1b; F2, F3 and F3b; F4a and F4b; F15 and F16; F17 and F17b; F28 and F28b) count once; the share resolved; a worst bound in which every prediction past its final date and still unresolved, and every prediction not conducted, is scored as if the forecast had been wrong; the score with and without the predictions not conducted; and the Brier skill score against three references: a flat 0.5, the pooled model forecasters of Table 4, and the market price where a market existed on the registration day. Selective non-resolution therefore cannot improve the score. The scorecard is itself registered on OSF, linked to the original by DOI, and deposited on Zenodo. Models from at least two families check each scorecard independently against the frozen rules; where they disagree the rule decides and the disagreement is reported. The registration text is in Appendix D, and Figure A1 (Appendix D) shows the full calendar of check and final dates. Two commitments fall due before the scoring starts. The sample of agent-built products for F27 is frozen on Zenodo by 31 December 2026, and the baselines of F5 and F30 are computed and archived before registration.
 
 Once the predictions are registered, the public ones will also be posted where outside forecasters can price them: five markets on Manifold (F5, F8, F10, F11 and F22, which are free to post; these five were chosen because each resolves on a public source and an external series that anyone can read, with none of my own data), one question on Metaculus (the crossing in postings, F5), and the Social Science Prediction Platform for the experiments of F2, F3 and F7, so that other people's forecasts are collected before the data exist. Prediction markets that trade money on the outcome are not used.
 
@@ -534,7 +534,7 @@ One boundary will remain whatever happens to these predictions. Building is beco
 
 **Tools and verification.** AI assistants were used as instruments under the author's direction; the ideas, research and conclusions are the author's. Quantitative claims and citations were checked against primary sources or archived copies as of 9 October 2026 where those could be retrieved. Where only a press report or a vendor's page was available, the claim is attributed to that report or vendor in the text. Titles given in square brackets in the references are descriptive titles for pages whose headline was not re-read verbatim.
 
-**Data and code availability.** The code and schema of Appendix C, the desk pre-pilot of Appendix E and the prediction files are released under the MIT licence in a companion repository (https://github.com/vadimchernets/delegation-horizon), archived on Zenodo with release v1.0.0 (DOI {{CODE_DOI}}); the code printed in Appendix C is identical to the repository's, byte for byte. The predictions of Tables 4 and A6 were registered on OSF on 9 October 2026 (DOI {{OSF_DOI}}).
+**Data and code availability.** The code and schema of Appendix C, the desk pre-pilot of Appendix E and the prediction files are released under the MIT licence in a companion repository (https://github.com/vadimchernets/delegation-horizon), archived on Zenodo with release v1.0.0 (DOI 10.5281/zenodo.23267444); the code printed in Appendix C is identical to the repository's, byte for byte. The predictions of Tables 4 and A6 were registered on OSF on 9 October 2026 (DOI 10.17605/OSF.IO/VW6P9).
 
 **Ethics.** This paper reports no data from human participants. The cohort programme it describes is preregistered (OSF, DOI 10.17605/OSF.IO/X4EGQ); its results will be reported separately. The public threads discussed in Section 9 are paraphrased, and their authors are not named.
 
@@ -1030,7 +1030,6 @@ KEYS = {"person", "domain", "date", "reference_hours", "reference_basis",
 OPTIONAL = {"started",      # date the hand-over started (expected from v1.1; the line is written at close)
             "task_id", "model", "tools", "checker", "rater_hours", "audit", "revoked"}
 
-
 def load(path):
     """Every piece handed to agents is a line, including failed and abandoned ones."""
     records, undated = [], 0
@@ -1062,7 +1061,6 @@ def load(path):
         print(f"warning: {undated} lines without started (expected from rules v1.1)", file=sys.stderr)
     return records
 
-
 def verified(r):
     """A pass counts only if the check was independent, the agents never saw it, no planted error
     was missed, nobody helped off the log, no audit failed and no delayed outcome revoked it.
@@ -1071,7 +1069,6 @@ def verified(r):
             and int(r["planted_missed"]) == 0 and not r["outside_help"]
             and not (r["irreversible"] and r["check"] == "other_family_with_sources")
             and r.get("audit") != "failed" and not r.get("revoked", False))
-
 
 def rung_holds(pieces, hours, minimum, as_of, days):
     start = as_of - dt.timedelta(days=days)
@@ -1094,13 +1091,11 @@ def rung_holds(pieces, hours, minimum, as_of, days):
             return False
     return True
 
-
 def horizon(pieces, as_of):
     for name, hours, minimum, days in RUNGS:        # from the top rung down
         if rung_holds(pieces, hours, minimum, as_of, days):
             return name
     return "below Hour"
-
 
 def rung_pieces(pieces, name, as_of):
     """Pieces of the rung's size in its window (Hour's for 'below Hour'): what the count is out of."""
@@ -1108,13 +1103,11 @@ def rung_pieces(pieces, name, as_of):
     return [r for r in pieces if as_of - dt.timedelta(days=days) < r["date"] <= as_of
             and float(r["reference_hours"]) >= hours]
 
-
 def gain(pieces):
     done = sum(float(r["reference_hours"]) for r in pieces
                if verified(r) and not r["outside_help"])                  # outside help excluded
     spent = sum(float(r["attention_minutes"]) for r in pieces) / 60.0   # failures included
     return None if spent == 0 else done / spent
-
 
 def step(g):
     if g is None:
@@ -1123,7 +1116,6 @@ def step(g):
         if g >= s:
             return f"x{s}"
     return "below x1"
-
 
 def main():
     ap = argparse.ArgumentParser()
@@ -1162,7 +1154,6 @@ def main():
         print(f"  checks: {', '.join(f'{k} {v}' for k, v in kinds) or 'none'};"
               f" median accepted size {median}{'; needs third rater' if spread else ''}")
 
-
 if __name__ == "__main__":
     main()
 ```
@@ -1179,7 +1170,6 @@ Usage: python3 brier.py predictions.csv                                  Licence
 """
 import csv
 import sys
-
 
 def main(path):
     resolved, pending = [], []
@@ -1199,7 +1189,6 @@ def main(path):
         mean = sum((p - o) ** 2 for _, p, o in resolved) / len(resolved)
         print(f"Brier score over {len(resolved)} resolved: {mean:.3f} (always saying 0.5 gives 0.250)")
     print("unresolved or not yet due: " + (", ".join(pending) or "none"))
-
 
 if __name__ == "__main__":
     main(sys.argv[1])
@@ -1250,7 +1239,7 @@ The companion repository (https://github.com/vadimchernets/delegation-horizon) h
 >
 > **Type.** Open-Ended Registration, public immediately, no embargo.
 >
-> **Summary.** This registration freezes the dated predictions stated in "After the Programmer Divide: One Measure for People Who Build Through AI Agents" (SSRN 7589918; Zenodo DOI {{ZENODO_DOI}}). The attached table gives, for each prediction: its wording; its measure; a public source and a fallback source; a 2025 or 2026 baseline with the date accessed and an archived snapshot; a check date and a final date; a probability fixed on the date of this registration; and the thresholds for three outcomes: came true, did not come true, unresolved.
+> **Summary.** This registration freezes the dated predictions stated in "After the Programmer Divide: One Measure for People Who Build Through AI Agents" (SSRN 7589918; Zenodo DOI 10.5281/zenodo.23267267). The attached table gives, for each prediction: its wording; its measure; a public source and a fallback source; a 2025 or 2026 baseline with the date accessed and an archived snapshot; a check date and a final date; a probability fixed on the date of this registration; and the thresholds for three outcomes: came true, did not come true, unresolved.
 >
 > **Scoring.** Each prediction is scored at the first annual check on or after its check date at which the data exist, and no later than its final date. Resolved predictions are scored by the Brier rule. A prediction without comparable data by its final date is recorded as unresolved and is not counted as a success.
 >
@@ -1264,7 +1253,7 @@ The companion repository (https://github.com/vadimchernets/delegation-horizon) h
 >
 > **Fixed rules.** No prediction is removed, reworded or given a new date. Anything added later is registered separately and carries its own date. If a named source stops publishing or changes its method, the fallback source is used, provided it measures the same quantity; if no comparable source exists, the prediction is unresolved.
 >
-> **Independent checking.** Each scorecard is checked against the rules frozen here by models from at least two different families. Where they disagree, the rule decides and the disagreement is reported. A named human arbiter decides disputes between the two model families.
+> **Independent checking.** Each scorecard is checked against the rules frozen here by models from at least two different families. Where they disagree, the rule decides and the disagreement is reported. A human arbiter, named by the author before the first scorecard, decides disputes between the two model families.
 >
 > **Own data.** Predictions that rely on the author's cohort data are tested only under a separate preregistration filed before those data are collected, as the programme registered at OSF (DOI 10.17605/OSF.IO/X4EGQ) does for each cohort.
 >
