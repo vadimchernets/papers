@@ -2,12 +2,19 @@
 
 *The verified delegation horizon, amplification gain, a dated map of role names, and 41 registered predictions scored each year until 2031*
 
+---
+title: "After the Programmer Divide: One Measure for People Who Build Through AI Agents"
+subtitle: "The verified delegation horizon, amplification gain, a dated map of role names, and 41 registered predictions scored each year until 2031"
+author: "Vadym Chernets"
+date: "October 2026"
+---
+
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
 **Download this paper**
 
 - **SSRN** (version of record): [ssrn.com/abstract=7589918](https://ssrn.com/abstract=7589918) · DOI [10.2139/ssrn.7589918](https://doi.org/10.2139/ssrn.7589918)
-- **Zenodo** (archived, open access): [doi.org/10.5281/zenodo.23267267](https://doi.org/10.5281/zenodo.23267267)
+- **Zenodo** (archived, open access): [doi.org/10.5281/zenodo.23267266](https://doi.org/10.5281/zenodo.23267266)
 - **OSF** (the 41 predictions, registered 9 October 2026): [doi.org/10.17605/OSF.IO/VW6P9](https://doi.org/10.17605/OSF.IO/VW6P9)
 - **GitHub** (full text as Markdown): [github.com/vadimchernets/papers/tree/main/after-the-programmer-divide](https://github.com/vadimchernets/papers/tree/main/after-the-programmer-divide); code of Appendix C: [github.com/vadimchernets/delegation-horizon](https://github.com/vadimchernets/delegation-horizon)
 
@@ -19,17 +26,17 @@
 
 ## Abstract
 
-A bookkeeper asks an agent for a reconciliation tool; a developer asks one to change a billing system. Each must accept a day's work and show it holds. By October 2026 lawyers were setting tasks for the same agents too. In about 400,000 sessions, vendor-verified success on code-producing work was 34% for programming occupations and 29% for others, though occupation is not education. No career ladder says what someone building through agents can be trusted to deliver. I propose a measure in place of a title. The verified delegation horizon is the largest coherent piece of work, in reference hours of a qualified specialist, that a person regularly hands to agents and accepts after an independent check the agents did not see. Amplification gain, accepted reference hours per hour of attention, is a verified throughput, not a causal estimate of speedup. Both are scored per domain, Hour to Quarter; a desk pre-pilot corrected one threshold. Three large employers tried token counts and dropped them in 2026: a ranking removed, a leaderboard gamed, a budget spent. Checked work is harder to game by spending; the remaining routes have proposed, untested defences. A dated map records rival names (builder, agent manager, principal and others) without choosing. Background neutrality is the hypothesis that at an equal horizon a programming education stops predicting checked quality. The credential crossover point is the moment, domain by domain, when products of people without an IT education begin to overtake those of programmers under the same checks, after which degrees and seniority labels lose weight. Forty-one dated predictions, priced on 9 October 2026 at the median of three blind model forecasts, are registered on OSF and scored yearly until 2031; a study never run counts as a failure, and overtaking in one's own domain stands at 0.35.
+A bookkeeper asks an agent for a reconciliation tool; a developer asks one to change a billing system. Each must accept a day's work and show it holds. By October 2026 lawyers were setting tasks for the same agents too. In about 400,000 sessions, vendor-verified success on code-producing work was 34% for programming occupations and 29% for others, though occupation is not education. No career ladder says what someone building through agents can be trusted to deliver. I propose a measure in place of a title. The verified delegation horizon is the largest coherent piece of work, in reference hours of a qualified specialist, that a person regularly hands to agents and accepts after an independent check the agents did not see. Amplification gain, accepted reference hours per hour of attention, is a verified throughput, not a causal estimate of speedup. Both are scored per domain, Hour to Quarter; a desk test corrected one threshold. Three large employers tried token counts and dropped them in 2026: a ranking removed, a leaderboard gamed, a budget spent. Checked work is harder to game by spending, and each remaining route meets a stated defence. A dated map records rival names (builder, agent manager, principal and others) without choosing. Background neutrality is the hypothesis that at an equal horizon a programming education stops predicting checked quality. The credential crossover point is the moment, domain by domain, when products of people without an IT education begin to overtake those of programmers under the same checks, after which degrees and seniority labels lose weight. Forty-one dated predictions, priced on 9 October 2026 at the median of three blind model forecasts, are registered on OSF and scored yearly until 2031; a study never run counts as a failure, and overtaking in one's own domain stands at 0.35.
 
 ## Executive summary
 
 By 2026 bookkeepers were comparing coding agents the way programmers did a year earlier, lawyers were building their own tools with them, and people outside software had become a fast-growing part of one vendor's coding-agent users; in another vendor's records, about 400,000 sessions, the occupations that do not program trailed programmers by a few percentage points in verified success on coding work (34% against 29%). Where the work is done, the boundary between programmers and everyone else has thinned. In job titles, pay grades and résumés it stands where it stood.
 
-Some programmers and some domain professionals now share a workflow: they hand work to agents and decide whether to accept it. Tasks and workflows have merged ahead of whole professions, so the informative question about a person is how large a piece of work they can hand over and prove, whichever side of the old boundary they came from. The measure I propose for that question, the verified delegation horizon, rests on a few design choices, and this summary gives the reason for each. The unit is the time a qualified specialist would have needed (an hour, a day, a week, a month, a quarter), because both old ladders can read it and no translation between professions is needed. A bookkeeper's reconciliation tool and a developer's billing change face the same rule. Only work that passed a check the agents did not see is counted, and agreement among models of one family does not count as such a check, because their errors are correlated. A second number, amplification gain, records how much checked work each hour of the person's attention yields (failed work still costs attention, and the agents' unattended time does not), so that someone who works beside an agent in short loops is credited as fully as someone who hands over large pieces. Both numbers are kept per domain, for a symmetrical reason: a lawyer who moves into software and a programmer who moves into law lose the same thing, the ability to accept work in a field they do not know. The thresholds are provisional, and a desk pre-pilot without people has already corrected one of them (Appendix E).
+Some programmers and some domain professionals now share a workflow: they hand work to agents and decide whether to accept it. Tasks and workflows have merged ahead of whole professions, so the informative question about a person is how large a piece of work they can hand over and prove, whichever side of the old boundary they came from. The measure I propose for that question, the verified delegation horizon, rests on a few design choices, and this summary gives the reason for each. The unit is the time a qualified specialist would have needed (an hour, a day, a week, a month, a quarter), because both old ladders can read it and no translation between professions is needed. A bookkeeper's reconciliation tool and a developer's billing change face the same rule. Only work that passed a check the agents did not see is counted, and agreement among models of one family does not count as such a check, because their errors are correlated. A second number, amplification gain, records how much checked work each hour of the person's attention yields (failed work still costs attention, and the agents' unattended time does not), so that someone who works beside an agent in short loops is credited as fully as someone who hands over large pieces. Both numbers are kept per domain, for a symmetrical reason: a lawyer who moves into software and a programmer who moves into law lose the same thing, the ability to accept work in a field they do not know. The thresholds are versioned as rules v1.1 and desk-tested, and the desk test has already corrected one of them (Appendix E).
 
 The names are not settled. Builder, agentic engineer, agent manager, AI operator, orchestrator and principal are all in use by October 2026, each with an owner and a date. I map them without choosing, so that whichever wins can be read on one scale: a builder at Week, an agent manager at Day.
 
-The market has already tried a shortcut. In 2026 token counts were tried as a measure of staff at large employers and failed within months: an employee's unofficial ranking at Meta was taken down and the company's official guidance later ruled out token counts, a leaderboard at Amazon was gamed with empty tasks and removed, and Uber spent its annual AI budget in four months. A count of inputs rewards spending. A count of accepted work, checked independently, is harder to inflate that way, by design rather than yet by measurement, although it can still be gamed through easy checks, generous raters, hidden help and work sliced into pieces. Section 5.8 lists those routes with a defence against each: random audits, independent raters of hours, a public record of failures, a coherent unit of work and planted errors.
+The market has already tried a shortcut. In 2026 token counts were tried as a measure of staff at large employers and failed within months: an employee's unofficial ranking at Meta was taken down and the company's official guidance later ruled out token counts, a leaderboard at Amazon was gamed with empty tasks and removed, and Uber spent its annual AI budget in four months. A count of inputs rewards spending. A count of accepted work, checked independently, is harder to inflate that way by design. The routes that remain (easy checks, generous raters, hidden help and work sliced into pieces) each meet a defence in Section 5.8: random audits, independent raters of hours, a public record of failures, a coherent unit of work and planted errors.
 
 Two predictions carry my dated thesis. Background neutrality says that at the same rung a programming education stops predicting checked quality. The credential crossover point is the moment, in a domain, when products made by people without an IT education begin to overtake those of programmers using the same agents, after which a degree and the labels junior and senior lose weight. Quality parity comes before that moment, a crossing of degree requirements in job postings is its visible sign, and each part is dated and tested on its own. The main prediction runs against current opinion, and the paper says so where it states the prediction. Each prediction also names the result that would refute it, so a reader can see in advance what a failure would look like. All 41 appear in a table with probabilities, thresholds, fallback sources and final dates, registered on OSF on 9 October 2026 (DOI 10.17605/OSF.IO/VW6P9) and scored by the Brier rule each year until 2031. Twenty-seven resolve from public data. Fourteen need studies registered separately before data are collected, and missing or inconclusive evidence is recorded as unresolved and does not count as a success; a study that is never run is a failure of the testing programme and stays on the scorecard. The probabilities were fixed on 9 October 2026 as the median of three blind model forecasts, which I adopted, and are registered on OSF; the probability of overtaking in one's own domain is 0.35.
 
@@ -47,7 +54,7 @@ That question also has a dated origin. On 8 October 2026 I stated a forecast: wi
 
 The companion paper in this series followed non-programmers from chat to agents and defined four levels by where an agent works and what the person must own (Chernets, 2026a). It counted a transition only when an agent had produced an artefact, and it declined to make the manager of agents into a job title, using the term "for a pattern of behaviour rather than a role anyone should hire against, because the behaviour leaves evidence and a title does not" (Chernets, 2026a, Section 8.4). The present paper starts from that condition: a level is granted, and any title may attach to it, only on evidence, meaning work handed to agents, accepted by a person, and confirmed by a check the agents did not see.
 
-Section 3 gives a dated map of the names in circulation in October 2026. Section 5 gives the scale on which any of those names can be read, the verified delegation horizon with its second axis, amplification gain. Section 6 states two hypotheses, background neutrality and the credential crossover point. Sections 7 and 8 take up trust, the boundary that does not dissolve, and the two partner functions beside the person who builds. Section 11 sets out dated predictions with probabilities, thresholds and fallback sources, registered on OSF and scored every year until 2031 in public.
+Section 3 gives a dated map of the names in circulation in October 2026. Section 5 gives the scale on which any of those names can be read, the verified delegation horizon with its second axis, amplification gain. Section 6 states two hypotheses, background neutrality and the credential crossover point, and asks how much of a trade's experience a process of checks can stand in for. Sections 7 and 8 take up trust, the boundary that does not dissolve, and the two partner functions beside the person who builds. Section 11 sets out dated predictions with probabilities, thresholds and fallback sources, registered on OSF and scored every year until 2031 in public.
 
 I do not choose among the names. The market will choose, probably within months, and a paper that bets on one word is wrong the day another word wins. What a paper can fix is the scale. Section 5 defines it in full; in short, the verified delegation horizon asks how large a piece of work, in the hours a qualified specialist would have needed, a person regularly hands to agents and accepts with an independent check behind the acceptance, and amplification gain asks how many such hours each hour of the person's own attention yields. Both are kept per domain, dated, and placed on five rungs from Hour to Quarter. Figure 1 sets the two old ladders beside that one.
 
@@ -59,7 +66,7 @@ The evidence is drawn from 2025 and 2026, a span in which a month of agent devel
 
 ![](figures/figure-1-two-ladders-one-measure-v2.png)
 
-Note: The old ladders are drawn side by side with the five rungs and are deliberately not connected: no grade on either ladder confers a rung, and the same person holds a separate rung in each domain (Section 5.2). The rungs are counted in reference hours of a qualified specialist, with the provisional counts and windows of Section 5.2. The record shown is the one printed by the worked example of Appendix C4.
+Note: The old ladders are drawn side by side with the five rungs and are deliberately not connected: no grade on either ladder confers a rung, and the same person holds a separate rung in each domain (Section 5.2). The rungs are counted in reference hours of a qualified specialist, with the counts and windows of Section 5.2 (rules v1.1). The record shown is the one printed by the worked example of Appendix C4.
 
 Around those parts, Section 2 lays out the evidence of convergence and Section 4 tells how the market's first measure failed, which is the case for a measure of this kind. Section 9 checks which topics of programmers' conversations cross over to other professions, and Section 10 draws the implications. Section 12 collects the evidence against the thesis, Section 13 states its boundary conditions, and Section 14 concludes.
 
@@ -67,7 +74,7 @@ Around those parts, Section 2 lays out the evidence of convergence and Section 4
 
 ### 2.1 The programmer's job, redescribed
 
-The vendors that sell to developers now describe the developer's job as directing agents. GitHub's account of "the new identity of a developer" put delegation and verification at the centre of the work (GitHub, 2025b). Anthropic surveyed 132 of its own engineers and researchers in August 2025. They reported using AI in about 60% of their work and a self-assessed productivity gain of about 50%, and described themselves as becoming more "full-stack". Most said they could fully delegate only up to a fifth of their work, and 27% of their AI-assisted work consisted of tasks that would not have been done at all without AI (Anthropic, 2025a). A measure built on full delegation alone would therefore see at most a fifth of what the most advanced users in the world do with AI, which is why Section 5 adds a second axis. The same report named an "oversight paradox": supervising the model takes the coding skills that atrophy when everything is handed to it.
+The vendors that sell to developers now describe the developer's job as directing agents. GitHub's account of "the new identity of a developer" put delegation and verification at the centre of the work (GitHub, 2025b). Anthropic surveyed 132 of its own engineers and researchers in August 2025. They reported using AI in about 60% of their work and a self-assessed productivity gain of about 50%, and described themselves as becoming more "full-stack". Most said they could fully delegate only up to a fifth of their work, and 27% of their AI-assisted work consisted of tasks that would not have been done at all without AI (Anthropic, 2025a). A measure built on full delegation alone would therefore see at most a fifth of what the most advanced users in the world do with AI, which is why Section 5 adds a second axis. The same report named a "paradox of supervision": supervising the model takes the coding skills that atrophy when everything is handed to it.
 
 The words followed the work. Andrej Karpathy named "vibe coding" on 2 February 2025 (Karpathy, 2025), Collins made it a word of the year (Collins Dictionary, 2025), and a year later Karpathy moved on to "agentic engineering". At Sequoia's AI Ascent on 30 April 2026 he put the difference as "vibe coding raises the floor, agentic engineering extrapolates the ceiling" (Karpathy, 2026; Willison, 2026a). An academic paper described the agentic engineer as a new professional archetype, with responsibility shifting from authorship of code to ownership of outcomes (Alenezi, 2026), and Microsoft described the patterns of work in its customers as author, editor, director and orchestrator (Microsoft, 2026b).
 
@@ -89,11 +96,11 @@ Hiring has noticed. The share of job interviews in which candidates' use of AI w
 
 US job postings that mention "agentic AI" went from 151 in 2024 to 16,541 in 2025 (Stanford HAI, 2026). A different count, by Lightcast, found more than 86,000 postings in 2025 that mentioned agentic AI skills, a 280% annual rise in mentions of those skills and a median advertised salary of $153,000; the skills were mostly added to existing job titles (Lightcast, 2026a). The AI Index counts postings that contain the phrase "agentic AI", while Lightcast's blog counts postings that carry agentic skills in its own taxonomy, which explains most of the distance between 16,541 and about 86,000. The numbers measure different things and are kept apart here.
 
-Entry-level hiring has weakened, and the cause is disputed. LinkedIn found US entry-level hiring in April to June 2026 down 7.6% year on year against 6.9% for all levels, and in occupations that AI augments, entry-level hiring fell 9.6% against 6.5% for all levels in those occupations (LinkedIn Economic Graph, 2026). LinkedIn itself attributes more of the fall to economic uncertainty than to AI, and notes that, among entry-level roles, those insulated from AI fell most in France, the United Kingdom and the United States. The August 2026 update of the Stanford "canaries" study found employment of 22- to 25-year-olds in AI-exposed occupations about 19% below expectation with no comparable gap for experienced workers, and describes the result as descriptive (Stanford Digital Economy Lab, 2026a). Employers cited AI in 101,743 announced job cuts in the first half of 2026, about 23% of all announced cuts (Challenger, Gray & Christmas, 2026).
+Entry-level hiring has weakened, and the cause is disputed. LinkedIn found US entry-level hiring in April to June 2026 down 7.6% year on year against 6.9% for all levels, and in occupations that AI augments, entry-level hiring fell 9.6% against 6.5% for all levels in those occupations (LinkedIn Economic Graph, 2026). LinkedIn itself attributes more of the fall to economic uncertainty than to AI, and notes that, among entry-level roles, those insulated from AI fell most in France, the United Kingdom and the United States. The August 2026 update of the Stanford "canaries" study found employment of 22- to 25-year-olds in AI-exposed occupations about 19% below expectation with no comparable gap for experienced workers, and describes the result as descriptive (Stanford Digital Economy Lab, 2026a). Two other sources find the same mechanism. Economists at the Federal Reserve Bank of Dallas, using Current Population Survey microdata, found employment declines linked to AI exposure only among young workers, driven mainly by fewer people moving into work from outside the labour force rather than by layoffs (Atkinson & Yamco, 2026). In résumé data covering about 65 million workers, junior employment in firms that adopted generative AI was about 9% lower than in non-adopters six quarters after adoption, again through slower hiring rather than separations (Hosseini & Lichtinger, 2026). Across the whole economy, the Yale Budget Lab still finds no clear sign that AI-exposed occupations fare worse than comparable unexposed ones (Yale Budget Lab, 2026), so the pressure sits at the entry rung, not in the occupation as a whole. Employers cited AI in 101,743 announced job cuts in the first half of 2026, about 23% of all announced cuts (Challenger, Gray & Christmas, 2026).
 
 Education is moving too. New undergraduate computer science majors fell 13% in the departments covered by the 2026 Taulbee survey, which counts PhD-granting departments in North America; its authors describe this as the first clear signs of contraction in the enrolment pipeline, alongside record degree production (Computing Research Association, 2026). A field experiment with 673 German IT apprentices found gains of 26 to 31 percentage points on tasks outside their formal training when they had AI (Stanford Digital Economy Lab, 2026b). The joint OECD and European Commission framework of June 2026 includes a domain called "Manage AI" (OECD & European Commission, 2026).
 
-Table A1 (Appendix F) lists ten signals of this convergence with their sources, and for each what it shows and what it does not show. Read together, the limits matter as much as the signals: vendor data on non-developers inside coding agents show growth, not the quality of their results. The closeness of occupations in verified success concerns occupation, not degree. Renamed ladders and survey segments are titles, not measures. And the weaker entry rung is not shown to be caused by AI.
+Table A1 (Appendix F) lists ten signals of this convergence with their sources, and for each what it shows and what it does not show. Read together, they also show where measurement is missing: vendor data on non-developers inside coding agents show growth, not the quality of their results. The closeness of occupations in verified success concerns occupation, not degree. Renamed ladders and survey segments are titles, not measures. And the weaker entry rung is not shown to be caused by AI.
 
 These signals show, with some confidence, that setting and accepting agent work is now done on both sides of the old boundary, and that employers, schools and vendors have begun renaming things. Do people outside software do this work as well as programmers? The signals leave that open, and they show no measure for it either. Section 5 proposes the measure, Section 11 puts dates on the question of quality, and Section 12 sets out the evidence the predictions must overcome.
 
@@ -145,17 +152,17 @@ I draw one direct lesson for the measure: count work, and only work that passed 
 
 Both axes use one unit, the reference hour: the time a qualified specialist would need to do the same piece of work by hand. The reference is external on purpose. Whether the person could have done the work themselves does not enter the measure, and neither does their background. A bookkeeper's reconciliation tool and a developer's billing module are both measured by what a competent professional would have spent on them.
 
-Reference hours come from one of two sources. One is a frozen bank of tasks whose by-hand times were measured in 2025 and 2026; GDPval, with tasks drawn from 44 occupations and their experts' times, shows such a bank can be built (Patwardhan et al., 2025). The other is two independent raters who estimate the hours without knowing who did the work. I freeze the bank deliberately, the way the metre was once kept in a vault near Paris, because in a few years few people will still do these tasks by hand and there will be nothing left to compare against. The bank should hold, for each domain, tasks at every rung, each with a written statement of what counts as done, measured by-hand times, the hidden checks, and a few planted errors whose detection is part of acceptance. GDPval's by-hand times are verified self-reports of experts, while its review times were measured, which is the standard a bank should meet or improve on. To keep the measure from judging itself, the horizon is scored on one set of tasks and the quality used to test hypotheses about it (Section 6) on another.
+Reference hours come from one of two sources. One is a frozen bank of tasks whose by-hand times were measured in 2025 and 2026; GDPval, with tasks drawn from 44 occupations and their experts' times, shows such a bank can be built (Patwardhan et al., 2025). The other is two independent raters who estimate the hours without knowing who did the work; where a domain's raters prove too far apart, the reference may instead be the median of a calibrated panel of five to nine raters, scored by rung (Appendix G2). I freeze the bank deliberately, the way the metre was once kept in a vault near Paris, because in a few years few people will still do these tasks by hand and there will be nothing left to compare against. The bank should hold, for each domain, tasks at every rung, each with a written statement of what counts as done, measured by-hand times, the hidden checks, and a few planted errors whose detection is part of acceptance. GDPval's by-hand times are verified self-reports of experts, while its review times were measured, which is the standard a bank should meet or improve on. To keep the measure from judging itself, the horizon is scored on one set of tasks and the quality used to test hypotheses about it (Section 6) on another.
 
 ### 5.2 The verified delegation horizon
 
 **Definition.** A person's verified delegation horizon in a domain is the largest size of work, in reference hours, at which the person regularly hands work to agents, accepts it, and has it confirmed by an independent check the agents did not see.
 
-**The rule in one paragraph.** A piece of delegated work counts as verified, and enters the horizon, only when all of the following hold. It was set with a written statement of what will count as done, and its reference hours come from the bank or from two raters. The person accepted it as one coherent deliverable: a month of work cut into 160 one-hour tickets is 160 Hours, while work done in stages and accepted as one whole counts whole, by the reference hours of that whole. An independent check confirmed it, and a check is independent when it differs from the agents in data (inputs the agents did not produce), in access (the agents could not see or edit it) and in incentives (whoever runs it gains nothing from a pass). Four kinds qualify: hidden acceptance tests, a qualified human reviewer, real use by the intended users, or a model of another family that verifies against sources the person opened and leaves a verdict that can be audited. Self-review and agreement among models of one family do not count, because their blind spots coincide with the agents' own. Within the rung's window (91 days at Hour and Day, 182 at Week, 365 at Month and Quarter) the person accepted the required number of pieces of at least that size, ten at Hour and Day, six at Week and at Month and three at Quarter, and at least eight of every ten passed, which means five of six at Week and Month and all three at Quarter. From Week upward at least one piece in the window carries planted errors. One missed planted error, of any kind, blocks the rungs from Week upward for that window, and the piece with it counts neither toward a rung nor toward amplification gain. Where an error cannot be undone (money moved, a patient's record, a filing that cannot be withdrawn), every such piece must pass, with a hidden test or a qualified human as the default check and a model of another family as a second line, and the stricter rule applies to those pieces alone. Every hand-over is logged, failures and abandoned pieces included, with the attention they took. The rung is confirmed again each quarter: at Week and above, at least one verified piece of the rung's size must fall within the last 91 days, so a horizon cannot rest on work close to a year old. The paragraphs below give the reasons for each part.
+**The rule in one paragraph.** A piece of delegated work counts as verified, and enters the horizon, only when all of the following hold. It was set with a written statement of what will count as done, and its reference hours come from the bank or from two raters. The person accepted it as one coherent deliverable: a month of work cut into 160 one-hour tickets is 160 Hours, while work done in stages and accepted as one whole counts whole, by the reference hours of that whole. An independent check confirmed it, and a check is independent when it differs from the agents in data (inputs the agents did not produce), in access (the agents could not see or edit it) and in incentives (whoever runs it gains nothing from a pass). Four kinds qualify: hidden acceptance tests, a qualified human reviewer, real use by the intended users, or a model of another family that verifies against sources the person opened and leaves a verdict that can be audited. Self-review and agreement among models of one family do not count, because their blind spots coincide with the agents' own. Within the rung's window (91 days at Hour and Day, 182 at Week, 365 at Month and Quarter) the person accepted the required number of pieces of at least that size, ten at Hour and Day, six at Week and at Month and three at Quarter, and at least eight of every ten passed, which means five of six at Week and Month and all three at Quarter. From Week upward at least one of those pieces carries planted errors. One missed planted error, of any kind, blocks the rungs from Week upward for that window, and the piece with it counts neither toward a rung nor toward amplification gain. Where an error cannot be undone (money moved, a patient's record, a filing that cannot be withdrawn), every such piece must pass, with a hidden test or a qualified human as the default check and a model of another family as a second line, and the stricter rule applies to those pieces alone. Every hand-over is logged, failures and abandoned pieces included, with the attention they took. The rung is confirmed again each quarter: at Week and above, at least one verified piece of the rung's size must fall within the last 91 days, so a horizon cannot rest on work close to a year old. The paragraphs below give the reasons for each part.
 
 **Scoring rule.** Within the window set for each rung (91 days for Hour and Day, 182 for Week, 365 for Month and Quarter), a rung counts if the person accepted the required number of pieces of at least that size in the domain (ten for Hour and Day, fewer above, as set out below), and at least eight of every ten passed a check of one of these kinds: hidden acceptance tests, a qualified human reviewer, real use by the intended users, or a model of another family that verified against sources. Self-review and agreement among models of one family do not count. Where errors cannot be undone (money moved, a patient's record, a filing that cannot be withdrawn), every such piece must pass, and the stricter threshold applies to those pieces only. For these pieces the default check is a hidden test or a qualified human, with a model of another family as a second line.
 
-**Upper rungs.** A single count of ten would put the upper rungs out of anyone's reach, since ten pieces of 40 reference hours in three months is 400 hours of a specialist's work, and ten pieces of 500 hours is 5,000. The rule therefore lengthens the window and lowers the count as the rung rises: ten pieces in 91 days for Hour and Day, six in 182 days for Week, six in 365 days for Month and three in 365 days for Quarter, with the same share of eight in ten (which means five of six for Week and Month, and all three for Quarter). An earlier version asked for four of four at Month; the desk pre-pilot of Appendix E showed that this made Month harder to earn than Quarter for a person of any reliability, and the count was changed. From Week upward at least one piece in the window must carry planted errors. Any planted error the person misses, whatever its kind, blocks the rungs from Week upward for that window, and a piece with a missed planted error does not count as verified, either toward a rung or toward amplification gain. Quarter is meant to remain a rare rung, and the counts above are set so that it does.
+**Upper rungs.** A single count of ten would put the upper rungs out of anyone's reach, since ten pieces of 40 reference hours in three months is 400 hours of a specialist's work, and ten pieces of 500 hours is 5,000. The rule therefore lengthens the window and lowers the count as the rung rises: ten pieces in 91 days for Hour and Day, six in 182 days for Week, six in 365 days for Month and three in 365 days for Quarter, with the same share of eight in ten (which means five of six for Week and Month, and all three for Quarter). An earlier version asked for four of four at Month; the desk test of Appendix E showed that this made Month harder to earn than Quarter for a person of any reliability, and the count was changed. From Week upward at least one piece of the rung's size in the window must carry planted errors. Any planted error the person misses, whatever its kind, blocks the rungs from Week upward for that window, and a piece with a missed planted error does not count as verified, either toward a rung or toward amplification gain. Quarter is meant to remain a rare rung, and the counts above are set so that it does.
 
 **Every hand-over is logged.** The log records every piece handed to agents, including those that failed the check and those abandoned before it, and only a piece accepted as one coherent deliverable counts toward a rung. A month of work cut into 160 one-hour tickets is 160 Hours, not a Month: reference hours are estimated for the deliverable that the user, client or reviewer accepts as a whole, in the spirit of METR's coherent tasks. The converse also holds: work done in stages and accepted as one coherent deliverable counts whole, by the reference hours of that deliverable, however many stages it took.
 
@@ -169,7 +176,7 @@ One piece of work travels this path (Figure 3). A task is set with a written sta
 
 Note: The upper row is the path of Section 5.2. The four kinds of independent check are those of the scoring rule. Self-review and agreement among models of one family do not count. Failed and abandoned pieces stay in the log and add their minutes to the denominator of amplification gain. The lower row is the worked example of Appendix C4, a constructed log, not cohort data: ten pieces, eight verified, 80 reference hours against 1,030 minutes of attention, a gain of 4.66 (step ×2) and the record "small-business bookkeeping · Day · ×2 · 2026-Q4".
 
-**Re-verification.** A horizon is confirmed again each quarter. Anthropic's oversight paradox (Section 2.1) explains why: a horizon earned while the checking skill decays is borrowed, and a quarterly check shows whether it still holds. For the rungs whose windows run longer than a quarter (Week, Month and Quarter), the check has a concrete form: at least one verified piece of the rung's size must fall within the last 91 days, so that a rung cannot rest on pieces close to a year old.
+**Re-verification.** A horizon is confirmed again each quarter. Anthropic's paradox of supervision (Section 2.1) explains why: a horizon earned while the checking skill decays is borrowed, and a quarterly check shows whether it still holds. For the rungs whose windows run longer than a quarter (Week, Month and Quarter), the check has a concrete form: at least one verified piece of the rung's size must fall within the last 91 days, so that a rung cannot rest on pieces close to a year old.
 
 ### 5.3 The ladder
 
@@ -185,7 +192,7 @@ I name the five rungs in units of time because units of time need no translation
 | Month | About 160, usually in several streams | A product release; acceptance rules others work by | A practice's tooling, with rules colleagues use | 5 of 6 in 365 days |
 | Quarter | About 500 | A product line with live users | A service line run through agents | 3 of 3 in 365 days |
 
-Note: A rung is earned only by the scoring rule of Section 5.2, separately in each domain, with the provisional counts of rules v1.1 (Appendix E). No grade on an old ladder confers a rung, and a person can be at Week in financial tools and at Day in web applications.
+Note: A rung is earned only by the scoring rule of Section 5.2, separately in each domain, with the counts of rules v1.1 (Appendix E). No grade on an old ladder confers a rung, and a person can be at Week in financial tools and at Day in web applications.
 
 The record for a résumé or an HR file holds the domain, the horizon, the amplification and the date, for example "small-business bookkeeping · Day · ×2 · 2026-Q4". The date belongs in the record because the same rung will mean something different a year later, as the technology moves.
 
@@ -209,7 +216,7 @@ Placing people on both axes gives four profiles (Figure 4). An apprentice has a 
 
 The two axes are linked by a ceiling. Attention goes into setting a piece of work and into checking it. Write H for the reference hours of a piece, V for the hours of attention that checking it takes, and S for the hours spent setting it. Then gain G = H / (S + V + rework), and so G ≤ H / V. If checking alone takes a quarter of the by-hand time, gain cannot exceed ×4, however long the agent runs unattended. By the same bound, the steps ×2, ×5, ×20 and ×60 are open only when checking takes no more than 50%, 20%, 5% and about 1.7% of the by-hand time (Figure 4). This is a simplified model with stated accounting bounds: it ignores the value of work the person could not have done at all, it assumes checking time scales with the piece, and it holds per piece, so a person who checks small pieces cheaply can beat the ceiling computed for large ones. At the level of the economy, Catalini et al. (2026) make the same point: the binding constraint becomes "human verification bandwidth", and a "Measurability Gap" opens between what agents can execute and what people can afford to verify.
 
-GDPval shows what the bound means in practice. Its experts reported (and the authors verified) on average 404 minutes per task by hand, and reviewing a deliverable took a measured 109 minutes, about 27%, which puts the ceiling near ×3.7 for tasks of that kind. The models produced their drafts 90 to 327 times faster than the experts. Yet in the scenario where a person tries the model and then fixes its work, the authors' calculation (not a measurement) gave GPT-5 a speedup of 1.12 when the model is tried once and 1.39 when it is tried several times, two separate columns of the same table (Patwardhan et al., 2025). Whatever the agent's speed, the price of checking sets the ceiling, and that price rises with the rung, since a larger piece costs more to check. Kamara (2026) calls this cost verification friction. Practitioners in the threads of Section 9 put it in their own words: past a point, checking agent code "differs less and less from rewriting it by hand", and can take longer than writing it oneself (translated).
+GDPval shows what the bound means in practice. On its 220-task gold subset, its experts reported (and the authors verified) on average 404 minutes per task by hand, and reviewing a deliverable took a measured 109 minutes, about 27%, which puts the ceiling near ×3.7 for tasks of that kind. The models produced their drafts 90 to 327 times faster than the experts. Yet in the scenario where a person tries the model and then fixes its work, the authors' calculation (not a measurement) gave GPT-5 a speedup of 1.12 when the model is tried once and 1.39 when it is tried several times, two separate columns of the same table (Patwardhan et al., 2025). Whatever the agent's speed, the price of checking sets the ceiling, and that price rises with the rung, since a larger piece costs more to check. Kamara (2026) calls this cost verification friction. Practitioners in the threads of Section 9 put it in their own words: past a point, checking agent code "differs less and less from rewriting it by hand", and can take longer than writing it oneself (translated).
 
 The same gain can be reached by two roads. A long leash hands over a large piece and checks it at the end; short, fast loops hand over small pieces and check each as it lands. My hypothesis is that checking small pieces along the way is often cheaper than checking a large result at the end, and Anthropic's data point that way. Conversations succeeded more often than one-shot requests, and by the authors' own extrapolation one-shot requests reach 50% success on tasks of about 3.5 hours while conversations would reach it on tasks of about 19 hours (Anthropic, 2026a). The share of collaborative use fell below automation in August 2025 and was back in front, 52% to 45%, by November. The short-loop road is close to what the human-AI collaboration literature studies, and amplification gain credits it as fully as long delegation. Predictions F19 to F21 in Section 11 test the short-loop road.
 
@@ -217,7 +224,7 @@ The same gain can be reached by two roads. A long leash hands over a large piece
 
 ![](figures/figure-4-two-axes-ceilings.png)
 
-Note: The quadrants are profiles, not rungs, and their boundaries are illustrative. Each grey line is the bound G ≤ H / V of Section 5.5 for a given share of checking time V in by-hand time H. The accent line uses GDPval's averages, 404 minutes by hand and 109 minutes of expert review of model output (Patwardhan et al., 2025), and holds for tasks of that kind. The speedups 1.12 and 1.39 are the authors' calculation, not a measurement. The diamond is the worked example of Appendix C4, not data. It lies above the GDPval line because the ceiling is computed per kind of task, and small pieces checked cheaply can beat a ceiling computed for large ones (Section 5.5). The case of 36 stages in Section 5.4 is not plotted: the post gives no gain and no independent check.
+Note: The quadrants are profiles, not rungs, and their boundaries are illustrative. Each grey line is the bound G ≤ H / V of Section 5.5 for a given share of checking time V in by-hand time H. The accent line uses GDPval's averages on its 220-task gold subset, 404 minutes by hand and 109 minutes of expert review of model output (Patwardhan et al., 2025), and holds for tasks of that kind. The speedups 1.12 and 1.39 are the authors' calculation, not a measurement. The diamond is the worked example of Appendix C4, not data. It lies above the GDPval line because the ceiling is computed per kind of task, and small pieces checked cheaply can beat a ceiling computed for large ones (Section 5.5). The case of 36 stages in Section 5.4 is not plotted: the post gives no gain and no independent check.
 
 ### 5.6 Where the measure comes from, and what is new
 
@@ -254,7 +261,7 @@ One practitioner put the objection to any personal scale well: "your autonomy le
 
 The companion paper left open the question of why experienced users delegate less, whether they got burned or whether their judgement is the product (Chernets, 2026a). The second axis can tell the two apart. If the share of directive use falls while verified gain rises, judgement is the product; if gain falls too, they were burned. The companion paper also asked whether the vocabulary of delegation is one grammar or one per profession. I take a position: the grammar is one (set the task, then accept it on evidence), while what counts as evidence differs by domain, which is why the rungs are shared and the scoring happens per domain.
 
-The instrument of Appendix C reports the directive share for each person and domain (the share of pieces handed over in one piece, against stages or joint work), so the first test can be run on the same records that give the rungs, and prediction F20 states it with a date.
+The instrument of Appendix C reports a directive share for each person and domain, counted on pieces (the share of pieces handed over in one piece, against stages or joint work), so a first, coarse test can be run on the same records that give the rungs. Prediction F20 states the test with a date on its registered measure, the "share of a person's turns that give instructions rather than check or edit, from the log" (Table A6): there the share is counted over the turns of the session log rather than over the pieces of the work log of Appendix C, so it is the finer of the two counts.
 
 ### 5.8 How the measure can be gamed, and the defences
 
@@ -273,7 +280,7 @@ Counting accepted, independently checked work closes the cheapest route, spendin
 | Correlated checking | A second model of the same family agreeing | Not counted (Section 5.2) |
 | Parallel streams | Attention counted once per stream | Attention counted once per person-minute (Section 5.4) |
 
-The thresholds are my design choices, and they are provisional. Ten pieces in a window is the smallest count at which an 80% pass share means something (eight passes out of ten). The 91-day window of the lower rungs, and of the recent piece required at the upper ones, matches the quarterly re-verification and the pace at which tools change. The rung rule is a rule of qualification and makes no estimate of a person's reliability. Eight passes out of ten are consistent with a true pass rate anywhere from about 44% to 97% (exact 95% interval), and three out of three with one as low as about 37% (one-sided 95% bound). The pilot will estimate reliability. The share of 80% follows METR's use of the 80% horizon as the level of reliable work, and the rungs of 1, 8, 40, 160 and 500 hours follow the working hour, day, week, month and quarter, so that they need no translation between professions. A desk pre-pilot, with no human participants, tested what can be tested before people are involved (Appendix E). It computed how often a person of known reliability earns each rung (Figure A2, Appendix E). At a true pass rate of 0.8, Day is earned in 68% of windows and the same verdict repeats in the next window in 56%, which is why the record prints the count beside the rung, as in "Day (8/10)". It also found an error in the first version of the rules: four of four at Month was harder to earn than three of three at Quarter (41% against 51% at a pass rate of 0.8), so Month now asks for five of six in a year. Moving the count from ten to eight or twelve, or the share from 0.8 to 0.7 or 0.9, changes the Day verdict for 8% to 22% of simulated logs. Four model raters from four families, estimating reference hours blind, ordered 30 tasks consistently (intraclass correlation 0.89 on log hours) but put only 62% of pairs within a ratio of 1.5, against a target of 80%, and differed by a factor of two in their overall level; given only a task's public identifier, their mean estimate fell within 1.5 of measured human times for 3 of 14 tasks. Model raters therefore cannot replace the two human raters, and the raters of the pilot calibrate on tasks with measured times first. The pilot with people will test what the desk cannot: agreement between human raters (criterion: at least 70% of pairs within 1.5), repeatability of a person's rung across two consecutive windows (weighted kappa at least 0.6), and the ability of a rung to predict passing new tasks of the same size (AUC at least 0.7). Its protocol and registration text are in the companion repository.
+The thresholds are design choices, versioned as rules v1.1 and changed only in a new version after data. Ten pieces in a window is the smallest count at which an 80% pass share means something (eight passes out of ten). The 91-day window of the lower rungs, and of the recent piece required at the upper ones, matches the quarterly re-verification and the pace at which tools change. The rung rule is a rule of qualification and makes no estimate of a person's reliability. Eight passes out of ten are consistent with a true pass rate anywhere from about 44% to 97% (exact 95% interval), and three out of three with one as low as about 37% (one-sided 95% bound). The registered calibration study estimates reliability. The share of 80% follows METR's use of the 80% horizon as the level of reliable work, and the rungs of 1, 8, 40, 160 and 500 hours follow the working hour, day, week, month and quarter, so that they need no translation between professions. A desk test of the thresholds checked the rules by simulation and with model raters (Appendix E). It computed how often a person of known reliability earns each rung (Figure A2, Appendix E). At a true pass rate of 0.8, Day is earned in 68% of windows and the same verdict repeats in the next window in 56%, which is why the record prints the count beside the rung, as in "Day (8/10)". It also found an error in the first version of the rules: four of four at Month was harder to earn than three of three at Quarter (41% against 51% at a pass rate of 0.8), so Month now asks for five of six in a year. Moving the count from ten to eight or twelve, or the share from 0.8 to 0.7 or 0.9, changes the Day verdict for 8% to 11% of simulated logs, and moving both changes it for up to 22%. Four model raters from four families, estimating reference hours blind, ordered 30 tasks consistently (intraclass correlation 0.89 on log hours) but put only 62% of pairs within a ratio of 1.5, against the calibration protocol's criterion of 70%, and differed by a factor of two in their overall level; given only a task's public identifier, their mean estimate fell within 1.5 of measured human times for 3 of 14 tasks. Model raters therefore cannot replace the two human raters, and the raters of the field study calibrate on tasks with measured times first. The calibration protocol fixes the next tests in advance: agreement between human raters (criterion: at least 70% of pairs within 1.5), repeatability of a person's rung across two consecutive windows (weighted kappa at least 0.6), and the ability of a rung to predict passing new tasks of the same size (AUC at least 0.7). Its protocol and registration text are in the companion repository, and a first test with working professionals, of their agreement on reference hours, is registered and described in Appendix G.
 
 Table A4 (Appendix F) gives the rule for the hard cases that come up first.
 
@@ -301,7 +308,13 @@ The first two components are tested by experiments on matched tasks (Section 11)
 
 The direction has a precedent. Bone, González Ehlinger and Stephany (2025), using about eleven million UK vacancies up to mid-2024, found that education requirements fell in AI roles and compared the wage premiums attached to skills and to degrees. That work documented skills-based hiring for AI before agents. This paper extends that line to agentic skills, with a dated threshold and a comparison with matched postings, and proposes to link posting requirements to independently checked performance, in tests that are to be preregistered. PwC's AI Jobs Barometer reports the same direction across countries and serves as the fallback source wherever it measures the same quantity (PwC, 2026).
 
-A second indicator is the distance between what employers say and what they do. Many employers removed degree requirements from their policies before agents arrived, yet the Burning Glass Institute and Harvard Business School found that the change affected fewer than one hire in 700 (Burning Glass Institute & Harvard Business School, 2024). A degree requirement removed on paper is a policy change, and the crossover shows only when hiring itself changes. An audit study, sending matched portfolios that differ only in education to real postings, would see that first, and prediction F26 sets one.
+A second indicator is the distance between what employers say and what they do. Many employers removed degree requirements from their policies before agents arrived, yet the Burning Glass Institute and Harvard Business School found that the change affected fewer than one hire in 700 (Burning Glass Institute & Harvard Business School, 2024). Postings moved the other way: in November 2025, 19.3% of US postings on Indeed asked for a bachelor's degree or higher, up considerably on a year earlier (Indeed Hiring Lab, 2026). A degree requirement removed on paper is a policy change, and the crossover shows only when hiring itself changes. An audit study, sending matched portfolios that differ only in education to real postings, would see that first, and prediction F26 sets one.
+
+A degree belongs to a family of gates that admit people by a label: a profile on a platform, a job title, a degree and, in part, a licence. A label tells an employer about the work only as far as holding it goes with being able to do the work. Agents loosen that link from one side, since people without the label now produce work that looks like the trade's (Section 2.2), and a label that rests on a person's own word was always cheap to claim. A gate that checks the work itself depends on neither. The rater study of Appendix G met the difference by accident. Prolific admits participants to a study through filters whose answers are mostly self-reported, age and country of residence being the main exceptions it verifies (Prolific, 2026). Of the 60 people its filters admitted to the bookkeeping sample, 11 answered a first-week question of the trade wrongly (Appendix G2): the label let them in, and one question of the trade stopped them.
+
+Researchers who recruited programmers on such platforms before agents reported the same pattern and screened with knowledge questions of their own: in one study, 42% of a platform's workers who stated programming skill did not meet the criteria of such questions (Danilova et al., 2021), and in another, on Prolific, 55 of the 206 respondents who reported programming in Node.js passed all of its programming questions (Reid et al., 2022). A knowledge question is itself a weaker gate than a check of delivered work, and chat models weaken it too: in a simulated attack, ChatGPT easily solved the existing screening questions for programmers (Serafini et al., 2024), and by 2026 it also got past the static visual questions that had been designed to resist it, while audio questions that reveal their content step by step under a strict time limit still held (Serafini et al., 2026). In the terms of hiring, the loss of weight that the definition above predicts for a degree is a gate of the first kind giving way to a gate of the second, and the verified delegation horizon is a gate of the second kind: it records not what a person says they are, but what they handed over and what passed a check the agents did not see.
+
+Licences sit between the two kinds. A licence that rests on an examination passed once works, from then on, as a label; a licence whose holder's work is inspected is closer to a check. Audit firms registered with the Public Company Accounting Oversight Board in the United States have their audit work inspected, every year if they regularly audit more than 100 issuers and at least once every three years otherwise, unless the Board sets another schedule by rule (Sarbanes-Oxley Act of 2002, s. 104), a slower counterpart, for a firm's signed work, of the re-verification that Section 5.2 asks of a horizon. Licensing itself has begun to move toward the second kind. Since May 2024 Oregon has offered law graduates a path to the licence without the bar examination, the Supervised Practice Portfolio Examination: over at least 675 hours of supervised practice the candidate submits eight pieces of written work, two client interactions and two negotiations, and graders applying rubrics of the Board of Bar Examiners judge whether each shows minimum competence. By 5 January 2026, 205 candidates had applied and 49 had become licensed attorneys, the first of them in December 2024 (Oregon State Board of Bar Examiners, 2026). The law degree is still required, so the checked work replaces the examination, not the school. In accountancy the move is smaller: in May 2025 the AICPA and NASBA approved model legislation for a path to the CPA licence that asks for a second year of professional experience in place of 30 credit hours of study beyond a bachelor's degree, with the examination kept, and each state must enact it before candidates can use it (Journal of Accountancy, 2025). What the law reserves to a licence stays a boundary of the measure (Section 13). Table A8 (Appendix F) sets the gates of this section side by side by what each checks.
 
 The term "credential" has a second meaning in agent security, where it denotes a secret key or token. Here it means a degree or certificate. The phrase "credential crossover point" in this sense returned no matches in the scholarly bases searched on 9 October 2026 (Appendix B).
 
@@ -331,13 +344,25 @@ Part of the premise is already true. In Beijing, sixth-graders built their own A
 
 The deeper answer comes from the difference between paper and world. On paper the child wins: frontier models score above typical experts on graduate-level science questions, and in a randomised trial novices with a model were about four times more accurate than controls on written biology tasks (Turner, 2026). In the world the advantage disappears. In a study of 1,298 people published in Nature Medicine, the models alone named the right condition in 94.9% of cases, while people using the same models did so in fewer than 34.5%, no better than controls (Nature Portfolio, 2026). In METR's eight-week wet-laboratory trial with 153 novices, access to a model gave no significant gain, and about 5% in each group completed the whole protocol (METR, 2026a).
 
-Those who raise the objection are right that the old vertical, years of study, is losing its value, because the knowledge is in the model for free. What knowledge cannot replace is the ability to tell a right result from a plausible one, and a contact with reality (users, tests, experiments, data) that settles which is which. That loop of acceptance is the new vertical, and it resolves the apparent conflict between "domains matter" and "children need no specialisation". A vertical in this sense is a loop of acceptance built by doing, and years of study are one way to build it among several. A teenager might build it in weeks, through their own product and its users, with no degree; without it, a week of agent work remains a convincing picture. Children are then the cleanest test of background neutrality, since they have no degree and no years of service, only the loop, and they also need someone to answer for their product, the partner that Section 7 names. I do not yet know whether the loop can be built that fast. No verified case was found by October 2026 of a teenager without formal training whose scientific product has users and has passed an independent check, and prediction F24 dates the first such case.
+Those who raise the objection are right that the old vertical, years of study, is losing its value, because the knowledge is in the model for free. What knowledge cannot replace is the ability to tell a right result from a plausible one, and a contact with reality (users, tests, experiments, data) that settles which is which. That loop of acceptance is the new vertical, and it resolves the apparent conflict between "domains matter" and "children need no specialisation". A vertical in this sense is a loop of acceptance built by doing, and years of study are one way to build it among several. A teenager might build it in weeks, through their own product and its users, with no degree; without it, a week of agent work remains a convincing picture. Children are then the cleanest test of background neutrality, since they have no degree and no years of service, only the loop, and they also need someone to answer for their product, the partner that Section 7 names. Whether the loop can be built that fast is a dated question. No verified case was found by October 2026 of a teenager without formal training whose scientific product has users and has passed an independent check, and prediction F24 dates the first such case.
+
+### 6.5 Newcomers to a trade who check by process
+
+Section 6.3 holds that a person who moves into a field they do not know loses the ability to accept work in it, and the objection of Section 6.4 has an adult form: how much of that ability can a process restore? Take a newcomer to bookkeeping, with neither its training nor its years, who works in four steps. Before the work, several models are asked what such a deliverable must contain, what is commonly forgotten and which checks apply. One agent does the work. A second reviews it in a fresh context, without seeing how it was made. A model of another family checks it against sources the person opened. Each step stands in for something that experience used to supply: the agent for the making, the fresh reviewer and the second family for a second look at what was made, and the list drawn up in advance for knowing what the work must contain. Could such a newcomer deliver work that passes more independent checks than an experienced bookkeeper who accepts one agent's output on sight?
+
+Part of the evidence favours the newcomer. Experience does not protect a professional who stops checking. In a field experiment at a consulting firm, a predecessor from before agents, consultants who used a model on a task chosen to lie outside its capability were less likely to reach a correct solution than those who worked without one (Dell'Acqua et al., 2026), and in METR's trial experienced developers believed they had been sped up when they had been slowed down (Section 5.4). Accepting one agent's output on sight is also a weak policy in this trade: on 160 accounting tasks (reconciling accounts, accruing expenses, posting transactions and producing reports) graded against rubrics written by accounting experts, the best of nine frontier models met 56% of the criteria on average, and none produced a fully correct result in all eight of its attempts on more than 2.6% of the tasks (Benchek et al., 2026). A critic can be built in: critic models trained for the purpose caught more bugs in model-written code than human contractors paid for code review, though they also reported bugs that were not there, and contractors working with such a critic caught about as many as the critic alone while reporting fewer false ones (McAleese et al., 2024), a predecessor from before agents. The list drawn up before the work gives the newcomer the first half of acceptance literacy, a statement of what will count as done (Section 6.1), and the models that draw it up know what a trade's examinations ask: GPT-4, given worked examples and tools such as a calculator, passed every section of the CPA, CMA, CIA and EA examinations with an average score of 85.1% (Eulerich et al., 2024), also a predecessor from before agents. Listing first helps the checking too: model judges that could tell a clinical note with an omission from a complete one little better than a coin flip did better when they first listed the facts the source established and then checked the note for each, though even then they flagged only 25% to 37% of the notes that had one (Fox et al., 2026). Knowledge of a particular client comes from working with that client, not from a degree. Who answers for the result is decided by who is willing and trusted to answer (Section 7.2), except where the law reserves the signature (Section 13).
+
+Part of it does not. Under the rule of Section 5.2 the fresh reviewer of the same family is agreement within one family, which may improve the work but earns no credit as a check, and the model of another family counts only when it checks against sources the person opened; where an error cannot be undone, it is only a second line behind a hidden test or a qualified human. Agreement across families is weaker evidence than it looks: across more than 350 models, larger and more accurate ones made highly correlated errors even when their architectures and providers differed, though a shared architecture or provider is among the factors that raise the correlation (Kim et al., 2025). A second family is therefore a better guess at an independent check than a second model of the same family, but not a measurement of independence (Chernets, 2026b). The list drawn up in advance meets a narrower limit. Models are far worse at noticing what is missing from a text than at finding what is in it, even with the original beside them (Fu et al., 2025); a list helps only as far as it is complete, and a missing accrual is an omission that no reviewer is shown. Nor does a warning make an outsider a checker: marketing and sales professionals asked to check an AI's analysis of marketing data missed critical flaws even after being told repeatedly that the AI makes mistakes; laying the analysis out as explicit steps, with alternatives for each decision, helped, though participants often still struggled to reason through them (Virk & Liu, 2025). A balance that agrees is no proof either. In one accounting-software maker's benchmark of 2025, models asked to close a company's books month by month either gave up within the first month or accumulated errors, and when their figures did not match the bank balance some pulled in unrelated transactions to make them agree (Penrose, 2025, as reported by Gigazine, 2025). A newcomer who does not see a step will not ask for it to be checked unless the list names it. The exploratory comparison of Appendix G2 shows how large that gap can be without a list: people who answered a first-week question of the trade wrongly, rating its tasks from their descriptions alone, put its larger tasks at a quarter to a third fewer hours than the others did. Whether a list drawn up by models closes the gap is for the comparison of Section 10.5 to show. Taken as an image, the process is a ladder of equalisers: agents have equalised much of the making, the list before the work and the critic after it may equalise part of the checking, though correlated errors across models (Kim et al., 2025) and the blindness to omissions (Fu et al., 2025) set limits on how much, and what remains is for the measure to show. Figure A4 (Appendix F) sets the four steps against what each stands in for, what each earns under the rule of Section 5.2 and where each stops, and the companion repository gives them as a kit for people who work this way (`kits/checking-process.md`).
+
+The measure does not settle the question in advance, and it does not ask by which route the ability to check was acquired. If the newcomer's process passes checks the agents did not see, with omissions as well as wrong entries among the planted errors, the newcomer's horizon rises like anyone's; if it does not, the record shows that too. If the rival of Section 6.1 is right (Savva, 2026), the process will do best on short, well-specified tasks and worst at the upper rungs, where knowing what a piece must contain matters most, and an experienced professional who adopts the same process should do better than either. If a process can stand in for part of a trade's experience, the labels of experience, junior and senior among them, lose weight for the same reason as degrees, which is the loss the crossover point names (Section 6.2). No registered prediction tests the process: F3b prices overtaking on tasks outside the participants' own domain at 0.10 on the domain argument of Section 6.3, and bears on the question only indirectly. Section 10.5 sets out a comparison that would test it.
 
 ## 7. The second boundary: trust
 
 ### 7.1 Obscurity is the normal state of the market
 
 What happens when everyone can build? The answer of 2026 is that most of what is built is never found. About 560,000 new apps reached the App Store in the first half of 2026, close to the roughly 600,000 of the whole of 2025, while downloads grew about 2%, according to Sensor Tower estimates first reported by The New York Times and summarised by secondary outlets (9to5Mac, 2026; Gigazine, 2026). Releases in the first quarter were up about 60% on the year (TechCrunch, 2026b). In RevenueCat's 2026 report, which covers apps using its software, 17% of new subscription apps reached $1,000 in monthly revenue within two years, against 19% a year earlier, and apps launched since 2025 earned about 3% of subscription revenue in January 2026 (RevenueCat, 2026; PPC Land, 2026). GitHub reported 121 million new repositories in the Octoverse year to August 2025, more than 230 a minute (GitHub, 2025a), and 7.38 billion commits in September 2026 alone, more than five times as many as a year earlier (Celenza, 2026). These numbers count production, not products that found users. Moderators of the "Show HN" section of a large developer forum reported generated projects overwhelming the section with noise and limited new accounts (Krebs, 2026). An investor at Startmate argued in August 2026 that when building is cheap, distribution is what protects a product, and described strong products sitting in a void with a handful of users (Batko, 2026).
+
+The same shape appears among founders. Solo founders led about 36% of the startups founded on Carta in 2025, against 31% in 2024 (Carta, 2026a), and 63% of the C corporations formed through Stripe Atlas so far in the second quarter of 2026, a record for that service (Stripe, 2026). Starting alone has become common; earning alone has not. Among solo founders on Atlas, median revenue in the first six months fell 23% year on year in 2025 while revenue in the top decile rose 19%, so that the top decile earned about 61 times the median, against about 34 times four years earlier (Stripe, 2026). In Carta's previous report, solo founders led 30% of the startups founded in 2024 but received 14.7% of the cash raised in priced equity rounds that year (Carta, 2025). Both samples are the vendors' own customers, not all new firms, but they show what this section describes: more people can start, and the rewards gather at the top.
 
 Platforms protect themselves from the flood by shutting out those without a name. The curl project ended its bug bounty in January 2026 after reports generated by AI swamped it, "not even one in twenty" of them real (Stenberg, 2026). GitHub weighed restricting pull requests to trusted contributors (Open Source For You, 2026). Mitchell Hashimoto released Vouch, under which a newcomer cannot contribute to a project unless an existing participant vouches for them (Hashimoto, 2026; Willison, 2026b). A guard against a flood also stops a newcomer at the door, which is the pattern a companion paper describes for automated oversight in general (Chernets, 2026c). Vouching therefore exists as a mechanism, and whether it becomes a profession is a question for Section 7.2.
 
@@ -353,7 +378,7 @@ The finisher brings the product to people, through channels, launches and visibi
 
 The guarantor puts their name under a product and answers for it to their own circle. In June 2025 the New York Times Magazine named the role "legal guarantor": "someone who provides the culpability that the A.I. cannot" (Capps, 2025). An IBM training slide of 1979, first posted online in 2017 with its original lost, put the reason in one line: "A computer can never be held accountable" (Willison, 2025a). Neil Lawrence said the same in August 2026: computers do accounting very well, "but they do not do accountability well" (Sadki, 2026). This function is the hardest to automate, because its value lies in a person answering. In the terms of agency theory, the guarantor sells a bond: a promise backed by the guarantor's own reputation, and in mature form by a contract that allocates liability and by insurance that prices it (Jensen & Meckling, 1976).
 
-The function and the profession are separate questions. The function exists wherever someone signs for work they did not make. A profession appears only when that signing is regularly bought and paid for on its own, and whether that will happen I do not know yet; predictions F11 and F12 watch for it. The guarantor also has a natural measure in how many products they vouched for, how long each lived, and how many failed, weighted by how badly. The guide in the second thread of Section 9 says it in four words: word of mouth is reputation (translated). Trust should rest on things that can be checked, as an earlier paper in this series argues for agentic commerce (Chernets, 2026d), and a guarantor's record is one such thing.
+The function and the profession are separate questions. The function exists wherever someone signs for work they did not make. A profession appears only when that signing is regularly bought and paid for on its own, and predictions F11 and F12 date when that happens. The guarantor also has a natural measure in how many products they vouched for, how long each lived, and how many failed, weighted by how badly; the companion repository computes it from the guarantor's ledger, with the weights of severity stated by whoever reads the record (`tools/guarantor_record.py`). The guide in the second thread of Section 9 says it in four words: word of mouth is reputation (translated). Trust should rest on things that can be checked, as an earlier paper in this series argues for agentic commerce (Chernets, 2026d), and a guarantor's record is one such thing.
 
 A third type appears in one of the threads of Section 9: a guide who sells a method for moving a whole company onto agents. The thread shows the selling. To read him as a guarantor for organisations, one who answers for the result to a company's management, is my interpretation of the role he is building.
 
@@ -362,6 +387,8 @@ The person who builds through agents answers inward, for what they accepted from
 ## 8. Two markets: the gold rush and the wedding photographer
 
 In 1849 crowds rushed to California for gold. The average daily take of a miner, or the daily wage of a hired one, fell from about $20 in 1848 to $16 in 1849, $10 in 1850 and $6 in 1852 (Paul, 1947, p. 349). Bancroft put the gold taken out per miner in 1852 at "only $600, or barely $2 a day", at a time when wages for common labor ran two and three times higher (Bancroft, 1888, pp. 423-424). Sam Brannan, who sold the miners their tools, showed that "the surest way to prosper was to leave the mining to others" (Andrist, 1962), and sellers of tools and cloth did well. The pattern is visible in 2026. A fifth of new subscription apps or fewer reach $1,000 a month (Section 7.1), while sellers of the tools grow fast: Lovable's revenue, for one (TechCrunch, 2026a), and Uber's annual AI budget spent in four months (Fortune, 2026b), flowing to the laboratories.
+
+Venture money follows the same path at a larger scale. AI firms took 61% of global venture capital in 2025, $258.7 billion of $427.1 billion, and mega deals made up about 73% of the value invested in AI (OECD, 2026). In the first half of 2026 two laboratories, OpenAI and Anthropic, raised about $217 billion between them, some 43% of all startup funding worldwide (Crunchbase News, 2026). At the other end, the average US pre-seed instrument on Carta reached a record $276,000 in the second quarter of 2026, while the number of instruments fell by about a fifth on the year (Carta, 2026b). Larger cheques to fewer newcomers are what one would expect if building has become cheap and judging who will succeed has not. A person who can build is not, on that evidence alone, a person who can raise.
 
 The analogy breaks in one place, and the break matters more than the fit. The price of gold was fixed by law, so gold did not get cheaper as more was mined, and miners lost because the placers ran out and the crowd grew. Software copies almost for free. Every new product adds a close substitute for the others, and the price of close substitutes falls toward the cost of copying, which is close to nothing. The gold does not run out; it turns into sand, except where something that cannot be copied (trust, a signature, a maintained service) is sold with it.
 
@@ -415,15 +442,19 @@ Schools adding AI literacy to the curriculum can give the "Manage AI" domain of 
 
 Vendors can let acceptance leave the product. A person should be able to export the task, the inputs, the check and the decision to accept, so that the record can travel to an employer or a school. Usage would then be reported the same way, by counting people who accepted verified work instead of people who opened the application.
 
+One platform has already started down this road, from the vendor's side. In January 2026 LinkedIn began to show verified AI skills issued by Lovable, Replit, Descript and Relay.app on the basis of how a member actually used each tool (LinkedIn, 2026a). Such a badge attests use of a tool, judged by the tool's own vendor against tiers the vendor sets; it does not attest a result checked by someone the person did not choose. The same platform sells agents to recruiters, with agentic hiring products above a $450 million annual revenue run rate by April 2026 (LinkedIn, 2026b), and in July 2026 gave members a button to report posts that "seem like AI slop" (TechCrunch, 2026c), after the detector vendor Pangram estimated that 41% of long posts on the site in April to June 2026 were wholly generated (The Decoder, 2026). When text about one's work costs nothing to produce, a profile says less, and a record of verified work that does not depend on any single vendor says more.
+
 Platforms that closed their doors to the unknown, as many did in 2026, can open a second door through vouching. A newcomer whose work a known person signs for passes, and the voucher's record grows or shrinks with what happens next.
 
 ### 10.4 For products that onboard people to agents
 
-Many onboarding products, including my own teaching application, still separate "beginners" and "programmers" at the first screen. The measure suggests replacing the two doors with one question: what can you already hand to an agent and check, nothing yet, an hour, a day or a week? Until the doors merge, asking about IT education once, with consent, lets background neutrality be tested on the product's own users.
+Onboarding products commonly separate "beginners" and "programmers" at the first screen. The measure suggests replacing the two doors with one question: what can you already hand to an agent and check, nothing yet, an hour, a day or a week? Until the doors merge, asking about IT education once, with consent, lets background neutrality be tested on the product's own users.
 
 ### 10.5 For researchers
 
-Researchers can build the person-by-task panels that Chen and Meng (2026) say do not exist, compare people with people who use the same agents under blind checks, report the denominator with the work that failed checks included, and keep the reference bank frozen and published. The instrument of Appendix C is a start: it does not count pieces whose check is recorded as not independent, and it reports both axes with a date.
+Researchers can build the person-by-task panels that Chen and Meng (2026) say do not exist, compare people with people who use the same agents under blind checks, report the denominator with the work that failed checks included, and keep the reference bank frozen and published. The instrument of Appendix C already does this: it does not count pieces whose check is recorded as not independent, and it reports both axes with a date.
+
+One comparison follows from Section 6.5 and has not been run. On the same tasks of the bank, under checks the agents did not see and with planted errors of both kinds, wrong entries and missing ones, it would cross experience in the trade (present or absent) with the way of working (one agent whose output is accepted as it comes, or the checking process of Section 6.5). Experience would be established by a knowledge screen and a record of work, not by a profile label (Section 6.2), and pieces whose errors cannot be undone would be checked by a hidden test or a qualified human, as Section 5.2 requires. Omissions and wrong entries would be scored apart: the list drawn up in advance is aimed at the first and the reviewers at the second, and the gap that Appendix G2 suggests is of the first kind. The comparison would show how much of a trade's experience a process can stand in for, and at which rung that stops. A comparison with professionals who work without agents would settle nothing here, for the reason given in Section 11.1. The predictions of Section 11 are frozen and do not include this comparison, which would be registered on its own before data are collected. The companion repository holds it as a protocol to adapt and register (`kits/process-vs-experience-study.md`), with a tool that seals the planted errors of a task before the hand-over and scores wrong entries and omissions apart after it (`tools/planted.py`), and an analysis that prints the four arms and, for each kind of error apart, the effect of the process among newcomers, the effect of experience under one agent and their interaction, with intervals that resample people (`tools/process_study.py`).
 
 ## 11. Dated predictions, registered and scored
 
@@ -439,7 +470,7 @@ The predictions also do not depend on a profession's name. They speak of "people
 
 Table 4 gives the ten core predictions in short form; Table A6 (Appendix D) and the file predictions/predictions.csv of the companion repository give all 41, each with a measure, a baseline from 2025 or 2026, rules for three outcomes (came true, did not, unresolved), a check date and a final date, a probability, a fallback source and the nearest prior or counter forecast. A probability does not excuse a forecaster who turns out to be wrong, but it makes the error scorable. One prediction made at 35% that fails says little on its own. Whether 35% was the right number shows only across the set, where about a third of such predictions should come true. The Brier rule (Brier, 1950) gives one overall score of accuracy over the set, combining calibration with the ability to tell what happens from what does not. The main prediction runs against current opinion, since hiring data still favour degrees for AI work, Gartner expects most vibe-coded applications to be retired, and Andrew Ng argues that deep understanding of programs wins. The table bets the other way, at stated odds: the registered probability of overtaking in one's own domain (F3) is 0.35. It sits below even odds because the vendor data still put programming occupations about 5 points ahead (Section 2.2) and Savva (2026) predicts wider gaps on harder tasks (Section 6.1), and above 0.25 because parity, the step before, is priced at 0.70; the independent model forecasters ranged from 0.25 to 0.55. Figure 7 places every prediction at its check year and its probability.
 
-The predictions fall into two sets. Set A (27 predictions) resolves from public data and from the frozen queries, lists and codebooks in predictions/resolve/, so anyone can score it without me. Set B (14 predictions: F2, F3, F3b, F4a, F4b, F7, F12, F14, F18, F19, F20, F26, F34, F35) is a research programme: it needs data that no public source publishes and resolves only from a study registered separately before data are collected, with a named owner, a protocol and a power calculation. A Set B prediction whose protocol is not registered by 30 June 2027 is recorded as not conducted and listed on every scorecard as a failure of the testing programme. The Brier score is then reported twice, over resolved predictions only and with each prediction not conducted scored as if the forecast had been wrong, so a study that is never run cannot drop out of the count. The experiments of F2, F3 and F3b are one study with 1,500 people per group: that gives about 0.8 power to detect a true advantage of 5 points (two-sided alpha 0.05), where 400 per group would show it only about 30% of the time. For every study-based prediction, an interval that meets neither the came-true rule nor the did-not rule is unresolved, not a failure.
+The predictions fall into two sets. Set A (27 predictions) resolves from public data and from the frozen queries, lists and codebooks in predictions/resolve/, so anyone can score it without me. Set B (14 predictions: F2, F3, F3b, F4a, F4b, F7, F12, F14, F18, F19, F20, F26, F34, F35) is a research programme: it needs data that no public source publishes and resolves only from a study registered separately before data are collected, with a named owner, a protocol and a power calculation. For the nine Set B predictions whose rules are written on an interval, the companion repository applies the frozen came-true and did-not rules to a study's estimates and prints the frozen words beside each verdict (`predictions/set_b.py`). A Set B prediction whose protocol is not registered by 30 June 2027 is recorded as not conducted and listed on every scorecard as a failure of the testing programme. The Brier score is then reported twice, over resolved predictions only and with each prediction not conducted scored as if the forecast had been wrong, so a study that is never run cannot drop out of the count. The experiments of F2, F3 and F3b are one study with 1,500 people per group: that gives about 0.8 power to detect a true advantage of 5 points (two-sided alpha 0.05, at a pass share near 50%, the least favourable case), where 400 per group would show it only about 30% of the time. For every study-based prediction, an interval that meets neither the came-true rule nor the did-not rule is unresolved, not a failure.
 
 The probabilities were fixed on 9 October 2026. Each is the median of three blind forecasts by models of three families (Claude Opus, an OpenAI model and Gemini) that priced the same table without seeing my numbers; I adopted these medians as my probabilities, they are registered on OSF, and every change from my earlier drafts is logged in the changelog. An earlier round of 4 independent model forecasters from 4 families also priced the table blind. Each gave a reference class, a one-line argument and a probability, and their pooled forecast (the geometric mean of odds) is shown beside the registered probability in Table 4, with the spread in the CSV. Where the registered probability differs from the median of that round by more than 0.15 (F28 and F32) the reason is given in the changelog. All probabilities are conditional on the prediction being resolved, because the Brier score is computed over resolved predictions. The share resolved is reported beside it.
 
@@ -476,15 +507,15 @@ On 9 October 2026 I searched Metaculus, Manifold, Good Judgment Open, Kalshi, Po
 
 Where should a prediction live so that nobody, its author included, can quietly change it? Of the places this series uses, only one freezes. An OSF registration cannot be edited or deleted; it can be withdrawn, but a page with its title, dates, DOI and the reason for withdrawal remains (OSF, 2026). Zenodo lets the depositor change or delete files for 30 days after publication, and only new versions after that (OpenAIRE, 2025). SSRN replaces the PDF on revision. So the predictions will be registered on OSF first, as an open-ended registration made public immediately, with no embargo, because an embargo would hide the record and withhold its DOI, and a priority nobody can see is worth little.
 
-On 9 October 2026 the table was registered on OSF as a set of preregistered predictions (DOI 10.17605/OSF.IO/VW6P9), and the paper was posted on SSRN and Zenodo; snapshots of every baseline source are archived in the Wayback Machine. Each year from 2027 to 2031, on the anniversary of the registration, a scorecard is published that lists every prediction without exception, its status (came true, did not, not yet due, unresolved, not conducted) and the evidence. It reports the Brier score over resolved predictions overall, by set and by family, where linked predictions (F1 and F1b; F2, F3 and F3b; F4a and F4b; F15 and F16; F17 and F17b; F28 and F28b) count once; the share resolved; a worst bound in which every prediction past its final date and still unresolved, and every prediction not conducted, is scored as if the forecast had been wrong; the score with and without the predictions not conducted; and the Brier skill score against three references: a flat 0.5, the pooled model forecasters of Table 4, and the market price where a market existed on the registration day. Selective non-resolution therefore cannot improve the score. The scorecard is itself registered on OSF, linked to the original by DOI, and deposited on Zenodo. Models from at least two families check each scorecard independently against the frozen rules; where they disagree the rule decides and the disagreement is reported. The registration text is in Appendix D, and Figure A1 (Appendix D) shows the full calendar of check and final dates. Two commitments fall due before the scoring starts. The sample of agent-built products for F27 is frozen on Zenodo by 31 December 2026, and the baselines of F5 and F30 are computed and archived before registration.
+On 9 October 2026 the table was registered on OSF as a set of preregistered predictions (DOI 10.17605/OSF.IO/VW6P9), and the paper was posted on SSRN and Zenodo; snapshots of every baseline source are archived in the Wayback Machine. Each year from 2027 to 2031, on the anniversary of the registration, a scorecard is published that lists every prediction without exception, its status (came true, did not, not yet due, unresolved, not conducted) and the evidence. It reports the Brier score over resolved predictions overall, by set and by family, where linked predictions count once, grouped as in the family column of the registered table (F1 and F1b; F2, F3 and F3b; F4a and F4b; F5, F6 and F33; F9 and F31; F15 and F16; F17 and F17b; F28 and F28b); the share resolved; a worst bound in which every prediction past its final date and still unresolved, and every prediction not conducted, is scored as if the forecast had been wrong; the score with and without the predictions not conducted; and the Brier skill score against three references: a flat 0.5, the pooled model forecasters of Table 4, and the market price where a market existed on the registration day. Selective non-resolution therefore cannot improve the score. The scorecard is itself registered on OSF, linked to the original by DOI, and deposited on Zenodo. Models from at least two families check each scorecard independently against the frozen rules; where they disagree the rule decides and the disagreement is reported. The registration text is in Appendix D, and Figure A1 (Appendix D) shows the full calendar of check and final dates. Two commitments fall due before the scoring starts. The sample of agent-built products for F27 is frozen on Zenodo by 31 December 2026, and the baselines of F5 and F30 are computed and archived before registration. The protocol of the F27 sample, with a default for each choice the registration leaves open, and the tool that draws it by a seed fixed in advance and seals it are in the companion repository (`kits/f27-sample.md`, `tools/freeze_sample.py`).
 
 Once the predictions are registered, the public ones will also be posted where outside forecasters can price them: five markets on Manifold (F5, F8, F10, F11 and F22, which are free to post; these five were chosen because each resolves on a public source and an external series that anyone can read, with none of my own data), one question on Metaculus (the crossing in postings, F5), and the Social Science Prediction Platform for the experiments of F2, F3 and F7, so that other people's forecasts are collected before the data exist. Prediction markets that trade money on the outcome are not used.
 
-### 11.5 What the cohort programme can test
+### 11.5 The cohort programme
 
-I run a preregistered cohort programme (OSF, https://osf.io/x4egq, DOI 10.17605/OSF.IO/X4EGQ) that follows non-programmers from chat to agents to orchestration (Chernets, 2026e). Its first cohort was registered as a single-arm feasibility study with no hypotheses, and its frozen core items do not ask about IT education. Only its design is used here, and no results are reported. Predictions such as F7, F14 and F18 to F20, which need person-level data that only a cohort can supply, can be tested only by a later cohort registered separately before data are collected, with a question about IT education among its frozen items. The records of Appendix C, kept with consent, are the natural data for that cohort.
+I run a preregistered cohort programme (OSF, https://osf.io/x4egq, DOI 10.17605/OSF.IO/X4EGQ) that follows non-programmers from chat to agents to orchestration (Chernets, 2026e). Its first cohort is a single-arm feasibility study with its own registered outcomes, which are reported in its own report. Predictions such as F7, F14 and F18 to F20, which need person-level data, are tested in a later cohort registered for them before data are collected, with a question about IT education among its frozen items. The records of Appendix C, kept with consent, are the natural data for that cohort.
 
-## 12. What the evidence does not show yet
+## 12. The evidence the predictions bet against
 
 The predictions of Section 11 run against several kinds of evidence from 2026, and each of them shaped a rule of the measure or a prediction.
 
@@ -492,9 +523,9 @@ Security has not kept pace. Across more than a hundred models, the share of gene
 
 Passing tests is short of being accepted. METR asked maintainers to review agent-written fixes that had passed a benchmark's tests and found that about half would not have been merged as they stood; the agents were of an earlier generation without a review loop, so the share may now be lower (METR, 2026b). The scoring rule answers with hidden tests, qualified reviewers and real use, and F2 adds a maintenance change a month later.
 
-Verification depends on experience. In a survey of 162 people who build by vibe coding, every group recognised the risks of generated code, but how they checked it varied with experience. The authors call this a perception-action gap (Fawzy et al., 2026). Business users and novices produce working prototypes fast, while code quality is uneven and rework follows (Gama et al., 2026). Business users also missed material errors in an AI's analysis even after being warned (arXiv:2508.06484, 2025). A randomised study of 52 junior engineers learning a new library found comprehension scores of 50% with AI against 67% without, and no significant gain in speed. Those who asked the model for explanations scored 65% or more, and those who handed over all the code scored under 40% (Anthropic, 2026c). This is the strongest reason the measure rests on acceptance literacy and planted errors: the skill that separates people is the one these studies show varying.
+Verification depends on experience. In a survey of 162 people who build by vibe coding, every group recognised the risks of generated code, but how they checked it varied with experience. The authors call this a perception-action gap (Fawzy et al., 2026). Business users and novices produce working prototypes fast, while code quality is uneven and rework follows (Gama et al., 2026). Business users also missed material errors in an AI's analysis even after being warned (Virk & Liu, 2025). A randomised study of 52 junior engineers learning a new library found comprehension scores of 50% with AI against 67% without, and no significant gain in speed. Those who asked the model for explanations scored 65% or more, and those who handed over all the code scored under 40% (Anthropic, 2026c). This is the strongest reason the measure rests on acceptance literacy and planted errors: the skill that separates people is the one these studies show varying.
 
-The comparisons that exist are not yet the comparison the thesis needs. Esnaola et al. (2026) found that some non-programmers using GPT-4o through ChatGPT solved small, well-specified programming problems at a level comparable to programmers working without AI, and faster; the authors call the study exploratory. The programmers worked without AI, so the design had no programmers-with-AI arm, and it studied short individual tasks, not sustained development; a replication package is public (Esnaola et al., 2026). In Anthropic's data, people who were new to a task had a verified success rate of 15% against 28% to 33% for more experienced users (Anthropic, 2026e). There, "novice" means a novice at the task, as judged by a model, and says nothing about IT education. I do not yet know whether the gap it shows is a gap of education or of task familiarity, and F7 is written to tell the two apart. Earlier still, generative AI at a customer-support firm raised the productivity of novice and low-skilled agents most and that of the most experienced little (Brynjolfsson et al., 2025), a predecessor from before agents. In 2024 a field experiment at Procter & Gamble with chat models found that individuals with AI matched teams without it and produced balanced work regardless of their professional background, a predecessor from before agents (Dell'Acqua et al., 2025). F2, F3 and F7 are designed to supply the missing comparison.
+No published comparison sets non-programmers against programmers who use the same agents. Esnaola et al. (2026) found that some non-programmers using GPT-4o through ChatGPT solved small, well-specified programming problems at a level comparable to programmers working without AI, and faster; the authors call the study exploratory. The programmers worked without AI, so the design had no programmers-with-AI arm, and it studied short individual tasks, not sustained development; a replication package is public (Esnaola et al., 2026). In Anthropic's data, people who were new to a task had a verified success rate of 15% against 28% to 33% for more experienced users (Anthropic, 2026e). There, "novice" means a novice at the task, as judged by a model, and says nothing about IT education. Whether that gap reflects education or familiarity with the task is what F7 is written to separate. Earlier still, generative AI at a customer-support firm raised the productivity of novice and low-skilled agents most and that of the most experienced little (Brynjolfsson et al., 2025), a predecessor from before agents. In 2024 a field experiment at Procter & Gamble with chat models found that individuals with AI matched teams without it and produced balanced work regardless of their professional background, a predecessor from before agents (Dell'Acqua et al., 2025). F2, F3 and F7 are designed to supply the missing comparison.
 
 Respected voices disagree with the strong version. Karpathy keeps a floor and a ceiling (Section 2.1). Andrew Ng argued in August 2026 that developers who understand deeply how programs work far outperform those who vibe code without that understanding (Ng, 2026). Hiring data point the same way for now: postings that require AI skills are still more likely to require a four-year degree than comparable postings that do not (Lightcast, 2026b), and LinkedIn attributes much of the weakness in entry-level hiring to the economy (Section 2.4). The predictions take these views as their counterparty, with odds stated in advance.
 
@@ -512,7 +543,9 @@ Respected voices disagree with the strong version. Karpathy keeps a floor and a 
 
 **The strong thesis.** That people without technical education will build better products than programmers is stated as a set of predictions with dates and thresholds (F2 to F7). I present it as a forecast, to be scored in public.
 
-**Pre-agent data.** Series from before 2025 enter only as predecessors. A reader may object that this selects the evidence. The macroeconomics of hiring is carried by the 2026 LinkedIn data (Section 2.4), which point to the economy more than to AI.
+**Acts reserved by law.** Where the law reserves an act to a licence, neither the measure nor the loss of weight by label gates (Sections 6.2 and 6.5) moves that act. In the United Kingdom no one may act as statutory auditor who is not eligible for appointment, which takes membership of a recognised supervisory body and eligibility under its rules (Companies Act 2006, ss. 1212 and 1213), and in the United States only a firm registered with the Public Company Accounting Oversight Board may prepare or issue an audit report on an issuer (Sarbanes-Oxley Act of 2002, s. 102). In bookkeeping such reservations are narrow: a bookkeeping clerk in the United States is not usually required to hold even a certification (Bureau of Labor Statistics, 2026c). In law they are wider: England and Wales reserve six legal activities, among them the conduct of litigation and probate activities (Legal Services Act 2007, s. 12). The work can therefore move while the signature stays, and the licensed signer then performs the guarantor's function of Section 7.2 in a form the law already prices. How far a licence itself admits by a label or by checked work is discussed in Section 6.2.
+
+**Pre-agent data.** Series from before 2025 enter only as predecessors, because they describe work without agents. The macroeconomics of hiring is carried by the 2026 LinkedIn data (Section 2.4), which point to the economy more than to AI.
 
 **Status of claims.** Table A7 (Appendix F) applies the series' language of confidence to each element.
 
@@ -520,23 +553,25 @@ Respected voices disagree with the strong version. Karpathy keeps a floor and a 
 
 A bookkeeper comparing coding agents and a lawyer building her own contract checker now work the way a developer does when she hands a module to an agent and checks the result. By 2026 the three share one workflow, and neither of the old ladders can say which of them is further along. A title would not settle it, because every title proposed in 2026 is either a slogan or someone's job advertisement, and the market has not chosen among them. A measure can settle it, provided it counts the right thing.
 
-The measure proposed here does not wait for the profession to be named. It reads the bookkeeper, the lawyer and the developer on one scale, the size of the work each handed to agents and had checked, in a domain and at a date, with a second axis for how much verified work an hour of their own attention bought. Its thresholds are provisional until a pilot with people sets them, and a desk test has already corrected one of them, its rules name the ways the record can be gamed and a defence for each, and its ceiling explains why the price of checking sets the limit whatever the agent's speed. For an employer, a school or a platform the question changes. Instead of asking whether a person is a programmer, or how much AI they used, they ask for a day's work in the person's own field that passed a check the person did not design. Any name the market chooses can be read on that scale.
+The measure proposed here does not wait for the profession to be named. It reads the bookkeeper, the lawyer and the developer on one scale, the size of the work each handed to agents and had checked, in a domain and at a date, with a second axis for how much verified work an hour of their own attention bought. Its thresholds are versioned and desk-tested, and the desk test has already corrected one of them; its rules name the ways the record can be gamed and a defence for each, and its ceiling explains why the price of checking sets the limit whatever the agent's speed. For an employer, a school or a platform the question changes. Instead of asking whether a person is a programmer, or how much AI they used, they ask for a day's work in the person's own field that passed a check the person did not design. Any name the market chooses can be read on that scale.
 
-Dated predictions carry the thesis that began this paper. Domain by domain, products made by people without an IT education will begin to overtake those of programmers who use the same agents. At an equal verified horizon, a programming education will stop predicting the quality of checked work. And in job postings, the lines for degree requirements will cross, first in domains where experts can accept the work themselves and last in software. If the scorecards of 2027 and 2028 go against these forecasts, they will say so in public, with a Brier score. If the forecasts hold, the words junior and senior may survive, with their meaning shifted toward the size of work a person can prove; whether large employers replace their grade ladders with such a measure is itself a prediction here (F17), with low draft odds.
+Dated predictions carry the thesis that began this paper. Domain by domain, products made by people without an IT education will begin to overtake those of programmers who use the same agents. At an equal verified horizon, a programming education will stop predicting the quality of checked work. And in job postings, the lines for degree requirements will cross, first in domains where experts can accept the work themselves and last in software. If the scorecards of 2027 and 2028 go against these forecasts, they will say so in public, with a Brier score. If the forecasts hold, the words junior and senior may survive, with their meaning shifted toward the size of work a person can prove; whether large employers replace their grade ladders with such a measure is itself a prediction here (F17), registered at p = 0.05.
 
 One boundary will remain whatever happens to these predictions. Building is becoming a literacy, like writing. Answering for what is built remains a profession, and between the two stands obscurity, the condition of the 2026 market, in which good work goes unseen and platforms close their doors to the unknown. The person who builds through agents will need a partner who signs for the work, or will have to become that partner, and the guarantor in turn can be measured by what they vouched for and how much of it held.
+
+An American saying holds that God created men and Colonel Colt made them equal. Agents do something like it for making: with one, a person outside a trade can produce work that looks like the trade's. Checking is harder to equalise (Sections 5.2 and 12). In the rater study of Appendix G, nearly one in five people admitted to the bookkeeping sample on their own word answered a first-week question of the trade wrongly, and in an exploratory comparison they rated the larger tasks at fewer hours than the rest did (Appendix G2). Whether a process of independent checks can do for checking what agents did for making is the open question of Section 6.5. What still separates people is what they can check and accept, and that is what the verified delegation horizon measures.
 
 ## Declarations
 
 **Funding.** No external funding supported this work.
 
-**Competing interests.** The author develops multi-model orchestration methods and has filed related patent applications (pending; no patent has been granted). The author designed the preregistered cohort programme described in Section 11.5 and its materials, and develops a teaching application that helps people work through AI agents. No finding in this paper depends on the author's implementation; the instrument in Appendix C uses only the Python standard library.
+**Competing interests.** The author develops multi-model orchestration methods and has filed related patent applications (pending; no patent has been granted). The author designed the preregistered cohort programme described in Section 11.5 and Appendix G and its materials, and develops a teaching application that helps people work through AI agents. No finding in this paper depends on the author's implementation; the instrument in Appendix C uses only the Python standard library.
 
-**Tools and verification.** AI assistants were used as instruments under the author's direction; the ideas, research and conclusions are the author's. Quantitative claims and citations were checked against primary sources or archived copies as of 9 October 2026 where those could be retrieved. Where only a press report or a vendor's page was available, the claim is attributed to that report or vendor in the text. Titles given in square brackets in the references are descriptive titles for pages whose headline was not re-read verbatim.
+**Tools and verification.** AI assistants were used as instruments under the author's direction; the ideas, research and conclusions are the author's. Quantitative claims and citations were checked against primary sources or archived copies as of 9 October 2026, or 10 October 2026 for the sources added that day, where those could be retrieved. Where only a press report or a vendor's page was available, the claim is attributed to that report or vendor in the text. Titles given in square brackets in the references are descriptive titles for pages whose headline was not re-read verbatim.
 
-**Data and code availability.** The code and schema of Appendix C, the desk pre-pilot of Appendix E and the prediction files are released under the MIT licence in a companion repository (https://github.com/vadimchernets/delegation-horizon), archived on Zenodo with release v1.0.0 (DOI 10.5281/zenodo.23267444); the code printed in Appendix C is identical to the repository's, byte for byte. The predictions of Tables 4 and A6 were registered on OSF on 9 October 2026 (DOI 10.17605/OSF.IO/VW6P9).
+**Data and code availability.** The code and schema of Appendix C, the desk test of the thresholds (Appendix E) and the prediction files are released under the MIT licence in a companion repository (https://github.com/vadimchernets/delegation-horizon), archived on Zenodo as release v1.1.0 (concept DOI 10.5281/zenodo.23267444, which resolves to the latest release); the code printed in Appendix C is identical to the repository's, byte for byte, and `tools/paper_sync.py` checks this, the worked example and Tables 4 and A6 against the repository whenever its tests run beside this text. The predictions of Tables 4 and A6 were registered on OSF on 9 October 2026 (DOI 10.17605/OSF.IO/VW6P9). The Prolific rater study of Appendix G was registered on OSF on 9 October 2026, before any data were collected (DOI 10.17605/OSF.IO/V92R8); its analysis script (`pilot/human_raters.py`) is filed with that registration and is in the companion repository as filed, with the SHA-256 that OSF reports for each filed file listed in `pilot/registered-SHA256.txt`, together with the scripts that convert the Prolific exports, print Table G2 and run the comparison of G2 that was not registered. The anonymised data, with Prolific identifiers replaced by plain labels, will be added to the same folder. The files registered with the predictions are listed with their SHA-256 in `predictions/registered-SHA256.txt`, the manifest filed on OSF, and a test of the repository compares every one of them with it.
 
-**Ethics.** This paper reports no data from human participants. The cohort programme it describes is preregistered (OSF, DOI 10.17605/OSF.IO/X4EGQ); its results will be reported separately. The public threads discussed in Section 9 are paraphrased, and their authors are not named.
+**Ethics.** Appendix G reports two sources of data from people. The Prolific rater study is an anonymous online rating task: adult professionals gave informed consent on Prolific before taking part, were paid through the platform, and gave no names or contact details. The cohort account summarises, without names, places or languages, the records of adults who consented to the preregistered cohort programme (OSF, DOI 10.17605/OSF.IO/X4EGQ) and to anonymised publication; the programme's registered outcomes are reported separately. The work was carried out by an independent researcher without an institutional ethics committee. The public threads discussed in Section 9 are paraphrased, and their authors are not named.
 
 **Author contributions.** Sole author.
 
@@ -582,9 +617,11 @@ Arion Research. (2026, February 7). [The agent manager role]. https://www.arionr
 
 Artificial Lawyer. (2026, January 27). Claude Cowork: the DIY revolution in law. https://www.artificiallawyer.com/2026/01/27/claude-cowork-the-diy-revolution-in-law/
 
-arXiv:2508.06484. (2025). [Business users overlooking material errors in AI-generated analysis]. https://arxiv.org/abs/2508.06484
+Atkinson, T., & Yamco, S. (2026, January 6). Young workers' employment drops in occupations with high AI exposure. Federal Reserve Bank of Dallas. https://www.dallasfed.org/research/economics/2026/0106
 
 Batko, M. (2026, August 20). [Distribution is the moat]. Startmate. https://startmate.com/writing/distribution-is-the-moat
+
+Benchek, J., et al. (2026). APEX-Accounting. arXiv:2607.27189. https://arxiv.org/abs/2607.27189
 
 Berkeley California Management Review. (2025, July). Rethinking AI agents: A principal-agent perspective. https://cmr.berkeley.edu/2025/07/rethinking-ai-agents-a-principal-agent-perspective/
 
@@ -608,6 +645,8 @@ Bureau of Labor Statistics. (2026a). Photographers. Occupational Outlook Handboo
 
 Bureau of Labor Statistics. (2026b). 2028 SOC revision. https://www.bls.gov/soc/2028/2028_soc_revision.htm
 
+Bureau of Labor Statistics. (2026c). Bookkeeping, accounting, and auditing clerks. Occupational Outlook Handbook (updated 27 August 2026). https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm
+
 Burning Glass Institute & Harvard Business School. (2024). Skills-based hiring: The long road from pronouncements to practice. https://www.burningglassinstitute.org/research/skills-based-hiring-2024
 
 Business Insider. (2026, January 22). [Deloitte gives US employees new job titles]. https://www.businessinsider.com/deloitte-gives-us-employees-new-job-titles-leader-role-2026-1
@@ -615,6 +654,12 @@ Business Insider. (2026, January 22). [Deloitte gives US employees new job title
 Cagan, M. (2025). The era of the product creator. SVPG. https://www.svpg.com/the-era-of-the-product-creator/
 
 Capps, R. (2025, June 17). [New jobs that AI could create]. The New York Times Magazine. https://www.nytimes.com/2025/06/17/magazine/ai-new-jobs.html
+
+Carta. (2025). Solo founders report 2025. https://carta.com/data/solo-founders-report
+
+Carta. (2026a). 2026 founder ownership report. https://carta.com/data/founder-ownership-2026-full-report/
+
+Carta. (2026b). State of pre-seed: Q2 2026. https://carta.com/data/state-of-pre-seed-q2-2026/
 
 Challenger, Gray & Christmas. (2026). [Job cuts report, June 2026]. https://www.challengergray.com/wp-content/uploads/2026/07/Challenger-Report-June2600986996.pdf
 
@@ -642,15 +687,23 @@ Clark, M. (2026). [Proposal for a Chartered Financial Intelligence Architect]. S
 
 Collins Dictionary. (2025). Collins Word of the Year 2025. https://blog.collinsdictionary.com/language-lovers/collins-word-of-the-year-2025-ai-meets-authenticity-as-society-shifts/
 
+Companies Act 2006, c. 46, ss. 1212 and 1213 (United Kingdom). Individuals and firms: eligibility for appointment as a statutory auditor; Effect of ineligibility (accessed 10 October 2026). https://www.legislation.gov.uk/ukpga/2006/46/section/1212 ; https://www.legislation.gov.uk/ukpga/2006/46/section/1213
+
 Computing Research Association. (2026, June). [New CRA Taulbee Survey findings: record degree production alongside a cooling enrollment pipeline]. https://cra.org/crn/2026/06/cra-update-new-cra-taulbee-survey-findings-show-record-degree-production-alongside-a-cooling-enrollment-pipeline/
 
 CSET. (2025). [Translation: China's notice on AI education in primary and secondary schools]. Center for Security and Emerging Technology. https://cset.georgetown.edu/publication/china-primary-secondary-ai-education-notice/
+
+Crunchbase News. (2026, July 2). Crunchbase data: Global startup investment hit record $510B in H1 2026 as AI boom accelerates funding and exits. https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/
+
+Danilova, A., Naiakshina, A., Horstmann, S., & Smith, M. (2021). Do you really code? Designing and evaluating screening questions for online surveys with programmers. 2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE), 537-548. https://doi.org/10.1109/ICSE43902.2021.00057
 
 Dawson, R. (2026). [Framework: levels of AI delegation in decision making]. https://rossdawson.com/framework-levels-ai-delegation-decision-making
 
 Dealroom. (2026). Mercor doubles to $2B gross revenue run-rate as AI labs buy expert data. https://dealroom.co/news/137121-mercor-doubles-to-2b-gross-revenue-run-rate-as-ai-labs-buy-expert-data/
 
 Dell'Acqua, F., et al. (2025). The cybernetic teammate: A field experiment on generative AI reshaping teamwork and expertise. NBER Working Paper 33641. https://www.nber.org/papers/w33641
+
+Dell'Acqua, F., et al. (2026). Navigating the jagged technological frontier: Field experimental evidence of the effects of artificial intelligence on knowledge worker productivity and quality. Organization Science, 37(2), 403-423. https://doi.org/10.1287/orsc.2025.21838
 
 Digg. (2026). [Your job title is about to change: AI Agent Supervisor]. https://digg.com/aiagentchat/TvbtLF2/your-job-title-is-about-to
 
@@ -665,6 +718,8 @@ Engelbart, D. C. (1962). Augmenting human intellect: A conceptual framework (Sum
 Escape. (2026). Methodology: how we discovered vulnerabilities in apps built with vibe coding (accessed 9 October 2026). https://escape.tech/blog/methodology-how-we-discovered-vulnerabilities-apps-built-with-vibe-coding/
 
 Esnaola, L. M., Ramón, H. D., & Lanzarini, L. C. (2026). Can generative AI bridge the gap? A quasi-experimental study of non-programmers with AI vs. programmers without AI. Empirical Software Engineering, 31(3), 75. https://doi.org/10.1007/s10664-026-10813-7 Replication package: https://doi.org/10.5281/zenodo.17803568
+
+Eulerich, M., Sanatizadeh, A., Vakilzadeh, H., & Wood, D. A. (2024). Is it all hype? ChatGPT's performance and disruptive potential in the accounting and auditing industries. Review of Accounting Studies, 29(3), 2318-2349. https://doi.org/10.1007/s11142-024-09833-9
 
 Fawzy, A., Tahir, A., & Blincoe, K. (2026). From prompting to verification: How experience shapes vibe coding practices. arXiv:2605.24521. https://arxiv.org/abs/2605.24521
 
@@ -684,6 +739,10 @@ Fortune. (2026b, May 26). [Uber's chief operating officer on AI spending]. https
 
 Fortune. (2026c, July 7). [Cognition's chief executive on tokenmaxxing]. https://fortune.com/2026/07/07/cognition-ceo-tokenmaxxing-big-tech-carried-away-ai-productivity-gains/
 
+Fox, S., Markham, L., Lail, R., & Karotsieris, M. (2026). LLM judges verify presence, not absence: Omission blindness in AI clinical notes and what recovers it. arXiv:2608.31016. https://arxiv.org/abs/2608.31016
+
+Fu, H. Y., Shrivastava, A., Moore, J., West, P., Tan, C., & Holtzman, A. (2025). AbsenceBench: Language models can't tell what's missing. arXiv:2506.11440. https://arxiv.org/abs/2506.11440
+
 Gama, et al. (2026). [Novice teams building software with AI]. ICSE 2026. arXiv:2512.02750. https://arxiv.org/abs/2512.02750
 
 Gartner. (2009). Gartner Symposium/ITxpo Orlando brochure (use of "citizen developer"). https://www.gartner.com/imagesrv/symposium/pdf/orlando_symposium_conference_brochure.pdf
@@ -693,6 +752,8 @@ Gartner. (2021, June 10). Gartner says the majority of technology products and s
 Gartner. (2024, October 22). Gartner unveils top predictions for IT organizations and users in 2025 and beyond. https://www.gartner.com/en/newsroom/press-releases/2024-10-22-gartner-unveils-top-predictions-for-it-organizations-and-users-in-2025-and-beyond
 
 Gartner. (2026). Tyagi, N. Govern vibe coding for citizen developers with self-service platforms (29 June 2026; document 8068765). https://www.gartner.com/en/documents/8068765 (subscriber access; figures cited as summarised by Tray.ai, 2026)
+
+Gigazine. (2025, July 24). What are the results of the 'AccountingBench' benchmark, which tests an AI model for monthly accounting tasks? https://gigazine.net/gsc_news/en/20250724-accountingbench/
 
 Gigazine. (2026, July 21). [Sensor Tower: new App Store apps in the first half of 2026]. https://www.gigazine.net/gsc_news/en/20260721-app-store-new-apps
 
@@ -708,15 +769,21 @@ Hashimoto, M. (2026). Vouch [repository]. https://github.com/mitchellh/vouch
 
 HCA Magazine. (2026, July 29). [Atlassian introduces AI wallets for employees]. https://www.hcamag.com/ca/news/general/atlassian-introduces-new-ai-wallets-to-employees/584258
 
+Hosseini, S. M., & Lichtinger, G. (2026, May 6). Generative AI as seniority-biased technological change [Working paper; earlier version SSRN 5425555, 2025]. https://raw.githack.com/s-mahdihosseini/Website/b99fa2962dcc4c165bbc3c41dd283afa99c5ccfb/GenAI_SenBTC_May_2026.pdf
+
 Huang, L., Xiao, W., & Vishnoi, N. K. (2026). Delegation and verification under AI. Accepted at ICML 2026. arXiv:2603.02961. https://arxiv.org/abs/2603.02961
 
 Hwang, J. (2026, February 13). Claude Code is the new Excel. https://nextword.substack.com/p/claude-code-is-the-new-excel
+
+Indeed Hiring Lab. (2026, January 28). Where do college degrees still matter in a "skills-first" job market? https://hiringlab.indeed.com/2026/01/28/where-do-college-degrees-still-matter-in-a-skills-first-job-market/
 
 IT Brew. (2026, June 5). AI orchestrators are the newest in-demand AI role. https://www.itbrew.com/stories/ai-orchestrators-are-the-newest-in-demand-ai-role
 
 Jaques, E. (1956). Measurement of responsibility: A study of work, payment and individual capacity. Tavistock Publications. (Reviewed in Industrial and Labor Relations Review, 10(3), 475. https://doi.org/10.2307/2519792)
 
 Jensen, M. C., & Meckling, W. H. (1976). Theory of the firm: Managerial behavior, agency costs and ownership structure. Journal of Financial Economics, 3(4), 305-360. https://doi.org/10.1016/0304-405X(76)90026-X
+
+Journal of Accountancy. (2025, May 14). AICPA, NASBA approve new CPA licensure path. https://www.journalofaccountancy.com/news/2025/may/aicpa-nasba-approve-new-cpa-licensure-path/
 
 Kamara, S. (2026). Verification friction. SSRN. https://doi.org/10.2139/ssrn.6469865
 
@@ -726,6 +793,8 @@ Karpathy, A. (2026, April 30). Sequoia AI Ascent 2026 [talk notes]. https://karp
 
 Khadj, O. J. (2026). The delegation frontier. SSRN. https://doi.org/10.2139/ssrn.7348378
 
+Kim, E., Garg, A., Peng, K., & Garg, N. (2025). Correlated errors in large language models. Accepted at ICML 2025. arXiv:2506.07962. https://arxiv.org/abs/2506.07962
+
 Kingy AI. (2026, May 4). Token spend is coming for your performance review. https://kingy.ai/news/token-spend-is-coming-for-your-performance-review-and-mine/
 
 Ko, A. J., Abraham, R., Beckwith, L., Blackwell, A., Burnett, M., Erwig, M., Scaffidi, C., Lawrance, J., Lieberman, H., Myers, B., Rosson, M. B., Rothermel, G., Shaw, M., & Wiedenbeck, S. (2011). The state of the art in end-user software engineering. ACM Computing Surveys, 43(3), 21. https://doi.org/10.1145/1922649.1922658
@@ -733,6 +802,8 @@ Ko, A. J., Abraham, R., Beckwith, L., Blackwell, A., Burnett, M., Erwig, M., Sca
 Krebs, A. (2026). [Design slop and Show HN]. https://www.adriankrebs.ch/blog/design-slop/
 
 Kwa, T., et al. (2025). Measuring AI ability to complete long tasks. arXiv:2503.14499. https://arxiv.org/abs/2503.14499
+
+Legal Services Act 2007, c. 29, s. 12 (England and Wales). Meaning of "reserved legal activity" and "legal activity" (accessed 10 October 2026). https://www.legislation.gov.uk/ukpga/2007/29/section/12
 
 Lenny's Newsletter. (2025). [Why LinkedIn is replacing PMs]. https://www.lennysnewsletter.com/p/why-linkedin-is-replacing-pms
 
@@ -742,6 +813,10 @@ Lightcast. (2026a, August 7). Tracking the agentic AI explosion in jobs. https:/
 
 Lightcast. (2026b, September 9). [Degree requirements still higher for AI jobs]. https://lightcast.io/resources/blog/degree-requirements-ai-jobs
 
+LinkedIn. (2026a, January). LinkedIn gives professionals the edge with verified skills and tools to navigate the job search. https://news.linkedin.com/2026/Professional_Edge_Skills_Verified
+
+LinkedIn. (2026b, April). Q3 earnings and business highlights. https://news.linkedin.com/2026/Q3-Earnings-Highlights
+
 LinkedIn Economic Graph. (2026). AI labor market update, August 2026. https://delivery-p143253-e1476319.adobeaemcloud.com/adobe/assets/urn:aaid:aem:ef153078-1061-4817-82e7-a1c027d7a7d7/original/as/AI-Labor-Market-Update-August-2026-v2.pdf
 
 Manifold. (2026a). [Will it be common for non-programmers to create small scripts using AI by 2027?] (accessed 9 October 2026). https://manifold.markets/jskf/will-it-be-common-for-nonprogrammer-dfc979ea7fec
@@ -749,6 +824,8 @@ Manifold. (2026a). [Will it be common for non-programmers to create small script
 Manifold. (2026b). [Will the number of junior developer roles fall by a third by 2030?] (accessed 9 October 2026). https://manifold.markets/OliverKuperman/will-the-number-of-junior-developer
 
 Manifold. (2026c). [Will the number of people employed as software developers in the US fall by more than 15% from 2023 to 2028?] (accessed 9 October 2026). https://manifold.markets/MatthewBarnett/will-the-number-of-people-employed
+
+McAleese, N., Pokorny, R. M., Ceron Uribe, J. F., Nitishinskaya, E., Trebacz, M., & Leike, J. (2024). LLM critics help catch LLM bugs. arXiv:2407.00215. https://arxiv.org/abs/2407.00215
 
 McKinsey & Company. (2025, January). Superagency in the workplace: Empowering people to unlock AI's full potential at work. https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/superagency%20in%20the%20workplace%20empowering%20people%20to%20unlock%20ais%20full%20potential%20at%20work/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-v4.pdf
 
@@ -786,6 +863,8 @@ Nature Portfolio. (2026, February 9). [Press release: people using language mode
 
 Ng, A. (2026, August 28). The AI engineering skills map in detail: Software engineering fundamentals. The Batch. https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map-in-detail-software-engineering-fundamentals
 
+OECD. (2026, February). Venture capital investments in artificial intelligence through 2025. https://www.oecd.org/en/publications/venture-capital-investments-in-artificial-intelligence-through-2025_a13752f5-en/full-report.html
+
 OECD & European Commission. (2026, June). [AI literacy framework for primary and secondary education]. https://ailiteracyframework.org/blog/empowering-learners-for-the-age-of-ai-literacy-framework/
 
 O'Neill, N. (2026). [The Product Principal, LinkedIn post]. https://www.linkedin.com/posts/nicholasoneill_the-product-principal-activity-7445921322486009856-hAwj
@@ -798,6 +877,8 @@ OpenAI. (2026, June). How agents are transforming work. https://openai.com/index
 
 OpenAIRE. (2025, December 9). Zenodo introduces a new way to manage and correct published records. https://www.openaire.eu/zenodo-introduces-a-new-way-to-manage-and-correct-published-records
 
+Oregon State Board of Bar Examiners. (2026, January 26). Supervised Practice Portfolio Examination: First annual report to the Oregon Supreme Court. https://www.osbar.org/_docs/sppe/2025SPPEAnnualReport.pdf
+
 OSF. (2026). Updating registrations; Addressing fear of scooping on OSF preregistrations (help pages, accessed 9 October 2026). https://help.osf.io/hc/en-us/sections/4414482864279-Updating-Registrations ; https://help.osf.io/article/634-addressing-fear-of-scooping-on-osf-preregistrations
 
 Page, M. J., McKenzie, J. E., Bossuyt, P. M., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. BMJ, 372, n71. https://doi.org/10.1136/bmj.n71
@@ -808,11 +889,17 @@ Paul, R. W. (1947). California gold: The beginning of mining in the Far West. Ha
 
 Patwardhan, T., et al. (2025). GDPval: Evaluating AI model performance on real-world economically valuable tasks. arXiv:2510.04374. https://arxiv.org/abs/2510.04374
 
+Penrose. (2025). Can LLMs do accounting? [AccountingBench]. https://accounting.penrose.com/ (figures cited as reported by Gigazine, 2025)
+
 Phoenix, J. (2026). [Five levels, gated by verification]. https://understandingdata.com/posts/five-levels-gated-by-verification/
 
 PPC Land. (2026, March 6). The app middle class is dying, and RevenueCat's data shows exactly how fast. https://ppc.land/the-app-middle-class-is-dying-and-revenuecats-data-shows-exactly-how-fast/
 
+Prolific. (2026, July 13). How do I use Prolific's filters? Researcher help centre (accessed 10 October 2026). https://researcher-help.prolific.com/en/articles/445159-how-do-i-use-prolific-s-filters
+
 PwC. (2026). AI Jobs Barometer 2026 (press release). https://www.pwc.com/id/en/media-centre/press-release/2026/english/ai-jobs-barometer-en.html
+
+Reid, B., Wagner, M., d'Amorim, M., & Treude, C. (2022). Software engineering user study recruitment on Prolific: An experience report. RoPES 2022. arXiv:2201.05348. https://arxiv.org/abs/2201.05348
 
 Retool. (2026, February 17). Retool's 2026 Build vs. Buy Report (press release). https://www.businesswire.com/news/home/20260217548274/en/Retools-2026-Build-vs.-Buy-Report-Reveals-35-of-Enterprises-Have-Already-Replaced-SaaS-With-Custom-Software
 
@@ -822,11 +909,17 @@ Rogers, E. M. (2003). Diffusion of innovations (5th ed.). Free Press. ISBN 978-0
 
 Sadki, R. (2026, August 14). [Quotes from the agentic AI summit in Berkeley]. https://redasadki.me/2026/08/14/you-cannot-send-an-ai-agent-to-jail-the-scariest-quotes-from-the-agentic-ai-summit-in-berkeley/
 
+Sarbanes-Oxley Act of 2002, Pub. L. No. 107-204, sections 102 and 104 (15 U.S.C. 7212 and 7214) (United States) (accessed 10 October 2026). https://www.law.cornell.edu/uscode/text/15/7212 ; https://www.law.cornell.edu/uscode/text/15/7214
+
 Savva, N. (2026). Context engineering: A principal-agent theory of AI-augmented knowledge work. SSRN. https://doi.org/10.2139/ssrn.6506600
 
 Search Engine Journal. (2026). Marketers report highest rates of AI brain fry. https://www.searchenginejournal.com/marketers-report-highest-rates-of-ai-brain-fry-report-finds/569110/
 
 SemiAnalysis. (2026, February). Claude Code is the inflection point. https://newsletter.semianalysis.com/p/claude-code-is-the-inflection-point
+
+Serafini, R., Otto, C., Horstmann, S. A., & Naiakshina, A. (2024). ChatGPT-resistant screening instrument for identifying non-programmers. Proceedings of the IEEE/ACM 46th International Conference on Software Engineering (ICSE 2024), 1-13. https://doi.org/10.1145/3597503.3639075
+
+Serafini, R., Weber, N., Yardim, A., Horstmann, S. A., & Naiakshina, A. (2026). Robust methods for developer screening in rapidly evolving AI contexts. Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26), 1-18. https://doi.org/10.1145/3772318.3790302
 
 SF Standard. (2026, March 5). [In AI land, everyone's a builder now]. https://sfstandard.com/2026/03/05/engineer-2025-ai-land-everyone-s-builder-now/
 
@@ -856,13 +949,19 @@ State Street. (2026). Agentic Product Builder, Senior Associate [job posting]. h
 
 Stenberg, D. (2026, January 26). The end of the curl bug bounty. https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/
 
+Stripe. (2026, May 28). Solo founding is at an all-time high: Top performers have these traits in common. https://stripe.com/blog/top-solo-founder-traits
+
 TechCrunch. (2026a, September 24). Lovable's annualized revenue crosses $600M as vibe coding takes off. https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/
 
 TechCrunch. (2026b, April 18). The App Store is booming again, and AI may be why. https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/
 
+TechCrunch. (2026c, July 30). LinkedIn adds a button to report AI-generated "slop". https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/
+
 TechRepublic. (2025). [Prompt engineering jobs called obsolete]. https://www.techrepublic.com/article/news-prompt-engineering-ai-jobs-obsolete/
 
 The Decoder. (2025, September). AI-generated workslop is costing companies millions and hurting team morale, study finds. https://the-decoder.com/ai-generated-workslop-is-costing-companies-millions-and-hurting-team-morale-study-finds/
+
+The Decoder. (2026, July 12). LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms. https://the-decoder.com/linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-five-platforms/
 
 The geometry of learning under AI delegation. (2026). [Review of the paper]. https://www.themoonlight.io/fr/review/the-geometry-of-learning-under-ai-delegation
 
@@ -884,6 +983,8 @@ Verheul, J. (2026). The principal firm: Organisational form when the agency func
 
 Veri', D. (2026). Beyond AI literacy: A structured review and exploratory meta-analysis of measures for competent generative-AI use. arXiv:2609.15624. https://arxiv.org/abs/2609.15624
 
+Virk, Y., & Liu, D. (2025). Non-programmers assessing AI-generated code: A case study of business users analyzing data. VL/HCC 2025. arXiv:2508.06484. https://arxiv.org/abs/2508.06484
+
 Wang, S. (2026). The delegation efficient frontier. SSRN. https://doi.org/10.2139/ssrn.7275801
 
 Washington Monthly. (2026, May 29). [AI and entry-level jobs for college graduates]. https://washingtonmonthly.com/2026/05/29/ai-entry-level-jobs-college-graduates/
@@ -902,6 +1003,8 @@ Writer. (2026). [The AI agent owner]. https://writer.com/blog/ai-agent-owner/
 
 Xinhua. (2025, September 19). [Beijing pupils build AI agents in class]. https://english.news.cn/20250919/740f7bd40ec84b69b9d983e1068a94ac/c.html
 
+Yale Budget Lab. (2026, May 7). AI is probably not (yet) the reason for labor market weakening. https://budgetlab.yale.edu/research/ai-probably-not-yet-reason-labor-market-weakening
+
 Yang, et al. (2026). [How people work with an autonomous search agent]. arXiv:2606.07489. https://arxiv.org/abs/2606.07489
 
 Yegge, S. (2026). Welcome to Gas Town. https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04
@@ -914,13 +1017,13 @@ Yegge, S. (2026). Welcome to Gas Town. https://steve-yegge.medium.com/welcome-to
 
 **Independent check.** Hidden acceptance tests, a qualified human reviewer, real use by the intended users, or a model of another family verifying against sources, differing from the agents in data, access and incentives. Self-review and agreement among models of one family are not independent checks.
 
-**Planted error.** An error placed in a task before hand-over, which the person must catch. A piece with a missed planted error does not count as verified, and any miss in a rung's window blocks the rungs from Week upward.
+**Planted error.** An error placed in a task before hand-over, which the person must catch, either a wrong entry or an omission of something the work must contain. A piece with a missed planted error does not count as verified, and any miss in a rung's window blocks the rungs from Week upward.
 
 **Amplification gain.** Reference hours of accepted, verified work divided by hours of the person's attention over the last 91 days in the domain, failed work included in the denominator and work done with outside help excluded from the numerator.
 
 **Ceiling of gain.** In a simplified model, amplification gain G for a piece of H reference hours whose checking takes V hours of attention satisfies G ≤ H / V, that is, one over the share of by-hand time that checking takes.
 
-**Rungs.** Hour (about 1 reference hour), Day (about 8), Week (about 40), Month (about 160), Quarter (about 500). Provisional counts and windows: ten pieces in 91 days for Hour and Day, six in 182 days for Week, six in 365 days for Month (five of them verified), three in 365 days for Quarter. For Week and above, at least one verified piece of the rung's size within the last 91 days.
+**Rungs.** Hour (about 1 reference hour), Day (about 8), Week (about 40), Month (about 160), Quarter (about 500). Counts and windows of rules v1.1: ten pieces in 91 days for Hour and Day, six in 182 days for Week, six in 365 days for Month (five of them verified), three in 365 days for Quarter. For Week and above, at least one verified piece of the rung's size within the last 91 days.
 
 **Record.** Domain · horizon · amplification · date, for example "small-business bookkeeping · Day · ×2 · 2026-Q4".
 
@@ -989,7 +1092,7 @@ One line of a JSON Lines file per piece of work handed to agents, written when t
 | outside_help | Whether a colleague or contractor helped off the log (such a piece adds nothing to the numerator of gain) |
 | task_id, model, tools | Optional: task bank identifier, the agents and models used, and their tools (Section 5.4) |
 | checker | Optional: who or what ran the check, as a role, never a real name |
-| rater_hours | Optional: the raters' estimates behind reference_hours; if the largest is more than 1.5 times the smallest, the scorer prints "needs third rater" (Table 3) |
+| rater_hours | Optional: the raters' estimates behind reference_hours; if there are two and the larger is more than 1.5 times the smaller, the scorer prints "needs third rater" (Table 3); with a third estimate the median decides and the flag is not printed |
 | audit | Optional: none, passed or failed, the result of a second, independent check; a failed audit makes the piece unverified |
 | revoked | Optional: true if a delayed outcome revoked the piece (Table A4); a revoked piece is unverified |
 
@@ -1009,6 +1112,7 @@ Usage: python3 horizon.py work-log.jsonl --as-of 2026-10-09 [--stable]   Rules v
 import argparse
 import datetime as dt
 import json
+import math
 import sys
 import statistics
 from collections import Counter, defaultdict
@@ -1029,6 +1133,7 @@ KEYS = {"person", "domain", "date", "reference_hours", "reference_basis",
         "planted_errors", "planted_missed", "outside_help"}
 OPTIONAL = {"started",      # date the hand-over started (expected from v1.1; the line is written at close)
             "task_id", "model", "tools", "checker", "rater_hours", "audit", "revoked"}
+
 
 def load(path):
     """Every piece handed to agents is a line, including failed and abandoned ones."""
@@ -1061,6 +1166,7 @@ def load(path):
         print(f"warning: {undated} lines without started (expected from rules v1.1)", file=sys.stderr)
     return records
 
+
 def verified(r):
     """A pass counts only if the check was independent, the agents never saw it, no planted error
     was missed, nobody helped off the log, no audit failed and no delayed outcome revoked it.
@@ -1069,6 +1175,7 @@ def verified(r):
             and int(r["planted_missed"]) == 0 and not r["outside_help"]
             and not (r["irreversible"] and r["check"] == "other_family_with_sources")
             and r.get("audit") != "failed" and not r.get("revoked", False))
+
 
 def rung_holds(pieces, hours, minimum, as_of, days):
     start = as_of - dt.timedelta(days=days)
@@ -1091,11 +1198,13 @@ def rung_holds(pieces, hours, minimum, as_of, days):
             return False
     return True
 
+
 def horizon(pieces, as_of):
     for name, hours, minimum, days in RUNGS:        # from the top rung down
         if rung_holds(pieces, hours, minimum, as_of, days):
             return name
     return "below Hour"
+
 
 def rung_pieces(pieces, name, as_of):
     """Pieces of the rung's size in its window (Hour's for 'below Hour'): what the count is out of."""
@@ -1103,11 +1212,13 @@ def rung_pieces(pieces, name, as_of):
     return [r for r in pieces if as_of - dt.timedelta(days=days) < r["date"] <= as_of
             and float(r["reference_hours"]) >= hours]
 
+
 def gain(pieces):
-    done = sum(float(r["reference_hours"]) for r in pieces
-               if verified(r) and not r["outside_help"])                  # outside help excluded
-    spent = sum(float(r["attention_minutes"]) for r in pieces) / 60.0   # failures included
+    done = math.fsum(float(r["reference_hours"]) for r in pieces
+                     if verified(r) and not r["outside_help"])            # outside help excluded
+    spent = math.fsum(float(r["attention_minutes"]) for r in pieces) / 60.0   # failures included
     return None if spent == 0 else done / spent
+
 
 def step(g):
     if g is None:
@@ -1116,6 +1227,7 @@ def step(g):
         if g >= s:
             return f"x{s}"
     return "below x1"
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -1150,9 +1262,10 @@ def main():
         sizes = [float(r["reference_hours"]) for r in recent if r["passed"]]
         median = f"{statistics.median(sizes):.1f} h" if sizes else "n/a"
         spread = any(max(map(float, r["rater_hours"])) / min(map(float, r["rater_hours"])) > RATER_SPREAD
-                     for r in pieces if "rater_hours" in r)
+                     for r in pieces if len(r.get("rater_hours", [])) == 2)   # with three, the median decided
         print(f"  checks: {', '.join(f'{k} {v}' for k, v in kinds) or 'none'};"
               f" median accepted size {median}{'; needs third rater' if spread else ''}")
+
 
 if __name__ == "__main__":
     main()
@@ -1170,6 +1283,7 @@ Usage: python3 brier.py predictions.csv                                  Licence
 """
 import csv
 import sys
+
 
 def main(path):
     resolved, pending = [], []
@@ -1189,6 +1303,7 @@ def main(path):
         mean = sum((p - o) ** 2 for _, p, o in resolved) / len(resolved)
         print(f"Brier score over {len(resolved)} resolved: {mean:.3f} (always saying 0.5 gives 0.250)")
     print("unresolved or not yet due: " + (", ".join(pending) or "none"))
+
 
 if __name__ == "__main__":
     main(sys.argv[1])
@@ -1220,6 +1335,10 @@ P07: small-business bookkeeping . Day (8/10) . x2 . 2026-Q4  (pieces in last 91 
 
 All ten pieces are of at least 8 reference hours. Two do not count as verified: one was checked only by self-review, and one failed an expert's check. Eight of ten is exactly the share Day requires, and the one irreversible piece passed, so the rung is Day. Week is out of reach, since no piece reaches 40 hours. The verified pieces add up to 80 reference hours, against 1,030 minutes (about 17.2 hours) of attention spent on all ten, failures included, which gives a gain of 4.66 and the step ×2. No piece carried planted errors or outside help, so neither of those rules changes the result. Had the failed piece been left out of the log, the rung would have rested on nine pieces and failed the count of ten, which is why failures belong in the record. The count beside the rung, 8/10, shows how close the verdict was (Appendix E), and the second line gives the kinds of check behind the counted pieces and the median accepted size, 9.0 hours, so a reader can see whether the horizon rests on pieces just above a threshold (Table 3). The person's attention, 1,030 minutes, is about 18% of the 96 reference hours handed over and about 21% of the 80 that were verified. The record for a résumé reads "small-business bookkeeping · Day · ×2 · 2026-Q4".
 
+The companion tool `tools/explain.py` prints the reasons behind the same verdict, from the same rules. Eight of ten pieces of Day size are verified and eight are needed, a count consistent with a true pass rate anywhere from 44% to 97% (Section 5.8), so no further failed piece of that size can be absorbed. If nothing new is logged, Day holds through 18 October 2026; on 19 October the piece closed on 20 July leaves the 91-day window, and nine pieces of Day size remain, one short of the ten Day needs. For Week it lists every condition still missing: six pieces of at least 40 hours in 182 days, one of them with planted errors and one verified in the last 91 days.
+
+The constructed log also carries a trace that Table 3 names: five of its ten pieces were rated at exactly 8 hours, the floor of Day, and `tools/too_clean.py` marks it "audit first", with the trace "5 of 10 pieces sit just above a rung threshold". A flag sends a log to an audit and decides nothing about it; the median of 9.0 hours beside the rung shows the same to a reader.
+
 ### C5. The companion repository
 
 The companion repository (https://github.com/vadimchernets/delegation-horizon) holds the instrument and the materials that let readers use each part of the paper. The main files, by section:
@@ -1227,11 +1346,31 @@ The companion repository (https://github.com/vadimchernets/delegation-horizon) h
 | Section | Files | What they do |
 |---|---|---|
 | 5.2, C1 to C4 | `horizon.py`, `log.schema.json`, `examples/` | Scorer, schema of one log line, the worked example and the lines it must print |
-| 5.2, 5.3 | `tools/log_piece.py`, `record_card.py`, `checker.html` | Writing the log by answering questions, a record card, and the same scoring in an offline browser page |
-| 5.8, Table 3 | `audit_sample.py`, `tools/too_clean.py`, `kits/` | Reproducible audit sample, flags for logs that look too clean, audit and planted-error guides |
-| 5.8, Appendix E | `pilot/` | Desk pre-pilot of the thresholds, a bank of 30 tasks, and the protocol, preregistration draft and consent form of the pilot with people |
-| 7.2 | `templates/` | Task card for a task bank and a guarantor record |
-| 11, Tables 4 and A6, C3 | `predictions/`, `brier.py` | The 41 predictions (probabilities fixed on 9 October 2026), resolution rules and files, and the scoring tools |
+| 5.2, 5.3 | `tools/log_piece.py`, `record_card.py`, `checker.html` | Writing the log by answering questions, a record card with the count behind the rung, and the same scoring in an offline browser page; both read a spreadsheet saved with commas or with semicolons |
+| 5.2, 5.8, C4 | `tools/explain.py` | Why a log earns its rung: each condition that holds or fails, the slack, the day the rung lapses if nothing new is logged, and what the next rung needs |
+| 5.1 | `tools/reference_hours.py`, `kits/reference-hours-raters.md` | Reference hours from the raters' estimates, and how to choose, admit and brief the raters |
+| 5.8, Table 3 | `audit_sample.py`, `tools/too_clean.py`, `tools/planted.py`, `kits/` | Reproducible audit sample, flags for logs that look too clean, planted errors sealed before the hand-over and scored by kind (wrong entry or omission), audit and planted-error guides |
+| 6.2, 10.3 | `tools/verify_record.py` | The receiving side of a portable record: whether the log sent with it is the file that was scored, whether the scorer is the same, and whether rescoring gives the same record, field by field |
+| 6.2 | `kits/trade-screen.md`, `tools/gate_leak.py` | Admitting people by a question of the trade instead of a label, and how much a label leaks, with an exact interval (11 of 60 in Appendix G2: 9.5% to 30.4%) |
+| 6.5, 10.5 | `kits/checking-process.md`, `kits/process-vs-experience-study.md`, `tools/process_study.py` | The four steps of Section 6.5 and what each earns under the rule (Figure A4), and the comparison of Section 10.5 as a protocol to register, with its analysis, wrong entries and omissions apart |
+| 5.8, Appendix E | `pilot/` | Desk test of the thresholds, a bank of 30 tasks, the calibration protocol with its registration text and consent form |
+| Appendix G2 | `pilot/` | The registered analysis `human_raters.py` as filed on OSF, the conversion of the Prolific exports, the script that prints Table G2 with the registered functions, the comparison of the screening, and a synthetic export to run them on |
+| 7.2 | `templates/`, `tools/guarantor_record.py` | Task card for a task bank, a guarantor's ledger, and the guarantor's record computed from it: products vouched for, how many lived 6 and 12 months, failures by severity |
+| 11, Tables 4 and A6, C3 | `predictions/`, `brier.py`, `tools/power.py` | The 41 predictions as registered, with the manifest of their hashes filed on OSF, the resolution rules and files, the scoring tools, which record a Set B prediction not conducted and report the Brier score both without it and with it scored as wrong (Section 11.2), and the sample sizes of Section 11.2 |
+| 11, Set B | `predictions/set_b.py` | The frozen came-true and did-not rules of the nine Set B predictions written on an interval, applied to a study's estimates |
+| 11.4, F27 | `kits/f27-sample.md`, `tools/freeze_sample.py`, `tools/liveness.py` | The protocol and the draw of the F27 sample (the closed pool registered first, the key taken afterwards from a public randomness beacon), frozen on Zenodo and its hash registered on OSF by 31 December 2026, and its liveness on each scoring date by F27's words |
+| C2 to C4, Tables 4 and A6 | `tools/paper_sync.py` | Checks this text against the repository: the listings byte for byte, the worked example and its output, the tables of predictions, the counts of the sets, every file named and every figure embedded |
+| Appendix D, Appendix F | `figures/` | The scripts that draw Figure A1 from the prediction table and Figure A4 from the rules of the scorer |
+
+The same files by reader:
+
+| Reader | Start with | What it gives |
+|---|---|---|
+| A person who hands work to agents | `templates/work-log.csv`, `record_card.py` or `checker.html`, `tools/explain.py` | A log kept in a spreadsheet, the record and its card, and what the next rung needs |
+| An employer or an HR team | `kits/hiring-test/`, `kits/trade-screen.md`, `kits/scope-statement.md`, `tools/explain.py` | A paid one-day work test with a blind rater, a question of the trade in place of a label, what a rung says and does not say, and how close a candidate's verdict was |
+| A newcomer to a trade | `kits/checking-process.md`, `kits/acceptance-card.md`, `kits/planted-errors-guide.md` | The steps of Section 6.5 and what each earns, "done" stated before the hand-over, and practice on planted omissions |
+| An auditor or a guarantor | `audit_sample.py`, `tools/too_clean.py`, `tools/planted.py`, `kits/audit-checklist.md` | A sample to check again, the traces of a log that looks too clean, planted errors whose seal shows whether the list was changed |
+| A researcher | `pilot/`, `kits/matched-task-study.md`, `kits/process-vs-experience-study.md`, `tools/power.py`, `predictions/` | The desk test, the rater study and their scripts, protocols for the comparisons, sample sizes, and the registered predictions with their scorecard tools |
 
 ## Appendix D. Registration text for the predictions (OSF)
 
@@ -1239,7 +1378,7 @@ The companion repository (https://github.com/vadimchernets/delegation-horizon) h
 >
 > **Type.** Open-Ended Registration, public immediately, no embargo.
 >
-> **Summary.** This registration freezes the dated predictions stated in "After the Programmer Divide: One Measure for People Who Build Through AI Agents" (SSRN 7589918; Zenodo DOI 10.5281/zenodo.23267267). The attached table gives, for each prediction: its wording; its measure; a public source and a fallback source; a 2025 or 2026 baseline with the date accessed and an archived snapshot; a check date and a final date; a probability fixed on the date of this registration; and the thresholds for three outcomes: came true, did not come true, unresolved.
+> **Summary.** This registration freezes the dated predictions stated in "After the Programmer Divide: One Measure for People Who Build Through AI Agents" (SSRN 7589918; Zenodo DOI 10.5281/zenodo.23267266). The attached table gives, for each prediction: its wording; its measure; a public source and a fallback source; a 2025 or 2026 baseline with the date accessed and an archived snapshot; a check date and a final date; a probability fixed on the date of this registration; and the thresholds for three outcomes: came true, did not come true, unresolved.
 >
 > **Scoring.** Each prediction is scored at the first annual check on or after its check date at which the data exist, and no later than its final date. Resolved predictions are scored by the Brier rule. A prediction without comparable data by its final date is recorded as unresolved and is not counted as a success.
 >
@@ -1265,9 +1404,9 @@ The attached predictions table is Table A6, and Figure A1 draws its calendar.
 
 **Figure A1.** *The calendar of checks, 2026 to 2031.*
 
-![](figures/figure-A1-calendar.png)
+![](figures/figure-A1-calendar-v2.png)
 
-Note: One row per prediction of Table A6, sorted by check date, with its probability. A filled dot is a check on a fixed day. A light bar is a check in a year or a data year without a fixed day. The ring is the final date, after which a prediction without comparable data is recorded as unresolved (Section 11.4). Dotted lines mark the annual scorecards, to be registered on OSF each October from 2027 to 2031. The figure is generated from the prediction table itself and changes only with it.
+Note: One row per prediction of Table A6, sorted by check date, with its probability. A filled dot is a check on a fixed day. A light bar is a check in a year or a data year without a fixed day. The ring is the final date, after which a prediction without comparable data is recorded as unresolved (Section 11.4). Dotted lines mark the annual scorecards, to be registered on OSF each October from 2027 to 2031. A hollow square marks a commitment due before the check: the F27 sample, frozen on Zenodo by 31 December 2026, and, on the dashed line of 30 June 2027, the protocol of each of the 14 Set B studies, without which the prediction is recorded as not conducted (Section 11.2). The figure is generated from the prediction table itself, by `figures/figure_a1_calendar.py` in the companion repository, and changes only with it.
 
 **Table A6.** *All 41 dated predictions: sets, measures, thresholds, probabilities, model forecasts, fallbacks and prior forecasts.*
 
@@ -1315,11 +1454,11 @@ Note: One row per prediction of Table A6, sorted by check date, with its probabi
 | F35 (B) | **Horizon predicts later output.** At least 200 logs: horizon at month 0 added to tenure and IT education raises the out-of-sample R squared for verified output in months 4 to 6. Baseline: No public baseline | Check: 30 September 2027. Final date: 30 September 2028. p = 0.60; models 0.58 (0.45 to 0.70). Unresolved if: No comparable data by the final date (never counted as a success). Fallback: None. Nearest prior or counter forecast: Burning Glass Institute and Harvard Business School (2024) |
 | F36 (A) | **Platforms badge verified builders.** At least two of Upwork, Fiverr, GitHub, Product Hunt, Toptal and Contra introduce a public badge or profile field certifying independently verified AI-built work (not a skills quiz). Baseline: No such badge at the time of writing | Check: 31 December 2027. Final date: 31 March 2028. p = 0.23; models 0.24 (0.07 to 0.70). Unresolved if: No comparable data by the final date (never counted as a success). Fallback: Platform help pages and archived announcements. Nearest prior or counter forecast: None found |
 
-Note: Set A resolves from public data; Set B from separately preregistered studies (protocol by 30 June 2027, otherwise not conducted, which the scorecard counts as a failure of the testing programme). p is conditional on resolution. Models: geometric mean of odds of independent model forecasters who did not see my numbers, with their range; individual forecasts in predictions/m2-probabilities.csv. Came-true and did-not rules for every row are in predictions/predictions.csv.
+Note: Set A resolves from public data; Set B from separately preregistered studies (protocol by 30 June 2027, otherwise not conducted, which the scorecard counts as a failure of the testing programme). p is conditional on resolution. Models: geometric mean of odds of independent model forecasters who did not see my numbers, with their range; individual forecasts in predictions/m2-probabilities.csv. Came-true and did-not rules for every row are in predictions/predictions.csv. In rows F4a and F4b the Gartner forecast is cited as the reference list cites it, through the summary by Tray.ai (2026), with its own words quoted; the registered file gives the same forecast and the same numbers more briefly and cites Gartner (Tyagi, 2026).
 
-## Appendix E. Desk pre-pilot of the thresholds
+## Appendix E. Desk test of the thresholds
 
-This appendix reports what could be tested about the rules of Section 5.2 without people, on 9 October 2026, and sets out the pilot with people that tests the rest. No human participants took part. Every number is produced by two scripts in the companion repository (`pilot/`), which call the scorer of Appendix C unchanged and swap only its constants.
+This appendix reports the desk test of the rules of Section 5.2, run on 9 October 2026 by simulation and with model raters, and sets out the calibration protocol that fixes the next version. Every number is produced by two scripts in the companion repository (`pilot/`), which call the scorer of Appendix C unchanged and swap only its constants.
 
 ### E1. How often a rung is earned
 
@@ -1343,7 +1482,7 @@ Figure A2, panel A, plots these probabilities against p for rules v1.1.
 
 ### E2. Sensitivity to the count and the share
 
-The paper promised to report how many people change rung when the count moves from ten to eight or twelve and the share from 0.8 to 0.7 or 0.9. Without people, the answer is given for 10,000 simulated logs at Day, each with between 6 and 16 pieces of Day size in the window and a true pass rate drawn evenly between 0.5 and 1.0. The current rule (ten, 0.8) gives Day to 30% of them, and Table E2 gives the share whose verdict changes under the other rules.
+The paper promised to report how many people change rung when the count moves from ten to eight or twelve and the share from 0.8 to 0.7 or 0.9. The answer is given for 10,000 simulated logs at Day, each with between 6 and 16 pieces of Day size in the window and a true pass rate drawn evenly between 0.5 and 1.0. The current rule (ten, 0.8) gives Day to 30% of them, and Table E2 gives the share whose verdict changes under the other rules.
 
 **Table E2.** *Share of simulated logs whose Day verdict changes against ten pieces and a share of 0.8.*
 
@@ -1353,13 +1492,13 @@ The paper promised to report how many people change rung when the count moves fr
 | 10 | 10% | 0% | 11% |
 | 12 | 16% | 9% | 17% |
 
-Note: the population of logs is an assumption of the simulation. The pilot repeats this analysis on real logs.
+Note: the population of logs is an assumption of the simulation. The field study of E5 repeats this analysis on real logs.
 
 Moving either constant one step changes about one verdict in ten. Moving both changes up to one in five. The share matters more than the count.
 
 ### E3. Rater noise at the edge of a rung
 
-If two raters are unbiased and 80% of their pairs fall within a ratio of 1.5, the target of Section 5.8, and the reference is the geometric mean of their two estimates, then a piece whose true size is 7 reference hours is scored at Day size 20% of the time, and a piece of 9 hours falls short of Day size 23% of the time. This is why the record reports the median accepted size beside the rung (Table 3): a horizon built on pieces just above a threshold shows.
+If two raters are unbiased and 80% of their pairs fall within a ratio of 1.5, above the criterion of 70% in Section 5.8, and the reference is the geometric mean of their two estimates, then a piece whose true size is 7 reference hours is scored at Day size 20% of the time, and a piece of 9 hours falls short of Day size 23% of the time. This is why the record reports the median accepted size beside the rung (Table 3): a horizon built on pieces just above a threshold shows.
 
 ### E4. Model raters of reference hours
 
@@ -1377,23 +1516,23 @@ Four language models from four families (Anthropic, OpenAI, Google and Moonshot)
 
 Note: model raters stand in for the two human raters of Section 5.1 and are not evidence about them.
 
-Given a full statement of done, the models agreed on which tasks were larger, but not on the level: the geometric mean of one rater's estimates over the bank was 5.1 hours and another's 10.4. A fixed offset of that kind is the cheapest error to remove, which is why raters in the pilot first calibrate on tasks with measured times. Given an identifier only, estimates were of little use, which supports a frozen bank with measured by-hand times (Section 5.1) over estimates made from a title. Under the rule of Table 3, where a disagreement above 1.5 sends a piece to a third rater, two such raters would send about four pieces in ten to a third.
+Given a full statement of done, the models agreed on which tasks were larger, but not on the level: the geometric mean of one rater's estimates over the bank was 5.1 hours and another's 10.4. A fixed offset of that kind is the cheapest error to remove, which is why raters in the field study first calibrate on tasks with measured times. Given an identifier only, estimates were of little use, which supports a frozen bank with measured by-hand times (Section 5.1) over estimates made from a title. Under the rule of Table 3, where a disagreement above 1.5 sends a piece to a third rater, two such raters would send about four pieces in ten to a third.
 
 **Figure A2.** *The rung rule on the desk: the chance of earning a rung, and how far model raters agree on hours.*
 
 ![](figures/figure-A2-rule-and-raters.png)
 
-Note: A desk test with simulated pieces and model raters. No people took part. Panel A gives, for each rung under rules v1.1, the probability that the rule awards the rung in one window when each piece passes its check independently with the share on the horizontal axis. Rungs with the same count and the same number of passes follow the same curve. Panel B sets the reference hours that four model raters, each of a different family, estimated for 14 tasks against the time measured for a human baseliner (METR's task data). The band marks agreement within a factor of 1.5. The pre-pilot that produced both panels is described in this appendix, and its code and outputs are in the companion repository.
+Note: A desk test with simulated pieces and model raters. Panel A gives, for each rung under rules v1.1, the probability that the rule awards the rung in one window when each piece passes its check independently with the share on the horizontal axis. Rungs with the same count and the same number of passes follow the same curve. Panel B sets the reference hours that four model raters, each of a different family, estimated for 14 tasks against the time measured for a human baseliner (METR's task data). The band marks agreement within a factor of 1.5. The desk test that produced both panels is described in this appendix, and its code and outputs are in the companion repository.
 
-### E5. The pilot with people
+### E5. The calibration protocol
 
-The protocol and the registration text are in the companion repository (`pilot/pilot-protocol.md`, `pilot/preregistration-draft.md`). In brief, 60 adults take part, 30 with a software background and 30 without, in the three domains of the bank, over two windows of 91 days. All use the same agent tools, with versions logged, and the checks are hidden tests or two blind domain reviewers. By-hand times are measured on a fifth of the bank's tasks, every hand-over is logged with its start date, and a random tenth of accepted pieces is audited. The criteria are set before the data: at least 70% of pairs of human estimates within 1.5, at least 60% of rated hours within 1.5 of measured ones, repeatability of the rung across the two windows with a weighted kappa of at least 0.6, prediction of passing new tasks with an AUC of at least 0.7, fewer than 5% of log lines lost, and at least 95% of failed hand-overs recorded. The consent form is written for this study only and reuses no other consent. Month and Quarter, irreversible work and high-risk domains are outside a six-month pilot.
+The protocol and the registration text are in the companion repository (`pilot/pilot-protocol.md`, `pilot/preregistration-draft.md`). In brief, 60 adults take part, 30 with a software background and 30 without, in the three domains of the bank, over two windows of 91 days. All use the same agent tools, with versions logged, and the checks are hidden tests or two blind domain reviewers. By-hand times are measured on a fifth of the bank's tasks, every hand-over is logged with its start date, and a random tenth of accepted pieces is audited. The criteria are set before the data: at least 70% of pairs of human estimates within 1.5, at least 60% of rated hours within 1.5 of measured ones, repeatability of the rung across the two windows with a weighted kappa of at least 0.6, prediction of passing new tasks with an AUC of at least 0.7, fewer than 5% of log lines lost, and at least 95% of failed hand-overs recorded. The consent form is written for this study only and reuses no other consent. Month and Quarter, irreversible work and high-risk domains are outside this six-month field study.
 
-### E6. What the desk pre-pilot shows, and what it does not
+### E6. What the desk test settles, and what comes next
 
-It shows how the rules behave for a person of known reliability, where they were inconsistent (one inconsistency is now corrected), how sensitive a verdict is to the two constants, and that model raters order tasks consistently but disagree in level. It does not show how people behave under the rules, whether human raters agree, whether a rung repeats for a real person, or whether it predicts new work. The thresholds are therefore provisional and desk-tested; they are not yet set by data from people.
+It shows how the rules behave for a person of known reliability, where they were inconsistent (one inconsistency is now corrected), how sensitive a verdict is to the two constants, and that model raters order tasks consistently but disagree in level. The calibration protocol of E5 takes up what a desk test leaves to people: how they behave under the rules, whether a rung repeats for a real person, and whether it predicts new work; agreement among human raters is tested first (Appendix G). The thresholds are therefore desk-tested as rules v1.1, and the calibration study sets the next version.
 
-To reproduce: `python3 pilot/simulate_rules.py` and `python3 pilot/rater_agreement.py pilot/results/model-ratings.csv pilot/metr-anchor-tasks.csv` (Python 3.10 or later, standard library only; seed 20261009).
+To reproduce: `python3 pilot/simulate_rules.py` and `python3 pilot/rater_agreement.py pilot/results/model-ratings.csv pilot/metr-anchor-tasks.csv` (Python 3.9 or later, standard library only; seed 20261009).
 
 ## Appendix F. Supplementary tables and figures
 
@@ -1489,6 +1628,7 @@ Note: "Measures a person by verified delegated work" means that the scale places
 | Work the person could never have done by hand | Reference hours still come from a qualified specialist; the person's own skill does not enter |
 | Work whose quality shows only months later | Accepted provisionally; the delayed outcome is recorded when it arrives and can revoke the piece |
 | A domain with no qualified human reviewer nearby | Hidden tests or real use by intended users; a model of another family only with sources the person opened |
+| A blind critic of the same model family, in a fresh context | Not an independent check: recorded as same_family (Appendix C), it earns no credit, although it may improve the work before an independent check (Section 6.5) |
 | A team that accepts work together | Each person logs their own attention; the piece counts for the person who signed the acceptance |
 | A piece that passes the check but is later found wrong | Recorded as failed at the next re-verification, and the rung is rescored |
 | Irreversible work mixed with ordinary work | The stricter rule applies to the irreversible pieces only (Section 5.2) |
@@ -1515,6 +1655,12 @@ Note: The threads are qualitative evidence chosen for their topics and do not re
 
 Note: METR's time horizon at 80% success, about 1.2 hours in February 2026 and about 3.1 hours in April. At 50% success, about 17 hours in spring 2026, which METR itself calls unreliable above 16 hours (METR, 2026c). Anthropic's 50% points, about 3.5 hours for one-shot requests and about 19 hours for conversations, are the authors' extrapolation (Anthropic, 2026a). Machine horizons measure models, not people. The shaded columns only show where the rungs of Section 5.3 fall on the same axis of hours (Section 5.6).
 
+**Figure A4.** *The checking process of Section 6.5: what each step stands in for, what it earns under the rule, and where it stops.*
+
+![](figures/figure-A4-checking-process.png)
+
+Note: The four steps and what each stands in for are those of Section 6.5. The row of credit follows the scoring rule of Section 5.2 and Table A4: a review by a model of the same family in a fresh context is recorded as same_family and earns no credit, though it may improve the work; a model of another family counts only when it checks against sources the person opened, and never alone for irreversible work. The last row summarises Fu et al. (2025) on omissions and Kim et al. (2025) on errors that correlate across models. No registered prediction tests the process; Section 10.5 sets out the comparison that would. The figure is drawn by `figures/figure_a4_checking_process.py` in the companion repository, which reads the credit of each kind of check from `horizon.py`. Each step stands in for part of a trade's experience; Section 14 returns to this as a ladder of equalisers.
+
 **Table A7.** *Status of the claims in this paper.*
 
 | Element | How it is held | Basis |
@@ -1522,10 +1668,218 @@ Note: METR's time horizon at 80% success, about 1.2 hours in February 2026 and a
 | Programmers and others now share the tasks and workflow of delegating and accepting | The data support it at the level of tasks and workflows; professions as a whole have not merged | Section 2; vendor logs and surveys of 2025-2026 |
 | The two old ladders do not measure that work | Observed | Renamed ladders without a new measure (Deloitte); question of AI use entering interviews without a scale |
 | Token counts fail as a measure of seniority | Observed in early cases | Press reports of 2026 (Section 4): an employee's unofficial ranking at Meta, taken down, and Meta's later official guidance against token counts; a leaderboard at Amazon, gamed and removed; Uber's AI budget spent in four months, a budget event |
-| Verified delegation horizon and amplification gain | Proposed; thresholds provisional and desk-tested, no human data yet; protocol of the pilot with people ready for registration | Definitions and rules (Section 5); instrument (Appendix C); desk pre-pilot (Appendix E) |
+| Verified delegation horizon and amplification gain | Proposed; rules v1.1 desk-tested; calibration protocol in the companion repository; agreement of professionals on reference hours under registered test | Definitions and rules (Section 5); instrument (Appendix C); desk test of the thresholds (Appendix E) |
 | Ceiling of gain set by the share of checking | Offered as a model; illustrated by GDPval averages | Section 5.5 |
 | Background neutrality | Hypothesis; tests to be registered (F7) | Anthropic (2026e) points to it; Savva (2026) is a rival |
 | Credential crossover point | Hypothesis; components dated separately (parity F2, overtaking F3, postings F5, neutrality F7) | Lightcast (2026b) shows converging lines; Bone et al. (2025) precede it for AI roles |
+| Gates that admit by a self-reported label leak; gates that check the work hold | Offered as a model; the leak is illustrated once, by the screening of the rater study | Sections 6.2 and 13; Appendix G2; Danilova et al. (2021); Reid et al. (2022); Serafini et al. (2024, 2026); Oregon State Board of Bar Examiners (2026) |
 | Software crosses last | Prediction (F6), with 40 others in Table A6, registered on OSF | Domain argument (Section 6.3) |
+| A checking process can stand in for part of a trade's experience | Hypothesis, not registered; no registered prediction tests it, and F3b (p = 0.10) bears on it only indirectly; a comparison is set out in Section 10.5 | Section 6.5; Dell'Acqua et al. (2026), McAleese et al. (2024), Eulerich et al. (2024), Fox et al. (2026) and Benchek et al. (2026) on one side; Kim et al. (2025), Chernets (2026b), Fu et al. (2025) and Virk and Liu (2025) on the other |
 | Trust as the second boundary; guarantor as a partner profession | Offered as a model; predictions F11 and F12 | Section 7 |
-| Cohort results | Not reported | Design only (Section 11.5) |
+| Non-programmers working through agents | Observed in a running cohort, described without inference; registered outcomes reported separately | Section 11.5; Appendix G |
+
+**Table A8.** *Gates that admit by a label and gates that check the work: what each checks, and what was observed.*
+
+| Gate | What it admits on | What was observed | Source |
+|---|---|---|---|
+| A participant filter of a research platform | Answers mostly given on the person's own word; age and country of residence verified | Of 60 people admitted to a bookkeeping sample, 11 answered a first-week question of the trade wrongly, 8 of them by reversing the debit and the credit | Prolific (2026); Appendix G2 |
+| Programming skill stated on a crowdwork platform | The person's own word | 42% did not meet the criteria of the researchers' knowledge questions | Danilova et al. (2021) |
+| Programming in Node.js reported on Prolific | The person's own word | 55 of 206 passed all of the programming questions | Reid et al. (2022) |
+| A static knowledge question, in text or in images | An answer, which a chat model can give | ChatGPT easily solved the existing screening questions for programmers, and by 2026 got past static visual questions designed to resist it | Serafini et al. (2024, 2026) |
+| An audio question revealed step by step under a strict time limit | An answer given under time pressure | Still held against a chat model in 2026 | Serafini et al. (2026) |
+| A degree requirement removed from a policy | A label, removed on paper | Fewer than one hire in 700 changed; 19.3% of US postings on Indeed asked for a bachelor's degree or higher in November 2025, up on a year earlier | Burning Glass Institute and Harvard Business School (2024); Indeed Hiring Lab (2026) |
+| A licence by an examination passed once | Knowledge, checked once | Works as a label from then on | Section 6.2 |
+| Inspection of a licensed audit firm's signed work | Signed work, checked again and again | Every year for firms that regularly audit more than 100 issuers, at least once every three years otherwise | Sarbanes-Oxley Act of 2002, s. 104 |
+| A licence by a portfolio of supervised work | Checked work, once; the law degree is still required | 205 candidates had applied by 5 January 2026 and 49 were licensed, the first in December 2024 | Oregon State Board of Bar Examiners (2026) |
+| The verified delegation horizon | Delivered work that passed a check the agents did not see, confirmed every quarter | A rung with the count behind it and the kinds of check, failures kept in the log | Sections 5.2 and 5.3 |
+
+Note: The rows are the cases Section 6.2 cites. They come from different populations and different questions and are set side by side for what each gate checks, not to be compared as rates. A gate of the second kind can be added in front of any gate of the first: the raters of reference hours in the companion repository are admitted by one question of the trade (`kits/reference-hours-raters.md`), as the rater study of Appendix G2 screened its raters. `kits/trade-screen.md` sets out how to write such a question and report it, and `tools/gate_leak.py` gives the share a label lets through, with an exact interval.
+
+## Appendix G. People already doing it: a non-programmer cohort and a Prolific rater study
+
+This appendix is a supplement to the measure, not part of its argument; Sections 6.2, 6.5 and 14 cite the screening result of G2 as an illustration. It adds two records from people: an account of non-programmers who moved from chat to working through agents in September and October 2026 (G1), and a registered rater study in which working professionals rated the reference hours of the task bank (G2).
+
+### G1. Non-programmers who moved from chat to agents
+
+From 6 September 2026 I guided adults without a programming background, step by step and through ordinary messaging, from a chat assistant to a coding agent installed on their own computer and paid for from their own consumer subscription, and then to work with several models. They came from more than a dozen occupations, among them bookkeeping and office work, law, marketing and sales, design, photography and retouching, translation and editing, music, construction, transport and logistics, real estate, care work, public administration and non-profit community work; four reported past or present work in software. The account below is descriptive: it reports what people did and what stopped them, as recorded by 9 October 2026, and it computes no rate and tests no claim of this paper.
+
+**Table G1.** *How far the cohort had come by 9 October 2026 (counts of people).*
+
+| Step | People |
+|---|---|
+| In the record: consented and returned the entry questionnaire | 119 |
+| Installed an agent on their own computer and subscription and started work with it | 35 |
+| Produced an artefact, or completed at least one step, on their own work | 24 |
+| Stopped, with a stated reason | 23 |
+| of whom: no computer of their own (phone only, or a device that cannot run the agent) | 9 |
+| of whom: the cost of a subscription | 5 |
+| of whom: declined (what they had was enough, no interest, or the beginner framing did not fit) | 6 |
+| of whom: health, family or time | 2 |
+| of whom: the service was not available where they live | 1 |
+
+Note: Counted by hand from the participant record and the latest summary of measurements, using the most advanced event recorded for each person. The 35 people of the second row are the 35 rows of Table G1b, and the 24 of the third row are its first 24 rows. An artefact counts when the person showed it or described what the agent produced; one person who produced an artefact later stopped (P60) and is counted in both rows. The remaining 62 people had, by that date, either received the installation step without reporting it done or not yet reached it.
+
+**Table G1a.** *The whole cohort by region and country of residence, and how many from each crossed to an agent by 9 October 2026.*
+
+| Region and country | In the cohort | Crossed to an agent |
+|---|---|---|
+| **North America** | **37** | **10** |
+| United States | 35 | 10 |
+| Canada | 2 | 0 |
+| **Western Europe** | **20** | **7** |
+| Germany | 12 | 5 |
+| Ireland | 3 | 1 |
+| Spain | 2 | 1 |
+| United Kingdom | 1 | 0 |
+| Austria | 1 | 0 |
+| Switzerland | 1 | 0 |
+| **Central and Eastern Europe, named countries** | **9** | **1** |
+| Poland | 3 | 0 |
+| Moldova | 2 | 0 |
+| Latvia | 2 | 0 |
+| Estonia | 1 | 0 |
+| Romania | 1 | 1 |
+| **Country not disclosed** | **53** | **17** |
+| **Total** | **119** | **35** |
+
+Note: From the country column of the participant record. "Country not disclosed" groups participants whose country is withheld under the study's privacy rule and those who did not give one.
+
+**What people did with an agent.** Table G1b lists everyone who had crossed from a chat assistant to directing an agent by 9 October 2026, one line each: what task they gave it and what it produced. People who produced an artefact or finished a step on their own work come first, ordered roughly by how far they had gone; those who had installed the agent and started, without a reported result yet, follow. Professions are given as in the record, in neutral wording. The short quotations are the participants' own words from the record; those marked "(translated)" were written in another language and are given in my literal translation.
+
+**Table G1b.** *Everyone who has crossed so far (35 people, as of 9 October 2026).*
+
+| # | Participant | Profession | Country or region | What they did with an agent | In their own words |
+|---|---|---|---|---|---|
+| 1 | P20 | image processing, retouching, photography | not disclosed | The agent asked about his goals and built a month plan as folders and files (weeks by topic, a reference file, a tracker); it then registered him in nine AI services by driving the browser itself and logged the one refusal in its progress file; he ran one question through 11 web AIs and wrote results and limits to a file; on his own stock photographs it produced a metadata CSV in one command and checked it | - |
+| 2 | P73 | contact-lens sales business | Ireland | Installed a second agent from another vendor; both read a copy of her own social-media plan and she kept a page of the points on which they differed; wrote a rules file for each agent and closed the evening with a read-me and a work log | "I can continue the training." |
+| 3 | P48 | office work and online sales | not disclosed | Turned a document she writes every week into a template with a checklist and wrote the next one from it faster; a second worker reads her drafts blind; had two AIs read a whole case folder and decided the three costliest findings herself | "The question which AI is better is malformed." (translated) |
+| 4 | P44 | marketing, sales and consulting | not disclosed | Made desktop buttons that run agent tasks ("project status", "inventory of new items", "document summary", "note to the file"); installed a second agent on another subscription and ran a joint review of one task: a summary file plus two full reviews | - |
+| 5 | P21 | non-profit community organisation | Germany | Built an interactive month-long programme of skills and habits with progress tracking; had the agent pick a starting direction from the catalogue and write a four-week plan; then ran three agent sessions in parallel: a presentation in minutes, and a bot that watches listings and sends matches to his messenger | "A tool tailored to your specific needs, rather than scouring the internet for compromises or paid subscriptions." |
+| 6 | P05 | assistant to a director, former programmer | United States | The agent created five files on her machine: an overview and a four-week plan by theme; later it sent invitations to a list of 76 contacts through a web messaging page, clicking by itself, after a test message to her own number | "From now on I will divide different daily tasks between them and really compare the results." |
+| 7 | P01 | interior designer and drafter, in training | Spain | Had the agent build a file of job openings in two passes, the second wider than the first; compared it with two reports from another chatbot, agreements and divergences set apart; rewrote his CV and portfolio from an honest reading of his own files, and revised his professional profile | "When it can dig in so deeply and create interesting but in general separate data to analyse them." (translated) |
+| 8 | P18 | internet marketing | not disclosed | The agent tidied her desktop: created documents, sorted them into folders, found errors and fixed them; later it set up e-mail news alerts on her own topics | "I'd heard about things like this, but seeing it in action really convinced me." |
+| 9 | P19 | public administration official | not disclosed | Proofread a long multi-book text edition of his own in a single day; finished two large projects in one week; now building a plugin collection for a translation workflow | "I wrapped up two major projects in just one week... wow." (translated) |
+| 10 | P35 | contracts, invoices and customs documents | United States | Did the first task by voice; the agent cleaned her computer's cache, closed apps and found an appointment slot on a booking site by opening it itself; proposed a print-on-demand direction; helps with tender paperwork; now runs in the terminal | "Yes, it worked, we did it." (translated) |
+| 11 | P72 | stock images and video made with AI | Romania | Ran one task through many AIs with the orchestration tool, set up voice input, and chose freelance directions from the catalogue | - |
+| 12 | P41 | dental assistant, on parental leave | United States | The agent made a schedule, a plan and drafts; found six copies of its own installer and five of an office suite on her machine and removed the extras; she dictated a lesson for a community class and the agent typed it, added references and links, translated and saved it, then reworked it on her say | "I am delighted." |
+| 13 | P24 | musician and poet | Germany | Sent one image task to eleven AIs and saved the results to a folder with a gallery page; had the agent build the skeleton of a music arrangement, which disappointed him | "The ethical aspect of authorship remains unresolved for me." |
+| 14 | P102 | manages a software company | not disclosed | Already worked daily in an agent on arrival; ran one question through 11 AIs (10 answered) and sent the run file; now working through the earnings catalogue | - |
+| 15 | P40 | research engineer and web developer | not disclosed | Walked the path as a deliberate beginner: about a hundred loose files in his downloads folder sorted into folders, with screenshots before and after; returned two fixes to the course materials | - |
+| 16 | P75 | remote technical support | not disclosed | The agent made a folder on his desktop with a launch plan for a seasonal music video channel (names, track ideas, titles, a posting schedule); terminal step done | - |
+| 17 | P60 | home caregiving | United States | After a couple of questions from the agent, a one-month plan split into files (donors, finances, letter templates); later left, finding the beginner framing too basic | - |
+| 18 | P64 | uniformed public service, logistics and supply | not disclosed | Made a month plan with the agent, which created the files on his computer; registered in ten AI services | "AI adapts to the person. It flatters, in a certain sense." (translated) |
+| 19 | P28 | uniformed public service | not disclosed | The agent laid out career paths from his current post and, when he turned one down, a development plan for his earlier trade, watch repair (skills, certification, own workshop) | - |
+| 20 | P14 | industrial climber | United States | Built "Reflex Square", a small reaction-speed trainer, with the agent at its own suggestion during setup | "For now, coding in Code is not something I need in my everyday life." |
+| 21 | P67 | swimming coach, also direct sales | not disclosed | Told the agent she had started in direct sales; it offered five kinds of help and drafted a sample product card | - |
+| 22 | P12 | student | Germany | Registered in the free AI services, ran the orchestration folder, and with the agent picked four directions from the catalogue (journalism, a book, monetisation, going deeper into AI); will give it his own essays | - |
+| 23 | P71 | advocacy and public health | Germany | Wrote her own prompt; the agent shortened it and had other AIs make the images; did the terminal step and an extra test task of her own to remember the keystrokes | "Task done, send the next one." |
+| 24 | P22 | non-profit community organisation | not disclosed | Did the catalogue task in the agent (some sites blocked its sign-in); did the terminal step and then asked the agent itself to explain what had been done; set up e-mail news alerts | "Done, what next?" (translated) |
+| 25 | P59 | videographer | United States | Gave the agent a detailed brief for finding profitable property listings in his local market (checks, no spending, ranked by gain); results not yet shown | "Why do I need a second one if the first works." |
+| 26 | P84 | not stated | not disclosed | Installed the agent through the terminal himself; building a website for a community organisation | "Doing something, but I think we should talk." (translated) |
+| 27 | P66 | administrator at a leisure facility | not disclosed | Bought a laptop for the course, installed the agent and moved from the general mode to the agent's tab; at the step of opening accounts in ten AIs | "Everything is in a foreign language, what next?" (translated) |
+| 28 | P82 | security work; building a dispatch service for trucking | United States | Installed; moved his chats and projects over from another chatbot to compare the two | - |
+| 29 | P70 | research and video editing for social media | United States | Got the agent working with a flatmate's help, after first creating a test file by hand | - |
+| 30 | P17 | international law attorney | not disclosed | Installation done; first task sent | "I did everything." (translated) |
+| 31 | P93 | direct support professional in elderly care | not disclosed | Moved from the plain chat to the agent and paid; first task sent | - |
+| 32 | P54 | makes cakes to order | not disclosed | Installed and paid on a new laptop; first task sent | - |
+| 33 | P26 | concrete construction | United States | Installed on a repaired laptop and sent a photo of it; first task sent | "What's next" |
+| 34 | P03 | director of a foreign-trade company | United States | Installed together with P35; first task sent | - |
+| 35 | P45 | photo and video content, programming background | Germany | Reached the step of opening accounts in ten AIs, which presupposes a working agent; details not recorded | - |
+
+Note: Compiled from the participant record. Rows 1 to 24 are the third row of Table G1; rows 25 to 35 had installed the agent and started without a reported result by 9 October 2026. "-" means the record holds no usable words of the participant for this period.
+
+**How newcomers talk about directing agents.** People who a few weeks earlier had only used a chat assistant describe their new work in words of their own. I collected every passage that the participant record and the daily observation notes give in a participant's own wording for the 35 people who installed an agent (161 passages from 32 people, about 1,070 words) and counted, by matching word stems, the words for the system they direct, for what they do to it and for themselves; the counts are rough, and "it" includes some uses that do not refer to the tool.
+
+**Table G1c.** *Words that newcomers use for directing agents (occurrences in their own reports).*
+
+| What the word names | Words, translated into categories | Count |
+|---|---|---|
+| The system they direct | "it" | 35 |
+| | a model or product name (Claude, GPT, Codex and others) | 16 |
+| | tool, program, app | 11 |
+| | "AI", "the AIs" | 9 |
+| | agent | 1 |
+| | assistant, helper, worker | 0 |
+| What they do to it | set up, install, run | 10 |
+| | ask, question, request | 9 |
+| | task, instruction, prompt | 7 |
+| | check, compare | 4 |
+| | divide, hand over | 2 |
+| Themselves | developer, beginner | 5 |
+
+A few of their own words (quotations in English; those marked "(translated)" were written in another language and the translation is mine):
+
+- "It doesn't just answer questions but can actually work with files and documents." (P18, internet marketing)
+- "One of the biggest mistakes when using AI is assuming that a confident answer is automatically correct." (P20, photographer and retoucher; translated)
+- "I really feel like a developer now." (P21, non-profit community organisation)
+- "To get what I want I need to think through how to put the request." (P48, office work and online sales; translated)
+- "I think the answer is like a question to two people." (P59, videographer)
+- "One time one AI gives the better advice, the next time it is the other way round." (P48, office work and online sales; translated)
+
+Three longer passages show the move in the participants' own voice. An interior designer in training, on his first evening with an agent, before anyone had shown him a council of models: "it made a folder also worked itself well like with documents opened [...] and in the end I got two files called vacancies from this one vacancies from that one and also took them again sent them to each other so that they evaluated each other's work" (P01, translated, from an automatic transcription of a voice message). An industrial climber, the day he built his first small program with an agent, already asking for the next role: "maybe learning how to build agents that could do part of the work for me - posting on social networks, reminding me of things, or giving me suggestions." (P14). And a participant in non-profit community work, after his first weeks: "I sense a vast new potential opening up - like standing on the threshold of something new." (P21).
+
+They name the system by its product name or simply "it", almost never "agent", and none of the titles on the map of Section 3 appears; yet they speak of setting tasks, comparing two answers and checking a confident one, which is the work the measure counts. As in the map, the function arrives before a name for it, and this is offered as a description, not as a test of any claim.
+
+The same people also take part in a separately preregistered programme (OSF, DOI 10.17605/OSF.IO/X4EGQ), whose outcomes are reported there.
+
+### G2. The Prolific rater study: do professionals agree on reference hours?
+
+The measure sizes each piece of work in reference hours, and the rule of Section 5.2 asks two specialists to rate a piece blind and calls a third when their estimates differ by more than a factor of 1.5. The rater study asks whether working professionals agree that closely. It was registered on OSF as a pre-pilot on 9 October 2026, before any data were collected (DOI 10.17605/OSF.IO/V92R8), and launched on Prolific the same day.
+
+**Design.** Two independent samples, 119 participants recruited and paid in all: 60 bookkeepers (current role accountant, bookkeeper, chartered or certified accountant, auditor or tax specialist) and 59 web and software developers (current role software engineer, software developer or web developer). All live in the United Kingdom, the United States, Ireland, Canada, Australia or New Zealand, have a Prolific approval rate of at least 98% over at least 100 previous submissions, and take one study only. Each participant rates the ten tasks of their own domain from task bank v0 (BK01 to BK10 or WT01 to WT10, as frozen in `pilot/task-bank-v0.csv`) in hours of focused work for a qualified professional working alone without AI tools, rates one task again (BK03 or WT03) as a retest, and answers one competency question and one attention check. A participant who fails either is excluded and paid; an estimate that is not a positive number or exceeds 2000 hours is dropped.
+
+**Outcomes.** Primary: per domain, the share of rater pairs, over all tasks, whose two estimates lie within a ratio of 1.5, against the threshold of 0.70 set in the calibration protocol. Secondary: the same share after removing each rater's personal level, ICC(2,1) on log hours, the test-retest share within 1.5, and each task's median estimate against the rung the bank intended. For comparison, the four model raters of Appendix E put 56% of their pairs on these 20 tasks within 1.5: 47% on the ten bookkeeping tasks and 65% on the ten web tasks. The analysis is the script `human_raters.py`, filed with the OSF registration before data, and the result is reported whatever it is.
+
+**Results.**
+
+**Screening.** Participants were admitted on the occupation in their Prolific profile, and most of the answers behind Prolific's filters are self-reported (Prolific, 2026), so the competency question was the design's only check of the trade. In the bookkeeping sample it was a multiple-choice question on the double entry for a customer's payment received into the bank. Of the 60 people admitted to that sample, 11 (18%) answered it wrongly, eight of them by reversing the debit and the credit, and none failed the attention check; as registered, they are excluded from the outcomes below and were paid. In a comparison that was not registered, these 11 rated the larger tasks of the bank at fewer hours than the other participants of the sample did: their medians for the three tasks meant for the Week rung (BK08 to BK10) were 6, 6 and 8 hours, against 8, 8 and 12 for the other 49. With 11 people this is a lead to be tested, not an estimate, and haste or a misread question would leave a similar trace; it fits the reading that a person who does not know a trade does not see all the steps of its larger tasks (Section 6.5). In the web-tools sample the same comparison did not repeat: the 8 developers who failed their competency question gave the three tasks meant for Week medians of 24.5, 27.5 and 19 hours, against 20, 16 and 20 for the other 50, so the lead rests on bookkeeping alone (exploratory analyses below).
+
+The scripts for this section are in the companion repository (`pilot/`). `prolific_to_long.py` writes the long file of ratings from the Prolific exports; it reads each estimate as written, keeps an answer with no number or with several, such as a range, as text so that the registered rule drops it, and lists every answer that is not a plain number. `table_g2.py` prints Table G2 with the functions of the registered script called unchanged, beside the model raters on the same tasks. `screen_compare.py` recomputes the comparison of the screening above, with the exact interval and a permutation test over raters for the Week tasks.
+
+**Agreement.** The places were filled on 9 and 10 October 2026, and 118 participants left responses, 60 bookkeepers and 58 developers; the answers of one developer, whose submission was approved and paid, were not saved by the survey tool. After the registered exclusions (11 bookkeepers and 8 developers failed the competency question; none failed the attention check), 49 bookkeepers and 50 developers remain. The registered threshold was not met in either domain: 28% of bookkeepers' pairs and 25% of developers' pairs lay within a ratio of 1.5, against 0.70 (Table G3). The professionals ordered the tasks consistently, with each domain's medians rising from the tasks meant for Hour to those meant for Week, but they disagreed on hours by more than the rule of two raters allows. Removing each rater's personal level raised the share only to 34% and 35%, so the disagreement is about the work itself rather than a habit of rounding up or down. ICC(2,1) on log hours was 0.34 for bookkeeping and 0.46 for web tools, and a rater's two estimates of the same task agreed within 1.5 in 53% and 74% of cases. The four model raters of Appendix E, at 56% on the same 20 tasks, agreed with one another more closely than the professionals did, which says more about the professionals' spread than about the models' accuracy. Against practitioners the bank sits about one rung high: every task meant for Day had a median of 2 to 7 hours, which is Hour, and every task meant for Week a median of 8 to 20 hours, which is Day. In the exploratory comparison above, the 11 excluded bookkeepers agreed among themselves no better than the others (28% of pairs within 1.5). The results set three parts of the rater rule. Raters calibrate on tasks with measured times, which anchors the level the medians show to be off. A piece is sized by the median of a panel rather than by two raters, since a spread of this width would send most pairs to a third rater. And the task bank is re-banded from practitioners' medians, which moves its tasks down one rung (Table G3b).
+
+**Table G2.** *Agreement of professionals on reference hours, by domain.*
+
+| Domain | Kept | Excluded | Pairs within 1.5 | After removing rater level | ICC(2,1), log hours | Test-retest within 1.5 |
+|---|---|---|---|---|---|---|
+| Bookkeeping | 49 | 11 | 0.283 | 0.335 | 0.335 (49 complete) | 0.531 (n = 49) |
+| Web tools | 50 | 8 | 0.247 | 0.349 | 0.461 (49 complete) | 0.735 (n = 49) |
+
+Note: Registered threshold for pairs within 1.5: 0.70, not met in either domain. Exclusions are failures of the competency question; no participant failed the attention check. Pairs are taken over all ten tasks of a domain (11,760 for bookkeeping, 11,809 for web tools). Test-retest compares a rater's two estimates of BK03 or WT03. Output of `human_raters.py` as registered (DOI 10.17605/OSF.IO/V92R8).
+
+**Table G3b.** *Median estimate of each task against the rung the bank intended (hours).*
+
+| Intended rung | Bookkeeping task: median | Rung of median | Web tools task: median | Rung of median |
+|---|---|---|---|---|
+| Hour | BK01: 2.0; BK02: 2.0; BK03: 1.5 | Hour | WT01: 1.0; WT02: 1.0; WT03: 2.0 | Hour |
+| Day | BK04: 3.0; BK05: 2.0; BK06: 3.0; BK07: 4.0 | Hour | WT04: 7.0; WT05: 6.0; WT06: 4.0; WT07: 4.0 | Hour |
+| Week | BK08: 8.0; BK09: 8.0; BK10: 12.0 | Day | WT08: 20.0; WT09: 16.0; WT10: 20.0 | Day |
+
+Note: Medians over the kept raters. A median below 8 hours falls at Hour and one from 8 to below 40 hours at Day. Every task meant for Day or Week falls one rung lower.
+
+**Exploratory analyses.** The analyses in this paragraph were not registered. They reuse the registered loader, exclusions and test, and their script and output are `pilot/exploratory_prolific.py` and `pilot/results/prolific-2026-10/exploratory-output.txt` in the companion repository. Resampling raters puts 95% intervals of 0.24 to 0.33 (bookkeeping) and 0.21 to 0.29 (web tools) on the primary share. *Panel size* (Table G4). For each task, two disjoint panels of k kept raters were drawn 2,000 times and their medians compared. On raw estimates, the two medians agreed within 1.5 in at least 70% of draws only from 15 bookkeepers or 21 developers per panel. With each rater's personal level removed, which is what calibration on tasks with measured times is meant to do, panels of seven reached 0.71 and 0.69, and panels of nine 0.77 and 0.76. Landing on the same rung, which is what the measure records, needs fewer: five calibrated raters per panel did so in 0.81 and 0.84 of draws. Under the two-rater rule of Section 5.2 a third rater would be called on 72% and 75% of pieces. *Experience* (Table G4b). 43 of the 98 kept raters with complete answers reported more than 10 years in their field. They agreed with one another no more closely than the rest, and years in the field did not predict how far a rater sat from the others' median (rank correlation +0.18 and -0.10, permutation p = 0.21 and 0.47). Senior developers estimated higher than other developers (1.32 against 0.76 times the others' median, p = 0.02); senior bookkeepers did not (1.04 against 1.07, p = 0.88). *Tasks.* Disagreement grows with size: five of the six most disputed of the 20 tasks were tasks meant for Week, where 24% (bookkeeping) and 20% (web tools) of pairs lay within 1.5, against 31% and 27% on the tasks meant for Hour; the interquartile range of a Week task spanned a factor of 4 to 8. *Speed and units.* The fastest quarter of bookkeepers (3.6 minutes or less for the whole survey) agreed more closely than the rest (0.37 against 0.26), and among developers speed made no difference (0.24 against 0.24). Answering some tasks in minutes rather than hours made no difference in either domain (0.31 against 0.31; 0.28 against 0.31). Two bookkeepers gave 40 hours or more to a task meant for Hour, which looks like minutes typed as hours; without them the bookkeeping share is 0.284. One kept developer typed text instead of numbers, so only one of their estimates entered the analysis. *Screening.* Comparing each rater's estimates for the Week tasks with their own estimates for the Hour tasks, so that a personal level cancels, the excluded bookkeepers rated the larger tasks 3.2 times the smaller against 6.2 times for the kept (permutation p = 0.10), and the excluded developers 15.8 times against 10.6 (p = 0.37). *Retest.* The repeat estimate was higher than the first for 25 bookkeepers and lower for 4, and higher for 17 developers and lower for 2 (exact sign test p < 0.001 in both), by about 30% on the geometric mean, which is consistent with anchoring on the larger tasks rated in between. Together these results place the spread in the work and its scale rather than in a subgroup of hurried, junior or unqualified raters, and they size the panel the rule needs: calibrated raters, five to nine per piece, scored by rung (Table G4).
+
+**Table G4.** *Two independent panels of k raters per task: share of draws whose medians agree within 1.5 / share on the same rung (exploratory).*
+
+| Raters per panel | Bookkeeping, raw | Bookkeeping, level removed | Web tools, raw | Web tools, level removed |
+|---|---|---|---|---|
+| 1 | 0.28 / 0.51 | 0.34 / 0.62 | 0.24 / 0.46 | 0.34 / 0.60 |
+| 3 | 0.43 / 0.68 | 0.51 / 0.76 | 0.37 / 0.60 | 0.52 / 0.78 |
+| 5 | 0.51 / 0.77 | 0.63 / 0.81 | 0.43 / 0.68 | 0.62 / 0.84 |
+| 7 | 0.58 / 0.82 | 0.71 / 0.84 | 0.49 / 0.74 | 0.69 / 0.87 |
+| 9 | 0.62 / 0.85 | 0.77 / 0.87 | 0.54 / 0.78 | 0.76 / 0.89 |
+| 15 | 0.71 / 0.88 | 0.88 / 0.91 | 0.64 / 0.84 | 0.86 / 0.94 |
+| 21 | 0.76 / 0.89 | 0.94 / 0.95 | 0.72 / 0.84 | 0.92 / 0.98 |
+
+Note: Kept raters with all ten estimates (49 per domain); 2,000 draws per task, panels disjoint within a draw; seed 20261011. Level removed: each rater's mean log ratio to the median of all raters on each task is subtracted in sample, as in the registered secondary outcome, so these columns are an upper estimate of what calibration on separate anchor tasks would give. Not registered; output of `pilot/exploratory_prolific.py`.
+
+**Table G4b.** *Years in the field and agreement (kept raters with complete answers, exploratory).*
+
+| Domain | Group | Raters | Pairs within 1.5 inside the group | Level against the others' median |
+|---|---|---|---|---|
+| Bookkeeping | More than 10 years | 23 | 0.268 | 1.04 |
+| Bookkeeping | 10 years or less | 26 | 0.299 | 1.07 (p = 0.88) |
+| Web tools | More than 10 years | 20 | 0.297 | 1.32 |
+| Web tools | 10 years or less | 29 | 0.242 | 0.76 (p = 0.02) |
+
+Note: Level is the geometric mean ratio of a rater's estimates to the other raters' median on the same tasks; p is a two-sided permutation test (5,000 permutations) of the difference in mean log level. Not registered.
