@@ -11,12 +11,12 @@ In 172 dated log entries from multi-agent AI systems the author built and operat
 | | |
 |---|---|
 | **Version of record** | [SSRN 7496678](https://ssrn.com/abstract=7496678) · DOI [10.2139/ssrn.7496678](https://doi.org/10.2139/ssrn.7496678) |
-| **Archived, citable** | in preparation |
+| **Archived, citable** | [10.5281/zenodo.23446731](https://doi.org/10.5281/zenodo.23446731), concept DOI, always resolves to the latest version |
 | **Readable HTML** | [https://vadymchernets.netlify.app/guards-that-add-guards.html](https://vadymchernets.netlify.app/guards-that-add-guards.html) |
 | **Full text here** | [paper.md](paper.md) |
 | **PDF here** | [guards-that-add-guards.pdf](guards-that-add-guards.pdf) · 0.1 MB |
 
-The same text is on three surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one. SSRN also disallows AI crawlers site-wide in its `robots.txt`, which is why these mirrors exist.
+The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one. SSRN also disallows AI crawlers site-wide in its `robots.txt`, which is why these mirrors exist.
 
 ## The companion paper
 

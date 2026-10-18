@@ -5,7 +5,7 @@
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
 - Version of record: [SSRN 7496678](https://ssrn.com/abstract=7496678) · DOI [10.2139/ssrn.7496678](https://doi.org/10.2139/ssrn.7496678)
-- Archived copy: in preparation
+- Archived copy, citable and downloadable: [10.5281/zenodo.23446731](https://doi.org/10.5281/zenodo.23446731), a concept DOI that always resolves to the latest version
 - Full text as Markdown and PDF: [GitHub](https://github.com/vadimchernets/papers/tree/main/guards-that-add-guards)
 - Readable HTML: [https://vadymchernets.netlify.app/guards-that-add-guards.html](https://vadymchernets.netlify.app/guards-that-add-guards.html)
 - Companion paper, the full study with the case catalog, the public cases and the theory: *AI-Watchbird (Sheckley): When Automated Oversight Widens Its Own Mandate and Harms What It Guards*, [SSRN 7473658](https://ssrn.com/abstract=7473658) · DOI [10.2139/ssrn.7473658](https://doi.org/10.2139/ssrn.7473658), archived at [10.5281/zenodo.22849138](https://doi.org/10.5281/zenodo.22849138)

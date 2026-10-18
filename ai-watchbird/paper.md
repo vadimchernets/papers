@@ -8,7 +8,7 @@
 - Archived copy, citable and downloadable: [10.5281/zenodo.22849138](https://doi.org/10.5281/zenodo.22849138), a concept DOI that always resolves to the latest version
 - Full text as Markdown and PDF: [GitHub](https://github.com/vadimchernets/papers/tree/main/ai-watchbird)
 - Readable HTML: [https://vadymchernets.netlify.app/ai-watchbird.html](https://vadymchernets.netlify.app/ai-watchbird.html)
-- Companion paper, shorter and empirical: *Guards That Add Guards: Automated Oversight in Multi-Agent AI*, [SSRN 7496678](https://ssrn.com/abstract=7496678) · DOI [10.2139/ssrn.7496678](https://doi.org/10.2139/ssrn.7496678)
+- Companion paper, shorter and empirical: *Guards That Add Guards: Automated Oversight in Multi-Agent AI*, [SSRN 7496678](https://ssrn.com/abstract=7496678) · DOI [10.2139/ssrn.7496678](https://doi.org/10.2139/ssrn.7496678), archived at [10.5281/zenodo.23446731](https://doi.org/10.5281/zenodo.23446731)
 
 *The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one.*
 
