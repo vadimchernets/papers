@@ -11,14 +11,15 @@ ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
 | Paper | Version of record | Archived copy | HTML |
 |---|---|---|---|
-| **What Does 7 Downloads Mean?** Metric blindness and the cold start of scholarly attention after the SSRN Rankings sunset | [SSRN 7296358](https://ssrn.com/abstract=7296358) | [10.5281/zenodo.22166896](https://doi.org/10.5281/zenodo.22166896) | [read](https://vadymchernets.netlify.app/download-metrics.html) |
-| **Consumer Trust in Agentic Commerce.** From model properties to verifiable architecture | [SSRN 7191261](https://ssrn.com/abstract=7191261) | [10.5281/zenodo.22166995](https://doi.org/10.5281/zenodo.22166995) | [read](https://vadymchernets.netlify.app/architectural-trust.html) |
-| **Agreement Is Not Independent Evidence.** Auditable multi-model synthesis without an API | [SSRN 7390698](https://ssrn.com/abstract=7390698) | [10.5281/zenodo.22683716](https://doi.org/10.5281/zenodo.22683716) | [read](https://vadymchernets.netlify.app/agreement-not-evidence.html) |
-| **The Missing Variable in AI-Assisted Litigation.** Architecture and the quality of pro se access to justice | [SSRN 7120940](https://ssrn.com/abstract=7120940) | [10.5281/zenodo.22168724](https://doi.org/10.5281/zenodo.22168724) | [read](https://vadymchernets.netlify.app/missing-variable.html) |
-| **AI-Watchbird (Sheckley).** When automated oversight widens its own mandate and harms what it guards | [SSRN 7473658](https://ssrn.com/abstract=7473658) | [10.5281/zenodo.22849138](https://doi.org/10.5281/zenodo.22849138) | [read](https://vadymchernets.netlify.app/ai-watchbird.html) |
+| **What Does 7 Downloads Mean?** Metric blindness and the cold start of scholarly attention after the SSRN Rankings sunset | [SSRN 7296358](https://ssrn.com/abstract=7296358) | [10.5281/zenodo.22166896](https://doi.org/10.5281/zenodo.22166896) | [read](https://polyhelper.ai/research/download-metrics/) |
+| **Consumer Trust in Agentic Commerce.** From model properties to verifiable architecture | [SSRN 7191261](https://ssrn.com/abstract=7191261) | [10.5281/zenodo.22166995](https://doi.org/10.5281/zenodo.22166995) | [read](https://polyhelper.ai/research/architectural-trust/) |
+| **Agreement Is Not Independent Evidence.** Auditable multi-model synthesis without an API | [SSRN 7390698](https://ssrn.com/abstract=7390698) | [10.5281/zenodo.22683716](https://doi.org/10.5281/zenodo.22683716) | [read](https://polyhelper.ai/research/agreement-not-evidence/) |
+| **The Missing Variable in AI-Assisted Litigation.** Architecture and the quality of pro se access to justice | [SSRN 7120940](https://ssrn.com/abstract=7120940) | [10.5281/zenodo.22168724](https://doi.org/10.5281/zenodo.22168724) | [read](https://polyhelper.ai/research/missing-variable/) |
+| **AI-Watchbird (Sheckley).** When automated oversight widens its own mandate and harms what it guards | [SSRN 7473658](https://ssrn.com/abstract=7473658) | [10.5281/zenodo.22849138](https://doi.org/10.5281/zenodo.22849138) | [read](https://polyhelper.ai/research/ai-watchbird/) |
 | **Guards That Add Guards.** Automated oversight in multi-agent AI: a field record, public incidents, and a 144-run randomized test | [SSRN 7496678](https://ssrn.com/abstract=7496678) | [10.5281/zenodo.23446731](https://doi.org/10.5281/zenodo.23446731) | [read here](guards-that-add-guards/paper.md) |
 | **After Chat.** The three transitions between non-programmers and agentic AI | [SSRN 7520019](https://ssrn.com/abstract=7520019) | [10.5281/zenodo.22943313](https://doi.org/10.5281/zenodo.22943313) | [read here](after-chat/paper.md) |
 | **After the Programmer Divide.** One measure for people who build through AI agents | [SSRN 7589918](https://ssrn.com/abstract=7589918) | [10.5281/zenodo.23267266](https://doi.org/10.5281/zenodo.23267266) | [read here](after-the-programmer-divide/paper.md) |
+| **Sealed Before the Open.** A verifiable standard for measuring AI forecasts of financial markets | [SSRN 7653679](https://ssrn.com/abstract=7653679) | [10.5281/zenodo.23552697](https://doi.org/10.5281/zenodo.23552697) | [read here](sealed-before-the-open/paper.md) |
 
 ## Workshop papers, NeurIPS 2026
 
