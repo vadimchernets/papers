@@ -2,6 +2,8 @@
 
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
+**NeurIPS 2026:** Two follow-up papers built on this study's blind multi-model collection were accepted (poster) at NeurIPS 2026 workshops: [Verification Theater (Who Verifies the Agents?)](https://neurips.cc/virtual/2026/loc/sydney/173020) · [Weakly Discriminative… Self-Confidence in LLM Evaluation (TAE)](https://neurips.cc/virtual/2026/178299)
+
 Agentic commerce turns AI from an advisor into a transacting party, collapsing search, comparison, cart, and payment into a single delegated act and removing the review points where humans once caught errors. It arrives at an awkward moment: sixty percent of UK consumers surveyed say they would abandon an AI shopping agent after a single mistake, and most would trust no organization at all to run one on their behalf. This paper introduces *architectural trust*. As consumers delegate consequential decisions to AI agents, I argue, warranted trust migrates from the properties of the AI model to the verifiable architecture of the service above it. The constructs already available attach trust to organizations, to a single automated system, or to algorithmic advice, and none of them makes the decision-producing process verifiable by the truster under autonomous delegation. Architectural trust fills that gap with three checkable properties: diversity (independent models whose agreement calibrates confidence and whose divergence is surfaced), evidence (tamper-evident, replayable decision records), and neutrality (auditable independence from any vendor, merchant, or outcome).
 
 ## Where this paper lives

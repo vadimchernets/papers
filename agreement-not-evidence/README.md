@@ -2,6 +2,8 @@
 
 **Vadym Chernets**, PhD, AI systems architect · ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 
+**NeurIPS 2026:** Measured failure modes of verifier panels: companion paper accepted (poster) at NeurIPS 2026 workshop [Who Verifies the Agents?](https://neurips.cc/virtual/2026/loc/sydney/173020)
+
 Someone who asks one language model a question cannot tell a confidently wrong answer from a confidently right one. The two are identical on every surface cue available to a non-expert. Asking several models seems to solve this, but it mostly relocates the problem: reconciling several answers produces one confident text again, and that text now carries the borrowed authority of “ten of them agreed.”
 
 ## Where this paper lives
