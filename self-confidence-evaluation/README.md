@@ -17,6 +17,14 @@ Evaluation pipelines increasingly consume a model’s own stated confidence as a
 
 The workshop does not publish proceedings, so the Zenodo record is the citable version. Cite it.
 
+## Accepted at NeurIPS 2026 workshop
+
+Accepted (poster) at NeurIPS 2026 Workshop “Can We Trust AI Evaluation? Robustness, Causality, and Risk in Modern AI Assessment” (TAE).
+
+- [NeurIPS page](https://neurips.cc/virtual/2026/178299)
+- [OpenReview](https://openreview.net/forum?id=OyuZAAtv2q)
+- [OpenReview profile](https://openreview.net/profile?id=~Vadym_Chernets1)
+
 ## The companion paper
 
 [*Verification Theater: Measured Failure Modes of AI Verifier Panels*](../verification-theater) rests on the same frozen registration and blind collection. It measures the failure regimes of the panel-based alternative that this paper points to.

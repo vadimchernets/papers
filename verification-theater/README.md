@@ -17,6 +17,14 @@ Multi-agent verification is becoming a default trust mechanism: an answer is tru
 
 The workshop does not publish proceedings, so the Zenodo record is the citable version. Cite it.
 
+## Accepted at NeurIPS 2026 workshop
+
+Accepted (poster) at NeurIPS 2026 Workshop “Who Verifies the Agents? Toward Reliable Agent Development”.
+
+- [NeurIPS page](https://neurips.cc/virtual/2026/loc/sydney/173020)
+- [OpenReview](https://openreview.net/forum?id=Mg9RtDWcK4)
+- [OpenReview profile](https://openreview.net/profile?id=~Vadym_Chernets1)
+
 ## The companion paper
 
 [*Weakly Discriminative, Not Repaired by Profile Injection, and Manipulable*](../self-confidence-evaluation) rests on the same frozen registration and blind collection. It measures the self-confidence signal that panels are meant to replace; this paper measures where the panels themselves fail.
