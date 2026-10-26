@@ -12,7 +12,7 @@ Agentic commerce turns AI from an advisor into a transacting party, collapsing s
 |---|---|
 | **Version of record** | [SSRN 7191261](https://ssrn.com/abstract=7191261) · DOI [10.2139/ssrn.7191261](https://doi.org/10.2139/ssrn.7191261) |
 | **Archived, citable** | [10.5281/zenodo.22166995](https://doi.org/10.5281/zenodo.22166995) — concept DOI, always resolves to the latest version |
-| **Readable HTML** | [https://vadymchernets.netlify.app/architectural-trust.html](https://vadymchernets.netlify.app/architectural-trust.html) |
+| **Readable HTML** | [https://polyhelper.ai/research/architectural-trust/](https://polyhelper.ai/research/architectural-trust/) |
 | **Full text here** | [paper.md](paper.md) |
 | **PDF here** | [architectural-trust.pdf](architectural-trust.pdf) · 2.9 MB |
 
@@ -20,7 +20,7 @@ The same text is on four surfaces so that it can be reached when one of them can
 
 ## Keywords
 
-agentic commerce; consumer trust; AI agents; trust in AI; appropriate reliance; overreliance; large language models; cross-model agreement; selective prediction; overconfidence; delegation; architectural trust.
+architectural trust; trust migration; agentic commerce; AI agents; consumer trust; consumer delegation; multi-model orchestration; decision evidence; verifiable AI
 
 ## Licence
 
