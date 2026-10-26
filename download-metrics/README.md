@@ -10,7 +10,8 @@ On 15 July 2026, the Social Science Research Network (SSRN) retired its public R
 |---|---|
 | **Version of record** | [SSRN 7296358](https://ssrn.com/abstract=7296358) · DOI [10.2139/ssrn.7296358](https://doi.org/10.2139/ssrn.7296358) |
 | **Archived, citable** | [10.5281/zenodo.22166896](https://doi.org/10.5281/zenodo.22166896) — concept DOI, always resolves to the latest version |
-| **Readable HTML** | [https://vadymchernets.netlify.app/download-metrics.html](https://vadymchernets.netlify.app/download-metrics.html) |
+| **Readable HTML** | [https://polyhelper.ai/research/download-metrics/](https://polyhelper.ai/research/download-metrics/) |
+| **Practitioner version** | [The Bibliomagician, 26 October 2026](https://thebibliomagician.wordpress.com/2026/10/26/ssrn-rankings-are-gone-how-to-read-your-own-numbers-without-rebuilding-them/) · DOI [10.59350/mgsjw-t8285](https://doi.org/10.59350/mgsjw-t8285) |
 | **Full text here** | [paper.md](paper.md) |
 | **PDF here** | [download-metrics.pdf](download-metrics.pdf) · 3.9 MB |
 
