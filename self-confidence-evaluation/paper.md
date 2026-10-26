@@ -209,6 +209,10 @@ Self-assessment, as currently elicited, fails three tests an evaluation signal m
 
 The author is a named applicant on pending patent applications, not granted patents, covering AI orchestration and multi-model validation systems of the kind this paper examines.
 
+##### Code (reference implementation).
+
+An open-source reference implementation of cross-lab verification on a smartphone (ChatGPT and Claude side by side; no server, no API key): <https://github.com/vadimchernets/poly-duo> $`\cdot`$ <https://polyhelper.ai/duo/>. Its modes are not evaluated in this paper; the two-flagship figures are a re-analysis of the companion collection, not measurements of the app.
+
 ## References
 
 A. Azaria and T. Mitchell. The internal state of an LLM knows when it’s lying. In *Findings of EMNLP*, 2023. arXiv:2304.13734.

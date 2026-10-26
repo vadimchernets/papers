@@ -33,6 +33,10 @@ Accepted (poster) at NeurIPS 2026 Workshop “Can We Trust AI Evaluation? Robust
 
 `oracle_auroc.py` reproduces the oracle-ceiling numbers in Section 5 (standard library only). The per-item scored rows it reads are in `data/` (four subjects, one row per item, arm and replicate). Run: `python3 oracle_auroc.py data`.
 
+## Code (reference implementation)
+
+An open-source reference implementation of cross-lab verification on a smartphone (ChatGPT and Claude side by side; no server, no API key): [github.com/vadimchernets/poly-duo](https://github.com/vadimchernets/poly-duo) · [polyhelper.ai/duo/](https://polyhelper.ai/duo/). Its modes are not evaluated in the paper.
+
 ## Keywords
 
 LLM confidence; verbalized confidence; calibration; discrimination; AUROC; AI evaluation; self-assessment; profile injection; preregistration

@@ -18,6 +18,10 @@ Agentic commerce turns AI from an advisor into a transacting party, collapsing s
 
 The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one. SSRN also disallows AI crawlers site-wide in its `robots.txt`, which is why these mirrors exist.
 
+## Code (reference implementation)
+
+An open-source reference implementation of cross-lab verification on a smartphone (ChatGPT and Claude side by side; no server, no API key): [github.com/vadimchernets/poly-duo](https://github.com/vadimchernets/poly-duo) · [polyhelper.ai/duo/](https://polyhelper.ai/duo/). Its modes are not evaluated in the paper.
+
 ## Keywords
 
 architectural trust; trust migration; agentic commerce; AI agents; consumer trust; consumer delegation; multi-model orchestration; decision evidence; verifiable AI

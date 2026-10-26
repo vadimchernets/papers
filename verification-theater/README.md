@@ -29,6 +29,10 @@ Accepted (poster) at NeurIPS 2026 Workshop “Who Verifies the Agents? Toward Re
 
 [*Weakly Discriminative, Not Repaired by Profile Injection, and Manipulable*](../self-confidence-evaluation) rests on the same frozen registration and blind collection. It measures the self-confidence signal that panels are meant to replace; this paper measures where the panels themselves fail.
 
+## Code (reference implementation)
+
+An open-source reference implementation of cross-lab verification on a smartphone (ChatGPT and Claude side by side; no server, no API key): [github.com/vadimchernets/poly-duo](https://github.com/vadimchernets/poly-duo) · [polyhelper.ai/duo/](https://polyhelper.ai/duo/). Its modes are not evaluated in the paper.
+
 ## Keywords
 
 multi-agent verification; LLM-as-a-judge; AI evaluation; verifier panels; correlated errors; model diversity; conformity; SimpleQA; TruthfulQA; preregistration

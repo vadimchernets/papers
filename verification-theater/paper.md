@@ -117,6 +117,10 @@ Under population difficulty, no replicated answer on the hardest quintile was co
 
 The author is a named applicant on pending patent applications, not granted patents, covering AI orchestration and multi-model validation systems of the kind this paper examines.
 
+##### Code (reference implementation).
+
+An open-source reference implementation of cross-lab verification on a smartphone (ChatGPT and Claude side by side; no server, no API key): <https://github.com/vadimchernets/poly-duo> $`\cdot`$ <https://polyhelper.ai/duo/>. Its modes are not evaluated in this paper; the two-flagship figures are a re-analysis of the companion collection, not measurements of the app.
+
 ## References
 
 M. Castro and B. Liskov. Practical Byzantine fault tolerance. In *OSDI*, pages 173–186, 1999.
