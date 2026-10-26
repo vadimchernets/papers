@@ -12,7 +12,7 @@ Someone who asks one language model a question cannot tell a confidently wrong a
 |---|---|
 | **Version of record** | [SSRN 7390698](https://ssrn.com/abstract=7390698) · DOI [10.2139/ssrn.7390698](https://doi.org/10.2139/ssrn.7390698) |
 | **Archived, citable** | [10.5281/zenodo.22683716](https://doi.org/10.5281/zenodo.22683716) — concept DOI, always resolves to the latest version |
-| **Readable HTML** | [https://vadymchernets.netlify.app/agreement-not-evidence.html](https://vadymchernets.netlify.app/agreement-not-evidence.html) |
+| **Readable HTML** | [https://polyhelper.ai/research/agreement-not-evidence/](https://polyhelper.ai/research/agreement-not-evidence/) |
 | **Full text here** | [paper.md](paper.md) |
 | **PDF here** | [agreement-not-evidence.pdf](agreement-not-evidence.pdf) · 1.0 MB |
 
@@ -20,7 +20,7 @@ The same text is on four surfaces so that it can be reached when one of them can
 
 ## Keywords
 
-large language models; correlated errors; wisdom of crowds; Condorcet jury theorem; algorithmic monoculture; multi-agent debate; effective sample size; design effect; ensemble; provenance.
+multi-model orchestration; large language models; ensembling; mixture-of-agents; correlated errors; algorithmic monoculture; effective sample size; design effect; provenance; auditability; evidence aggregation; indirect prompt injection; accessibility
 
 ## Licence
 
