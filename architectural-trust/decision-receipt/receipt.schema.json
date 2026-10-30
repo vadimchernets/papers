@@ -1,0 +1,426 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "agent-decision-receipt.schema.json",
+  "title": "Agent decision receipt",
+  "description": "Fields of the agent decision receipt (manuscript Table 4). Field sets vary by evidence tier (DR8); a light receipt may omit search_scope, consideration_set, instruction_context, and verification_paths.",
+  "type": "object",
+  "required": [
+    "receipt_id",
+    "created_at",
+    "producer",
+    "binding",
+    "selected_option",
+    "commercial_relationships",
+    "flags",
+    "evidence_tier",
+    "disclosure_map",
+    "signature"
+  ],
+  "properties": {
+    "receipt_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Producer's claim; time is established by hash registration or the attestor's co-signature (DR3)."
+    },
+    "producer": {
+      "type": "object",
+      "required": [
+        "id",
+        "revenue_relationships_disclosed"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "revenue_relationships_disclosed": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relationship"
+          }
+        }
+      }
+    },
+    "binding": {
+      "type": "object",
+      "required": [
+        "agent_credential_ref",
+        "mandate_hash",
+        "order_hash"
+      ],
+      "properties": {
+        "agent_credential_ref": {
+          "type": "string"
+        },
+        "mandate_hash": {
+          "$ref": "#/$defs/hash"
+        },
+        "order_hash": {
+          "$ref": "#/$defs/hash"
+        }
+      }
+    },
+    "search_scope": {
+      "type": "object",
+      "description": "Coverage claim (DR1).",
+      "required": [
+        "merchants",
+        "query",
+        "searched_at",
+        "response_hashes"
+      ],
+      "properties": {
+        "merchants": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "query": {
+          "type": "string"
+        },
+        "searched_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "response_hashes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/hash"
+          }
+        }
+      }
+    },
+    "consideration_set": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "price_usd",
+          "stage"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "price_usd": {
+            "type": "number"
+          },
+          "stage": {
+            "enum": [
+              "filtered",
+              "scored",
+              "compared",
+              "selected"
+            ],
+            "description": "Stage at which the option left the comparison (DR1)."
+          }
+        }
+      }
+    },
+    "instruction_context": {
+      "type": "object",
+      "required": [
+        "conversation_hash",
+        "disclosable_excerpts"
+      ],
+      "properties": {
+        "conversation_hash": {
+          "$ref": "#/$defs/hash"
+        },
+        "disclosable_excerpts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "constraints_applied": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "constraint",
+          "source",
+          "pass",
+          "fail"
+        ],
+        "properties": {
+          "constraint": {
+            "type": "string"
+          },
+          "source": {
+            "enum": [
+              "mandate",
+              "conversation"
+            ]
+          },
+          "pass": {
+            "anyOf": [
+              {
+                "const": "all"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "fail": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "criteria": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "criterion",
+          "source"
+        ],
+        "properties": {
+          "criterion": {
+            "type": "string"
+          },
+          "source": {
+            "enum": [
+              "stated",
+              "inferred",
+              "default"
+            ]
+          },
+          "weight": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "selected_option": {
+      "type": "object",
+      "required": [
+        "id",
+        "main_reason"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "main_reason": {
+          "type": "string"
+        }
+      }
+    },
+    "rejected_alternatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "reason"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "commercial_relationships": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relationship"
+      }
+    },
+    "verification_paths": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "result",
+          "independence"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "result": {
+            "type": "string"
+          },
+          "independence": {
+            "enum": [
+              "same model",
+              "different model",
+              "different source",
+              "deterministic rule"
+            ]
+          },
+          "blind": {
+            "type": "boolean",
+            "description": "Required for model checks: true if the check answered before seeing the agent's choice (DR2)."
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "source": {
+            "type": "string"
+          },
+          "operator": {
+            "type": "string",
+            "description": "Who ran the check (organizational independence, DR2)."
+          },
+          "commitment": {
+            "type": "string",
+            "description": "Reference to the attestor-registered hash of the check's answer, made before the agent's choice was revealed to the checker (commit-reveal); it, not the producer's `blind` field, establishes blindness (DR2)."
+          }
+        },
+        "if": {
+          "properties": {
+            "independence": {
+              "enum": [
+                "same model",
+                "different model"
+              ]
+            }
+          }
+        },
+        "then": {
+          "required": [
+            "blind"
+          ]
+        }
+      }
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "flag"
+        ],
+        "properties": {
+          "flag": {
+            "enum": [
+              "single_source_agreement",
+              "missing_coverage",
+              "unblinded_check"
+            ]
+          },
+          "detail": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "evidence_tier": {
+      "enum": [
+        "light",
+        "standard",
+        "full"
+      ]
+    },
+    "disclosure_map": {
+      "type": "object",
+      "description": "Party -> disclosable fields; '*' discloses all. Undisclosed fields remain covered by the signature through salted hashes (DR5).",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "signature": {
+      "type": "object",
+      "required": [
+        "alg",
+        "value"
+      ],
+      "properties": {
+        "alg": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        },
+        "registration": {
+          "type": "string",
+          "description": "Reference to the third-party registration of the receipt hash (level 1)."
+        },
+        "attestor_cosignature": {
+          "type": "string",
+          "description": "Attestor's co-signature over the receipt and its snapshot (level 2)."
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "evidence_tier": {
+            "enum": [
+              "standard",
+              "full"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "search_scope",
+          "consideration_set",
+          "constraints_applied",
+          "criteria",
+          "rejected_alternatives",
+          "verification_paths"
+        ]
+      }
+    }
+  ],
+  "$defs": {
+    "hash": {
+      "type": "string",
+      "pattern": "^sha256:"
+    },
+    "relationship": {
+      "type": "object",
+      "required": [
+        "option",
+        "type"
+      ],
+      "properties": {
+        "option": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "sponsored_placement",
+            "commission",
+            "affiliate_fee",
+            "ownership"
+          ]
+        }
+      }
+    }
+  }
+}

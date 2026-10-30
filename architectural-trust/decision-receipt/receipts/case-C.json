@@ -1,0 +1,125 @@
+{
+  "receipt_id": "rcpt-C-0003",
+  "created_at": "2026-06-11T18:03:40Z",
+  "producer": {
+    "id": "did:example:agent-operator-1",
+    "revenue_relationships_disclosed": []
+  },
+  "binding": {
+    "agent_credential_ref": "did:example:agent-7#key-1",
+    "mandate_hash": "sha256:1b5e…90",
+    "order_hash": "sha256:8a0f…3c"
+  },
+  "search_scope": {
+    "merchants": [
+      "home-store"
+    ],
+    "query": "AquaPure X replacement filter",
+    "searched_at": "2026-06-11T18:00:00Z",
+    "response_hashes": [
+      "sha256:e6c1…4b"
+    ]
+  },
+  "consideration_set": [
+    {
+      "id": "ap-x1",
+      "price_usd": 22,
+      "stage": "filtered"
+    },
+    {
+      "id": "ap-x2",
+      "price_usd": 24,
+      "stage": "selected"
+    },
+    {
+      "id": "generic-f",
+      "price_usd": 18,
+      "stage": "filtered"
+    }
+  ],
+  "instruction_context": {
+    "conversation_hash": "sha256:2f9a…d1",
+    "disclosable_excerpts": []
+  },
+  "constraints_applied": [
+    {
+      "constraint": "compatible with AquaPure X",
+      "source": "mandate",
+      "pass": [
+        "ap-x2"
+      ],
+      "fail": [
+        "ap-x1",
+        "generic-f"
+      ],
+      "evidence": "product description of ap-x2 (single source)"
+    },
+    {
+      "constraint": "price_usd < 30",
+      "source": "mandate",
+      "pass": "all",
+      "fail": []
+    }
+  ],
+  "criteria": [
+    {
+      "criterion": "compatibility",
+      "source": "stated",
+      "weight": "primary"
+    }
+  ],
+  "selected_option": {
+    "id": "ap-x2",
+    "main_reason": "compatible with AquaPure X"
+  },
+  "rejected_alternatives": [
+    {
+      "id": "ap-x1",
+      "reason": "not listed as compatible in product description"
+    }
+  ],
+  "commercial_relationships": [],
+  "verification_paths": [
+    {
+      "path": "second_model_vendor_B",
+      "result": "agrees: ap-x2",
+      "confidence": 0.93,
+      "independence": "different model",
+      "blind": true,
+      "source": "product description of ap-x2"
+    },
+    {
+      "path": "third_model_vendor_C",
+      "result": "agrees: ap-x2",
+      "confidence": 0.9,
+      "independence": "different model",
+      "blind": true,
+      "source": "product description of ap-x2"
+    }
+  ],
+  "flags": [
+    {
+      "flag": "single_source_agreement",
+      "detail": "all checks agree and the decisive attribute (compatibility) rests on a single source; agreement is weak evidence; verify compatibility against manufacturer data"
+    }
+  ],
+  "evidence_tier": "light",
+  "disclosure_map": {
+    "issuer": [
+      "*"
+    ],
+    "merchant": [
+      "binding",
+      "selected_option",
+      "constraints_applied",
+      "rejected_alternatives"
+    ],
+    "consumer": [
+      "*"
+    ]
+  },
+  "signature": {
+    "alg": "EdDSA (Ed25519)",
+    "value": "<signature over canonical JSON of all fields above>"
+  }
+}

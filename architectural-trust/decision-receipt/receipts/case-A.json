@@ -1,0 +1,181 @@
+{
+  "receipt_id": "rcpt-A-0001",
+  "created_at": "2026-03-03T14:02:11Z",
+  "producer": {
+    "id": "did:example:agent-operator-1",
+    "revenue_relationships_disclosed": [
+      {
+        "option": "stridemax-pro",
+        "type": "sponsored_placement"
+      }
+    ]
+  },
+  "binding": {
+    "agent_credential_ref": "did:example:agent-7#key-1",
+    "mandate_hash": "sha256:9f3c…e1",
+    "order_hash": "sha256:41ab…07"
+  },
+  "search_scope": {
+    "merchants": [
+      "merchant-A",
+      "merchant-B",
+      "merchant-C"
+    ],
+    "query": "black running shoe men 42",
+    "searched_at": "2026-03-03T13:55:02Z",
+    "response_hashes": [
+      "sha256:5e1a…c3",
+      "sha256:a07d…19",
+      "sha256:3c88…f2"
+    ]
+  },
+  "consideration_set": [
+    {
+      "id": "stridemax-pro",
+      "price_usd": 149,
+      "color": "black",
+      "size": 42,
+      "merchant": "merchant-A",
+      "stage": "selected"
+    },
+    {
+      "id": "velo-runner",
+      "price_usd": 95,
+      "color": "black",
+      "size": 42,
+      "merchant": "merchant-A",
+      "stage": "compared"
+    },
+    {
+      "id": "trail-one",
+      "price_usd": 139,
+      "color": "black",
+      "size": 42,
+      "merchant": "merchant-B",
+      "stage": "scored"
+    },
+    {
+      "id": "pace-lite",
+      "price_usd": 120,
+      "color": "black",
+      "size": 42,
+      "merchant": "merchant-C",
+      "stage": "compared"
+    },
+    {
+      "id": "cloud-x",
+      "price_usd": 165,
+      "color": "black",
+      "size": 42,
+      "merchant": "merchant-B",
+      "stage": "filtered"
+    },
+    {
+      "id": "street-run",
+      "price_usd": 99,
+      "color": "grey",
+      "size": 42,
+      "merchant": "merchant-C",
+      "stage": "filtered"
+    }
+  ],
+  "instruction_context": {
+    "conversation_hash": "sha256:c41d…a2",
+    "disclosable_excerpts": []
+  },
+  "constraints_applied": [
+    {
+      "constraint": "price_usd < 150",
+      "source": "mandate",
+      "pass": [
+        "stridemax-pro",
+        "velo-runner",
+        "trail-one",
+        "pace-lite",
+        "street-run"
+      ],
+      "fail": [
+        "cloud-x"
+      ]
+    },
+    {
+      "constraint": "color == black",
+      "source": "mandate",
+      "pass": [
+        "stridemax-pro",
+        "velo-runner",
+        "trail-one",
+        "pace-lite",
+        "cloud-x"
+      ],
+      "fail": [
+        "street-run"
+      ]
+    },
+    {
+      "constraint": "size == 42",
+      "source": "mandate",
+      "pass": "all",
+      "fail": []
+    }
+  ],
+  "criteria": [
+    {
+      "criterion": "lowest price among compliant options",
+      "source": "default",
+      "weight": "primary"
+    }
+  ],
+  "selected_option": {
+    "id": "stridemax-pro",
+    "main_reason": "highest relevance score"
+  },
+  "rejected_alternatives": [
+    {
+      "id": "velo-runner",
+      "reason": "lower relevance score"
+    },
+    {
+      "id": "pace-lite",
+      "reason": "lower relevance score"
+    }
+  ],
+  "commercial_relationships": [
+    {
+      "option": "stridemax-pro",
+      "type": "sponsored_placement"
+    }
+  ],
+  "verification_paths": [
+    {
+      "path": "price_comparison_service",
+      "result": "price within cap",
+      "independence": "different source"
+    },
+    {
+      "path": "deterministic_constraint_validator",
+      "result": "passed",
+      "independence": "deterministic rule"
+    }
+  ],
+  "flags": [],
+  "evidence_tier": "standard",
+  "disclosure_map": {
+    "issuer": [
+      "*"
+    ],
+    "merchant": [
+      "binding",
+      "selected_option",
+      "constraints_applied",
+      "rejected_alternatives"
+    ],
+    "consumer": [
+      "*"
+    ]
+  },
+  "signature": {
+    "alg": "EdDSA (Ed25519)",
+    "value": "<signature over canonical JSON of all fields above>"
+  }
+}

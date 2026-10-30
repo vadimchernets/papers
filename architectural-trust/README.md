@@ -14,7 +14,8 @@ Agentic commerce turns AI from an advisor into a transacting party, collapsing s
 | **Archived, citable** | [10.5281/zenodo.22166995](https://doi.org/10.5281/zenodo.22166995) — concept DOI, always resolves to the latest version |
 | **Readable HTML** | [https://polyhelper.ai/research/architectural-trust/](https://polyhelper.ai/research/architectural-trust/) |
 | **Full text here** | [paper.md](paper.md) |
-| **PDF here** | [architectural-trust.pdf](architectural-trust.pdf) · 2.9 MB |
+| **PDF here** | [architectural-trust.pdf](architectural-trust.pdf) · 4.4 MB |
+| **Decision-receipt code** | [decision-receipt/](decision-receipt) |
 
 The same text is on four surfaces so that it can be reached when one of them cannot serve it. SSRN holds the version of record; cite that one. SSRN also disallows AI crawlers site-wide in its `robots.txt`, which is why these mirrors exist.
 
@@ -22,9 +23,13 @@ The same text is on four surfaces so that it can be reached when one of them can
 
 An open-source reference implementation of cross-lab verification on a smartphone (ChatGPT and Claude side by side; no server, no API key): [github.com/vadimchernets/poly-duo](https://github.com/vadimchernets/poly-duo) · [polyhelper.ai/duo/](https://polyhelper.ai/duo/). Its modes are not evaluated in the paper.
 
+## Code (agent decision receipt)
+
+The reference verifier, JSON Schema, and three example receipts for the agent decision receipt specified in the section "Decision evidence at dispute time": [decision-receipt/](decision-receipt). Run `node verify.mjs` and `node bench.mjs` (Node.js 18 or later, no dependencies); the output is in [decision-receipt/RESULTS.md](decision-receipt/RESULTS.md).
+
 ## Keywords
 
-architectural trust; trust migration; agentic commerce; AI agents; consumer trust; consumer delegation; multi-model orchestration; decision evidence; verifiable AI
+architectural trust; trust migration; agentic commerce; AI agents; consumer trust; consumer delegation; multi-model orchestration; decision evidence; verifiable AI; dispute resolution; agent decision receipt
 
 ## Licence
 
