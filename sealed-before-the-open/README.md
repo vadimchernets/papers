@@ -18,7 +18,7 @@ When an AI model says gold will rise, anyone can score the call at the close, bu
 | **Archived, citable** | [10.5281/zenodo.23552697](https://doi.org/10.5281/zenodo.23552697) |
 | **Registered predictions (Section 8)** | OSF [10.17605/OSF.IO/9Q86N](https://doi.org/10.17605/OSF.IO/9Q86N) |
 | **Immutable release of the open data** | Zenodo [10.5281/zenodo.23552700](https://doi.org/10.5281/zenodo.23552700) (league files as of 21 October 2026, with a manifest of SHA-256 hashes) |
-| **Live league and open data (CC BY 4.0)** | [trends.polyhelper.ai/markets](https://trends.polyhelper.ai/markets/) · [trends.polyhelper.ai/api/v1](https://trends.polyhelper.ai/api/v1/) |
+| **Live league and open data (CC BY 4.0)** | [https://polyhelper.ai/trends/markets/](https://polyhelper.ai/trends/markets/) · [trends.polyhelper.ai/api/v1](https://trends.polyhelper.ai/api/v1/) |
 | **Full text and PDF on the web** | [polyhelper.ai/research/sealed-before-the-open](https://polyhelper.ai/research/sealed-before-the-open/) |
 | **Full text here** | [paper.md](paper.md) |
 | **PDF here** | [sealed-before-the-open.pdf](sealed-before-the-open.pdf) (as archived on Zenodo) |
@@ -109,4 +109,4 @@ Predictions: OSF, https://doi.org/10.17605/OSF.IO/9Q86N. Data release: https://d
 
 ## Licence
 
-Text CC BY 4.0, matching the Zenodo deposit. The SSRN copy is governed by the licence granted there. The league's data are CC BY 4.0, attribution "AI Council · Markets, trends.polyhelper.ai/markets/".
+Text CC BY 4.0, matching the Zenodo deposit. The SSRN copy is governed by the licence granted there. The league's data are CC BY 4.0, attribution "AI Council · Markets, https://polyhelper.ai/trends/markets/".

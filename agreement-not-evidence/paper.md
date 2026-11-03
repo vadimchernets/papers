@@ -434,8 +434,10 @@ Table 3 sets out the three modes. They are equal parallel functions, not stages 
 | Mode | Chain | Messages | Use |
 |----|----|----|----|
 | **Poll** | Both models answer independently; answers shown side by side | 1 + 1 | Seeing the raw divergence directly |
-| **Critique** | Model A answers; model B verifies as a second expert and issues an improved final answer | 1 + 1 | Everyday default: a checked answer at two-message cost |
+| **Critique** | Model A answers; model B verifies as a second expert and issues an improved final answer | 1 + 1 | Everyday default: a second-model review at two-message cost |
 | **Synthesis** | Both answer blind; a further call arbitrates and merges, marking divergences | 1 + 2 | Questions that matter |
+
+*Note to Table 3. The table describes the design as of the date of this paper. Since Duo 6 (26 October 2026), Critique first collects both answers blind: Claude answers on its own, without seeing the ChatGPT answer, and then compares the two. The conclusions of this paper about informed-sequential collection are unchanged; they are an analysis of that design, not a description of the current product.*
 
 The critique mode was briefly called *chairman*. The three modes are equal parallel functions and critique is peer review: one expert answers, a second verifies. The chairman role already exists inside Synthesis, as the arbiter, and calling peer review by the name of aggregation would have misdescribed what the mode does.
 
@@ -489,7 +491,7 @@ Critique is informed-sequential. The second model receives the question together
 
 The informed arrangement looks at first as though it simply dominates the blind one: the second model does everything a blind second model does and checks the first answer as well, at the same cost. That appearance is misleading, because the two arrangements buy different goods and the informed one pays in independence.
 
-Informed-sequential elicitation buys error correction. A second model that can see the first’s answer can catch a specific mistake in it, whereas a blind second answer can only contradict it by accident. That is the mechanism behind the multi-agent debate results (Du et al., 2024), and it is what makes Critique the everyday default: at the same two-message cost as Poll it returns a verified answer instead of two unverified ones.
+Informed-sequential elicitation buys error correction. A second model that can see the first’s answer can catch a specific mistake in it, whereas a blind second answer can only contradict it by accident. That is the mechanism behind the multi-agent debate results (Du et al., 2024), and it is what makes Critique the everyday default: at the same two-message cost as Poll it returns an answer reviewed by a second model instead of two unreviewed ones.
 
 It pays for that in independence, which is to say in ρ. Conditioning the second answer on the first is the social influence that Lorenz et al. (2011) found narrows the spread of a crowd without moving it toward truth. An anchored critic agrees with the answer it was shown more often than an unanchored peer would, so the resulting agreement is worth less than it looks. The bound is easy to state and uncomfortable: in the limit where the critic ratifies what it was shown, $`N_{eff}`$ → 1, and the run has spent two messages to obtain one witness. The author’s verifier-panel measurements put a number on this channel (Chernets, 2026): a verifier that had disagreed blind and was then shown a colleague’s proposed answer adopted it in 38.5% of cases (168/436), abandoned its own correct blind answer in 30.9% (46/149), and, with the prompt held fixed, deserted its blind position for a shown wrong answer more often than for the shown gold answer (104 vs. 70 discordant pairs, McNemar exact p = .012).
 
