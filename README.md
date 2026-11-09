@@ -20,6 +20,7 @@ ORCID [0009-0007-4845-3163](https://orcid.org/0009-0007-4845-3163)
 | **After Chat.** The three transitions between non-programmers and agentic AI | [SSRN 7520019](https://ssrn.com/abstract=7520019) | [10.5281/zenodo.22943313](https://doi.org/10.5281/zenodo.22943313) | [read here](after-chat/paper.md) |
 | **After the Programmer Divide.** One measure for people who build through AI agents | [SSRN 7589918](https://ssrn.com/abstract=7589918) | [10.5281/zenodo.23267266](https://doi.org/10.5281/zenodo.23267266) | [read here](after-the-programmer-divide/paper.md) |
 | **Sealed Before the Open.** A verifiable standard for measuring AI forecasts of financial markets | [SSRN 7653679](https://ssrn.com/abstract=7653679) | [10.5281/zenodo.23552697](https://doi.org/10.5281/zenodo.23552697) | [read here](sealed-before-the-open/paper.md) |
+| **Agreement Inversion Is Not a Mid-Tier Property.** Precision of agreed LLM answers follows pair accuracy | [SSRN 7682960](https://ssrn.com/abstract=7682960) | [10.5281/zenodo.24090580](https://doi.org/10.5281/zenodo.24090580) | [read here](agreement-inversion/paper.md) |
 
 ## Workshop papers, NeurIPS 2026
 
