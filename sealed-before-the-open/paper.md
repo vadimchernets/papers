@@ -18,14 +18,14 @@ date: "October 2026"
 - **OSF** (the registered predictions of Section 8): [doi.org/10.17605/OSF.IO/9Q86N](https://doi.org/10.17605/OSF.IO/9Q86N)
 - **GitHub** (full text and the verification commands of Appendix B): <https://github.com/vadimchernets/papers/tree/main/sealed-before-the-open>
 - **Analysis release** (the files this version reads, frozen, with a SHA-256 manifest): [doi.org/10.5281/zenodo.23552700](https://doi.org/10.5281/zenodo.23552700)
-- **Live league and open data** (CC BY 4.0): [https://polyhelper.ai/trends/markets/](https://polyhelper.ai/trends/markets/) · [trends.polyhelper.ai/api/v1/](https://trends.polyhelper.ai/api/v1/)
+- **Live league and open data** (CC BY 4.0): [https://polyhelper.ai/trends/markets/](https://polyhelper.ai/trends/markets/) · [polyhelper.ai/trends/api/v1/](https://polyhelper.ai/trends/api/v1/)
 
 **Check a seal in three steps** (Appendix B): download the book and the stamp of 20 October, hash the stamped prefix, verify the anchor.
 
 ```
-curl -sO https://trends.polyhelper.ai/api/v1/council-book.jsonl
-curl -sO https://trends.polyhelper.ai/markets/proof/2026-10-20/130025Z.txt
-curl -sO https://trends.polyhelper.ai/markets/proof/2026-10-20/130025Z.txt.ots
+curl -sO https://polyhelper.ai/trends/api/v1/council-book.jsonl
+curl -sO https://polyhelper.ai/trends/markets/proof/2026-10-20/130025Z.txt
+curl -sO https://polyhelper.ai/trends/markets/proof/2026-10-20/130025Z.txt.ots
 head -n 159 council-book.jsonl | shasum -a 256   # 59673b9e...a7d9, as in 130025Z.txt
 ots verify 130025Z.txt.ots                       # Bitcoin block 972,334
 ```
@@ -594,7 +594,7 @@ The thirty predictions below are secondary bets, scored together by their own Br
 
 ### 8.1 Rules for writing the predictions
 
-Each prediction resolves from the league's open data, under CC BY 4.0, at <https://trends.polyhelper.ai/api/v1/>, and none needs data I hold privately. Set A (10 predictions, listed in Appendix D) is defined by one published field, or a comparison of two, which anyone can read in a browser; the filed script applies the field to the window. Set B (20 predictions) needs a computation over the open raw files. For each, the script is filed with the registration, with its SHA-256, before the data it will read exist, and the script is the definition.
+Each prediction resolves from the league's open data, under CC BY 4.0, at <https://polyhelper.ai/trends/api/v1/>, and none needs data I hold privately. Set A (10 predictions, listed in Appendix D) is defined by one published field, or a comparison of two, which anyone can read in a browser; the filed script applies the field to the window. Set B (20 predictions) needs a computation over the open raw files. For each, the script is filed with the registration, with its SHA-256, before the data it will read exist, and the script is the definition.
 
 Every prediction is computed on the sessions from session 11 to its check date, on counted lines sealed before the reference, with Brier scores over all rows, draws included. A session is a day the New York Stock Exchange is open, and the season of 126 sessions is checked on 30 April 2027. The session calendar, the four details that the resolvers fix and the window rules per row are in Appendix D.
 
@@ -720,7 +720,7 @@ A person who asks an AI model on Monday morning whether to buy gold cannot tell 
 
 None of these rules depends on the league that implements them. An arena that trades real money can seal its decisions before it executes them. A benchmark of event questions can stamp its forecasts in a public ledger at no cost beyond a hash. A fund or a newsroom that publishes AI forecasts can adopt the 30/10 rule before it reports a winner. The three rungs give the order. L1 needs nothing but discipline: a chained file, every run published, empty cells printed. L2 adds a free public anchor, a declared counted run and a count of voices beside the consensus. L3 adds signed time on every answer. My league holds L1 and five of the eight requirements of L2 within a week of its first run, and the dated rest is on Figure 4, so the climb is short and can be taken in public.
 
-One primary test and thirty secondary predictions are registered on OSF before posting. Dated revisions will score them, and the resolver filed with each prediction lets any reader score it first, from data open under CC BY 4.0 at <https://trends.polyhelper.ai/api/v1/>. The history that began on 16 October 2026 grows by one sealed session each trading day, and once anchored, no part of it can be rewritten by anyone, its operator included.
+One primary test and thirty secondary predictions are registered on OSF before posting. Dated revisions will score them, and the resolver filed with each prediction lets any reader score it first, from data open under CC BY 4.0 at <https://polyhelper.ai/trends/api/v1/>. The history that began on 16 October 2026 grows by one sealed session each trading day, and once anchored, no part of it can be rewritten by anyone, its operator included.
 
 If you run a benchmark, adopt the event contract and the counted-run rule before your next question goes out. If you study model agreement, take the sealed panel and report independent voices beside the headcount. If you doubt my claims, start with the three verification commands of Appendix B, then run the filed resolvers on their check dates. The standard is useful only when a reader can do all three without asking the operator.
 
@@ -732,7 +732,7 @@ If you run a benchmark, adopt the event contract and the counted-run rule before
 
 **Tools and verification.** I used AI assistants as instruments under my direction. The ideas, research and conclusions are mine. I checked quantitative claims and citations against primary sources or archived copies as of 20 October 2026, and the prior work of Section 7 and Appendix E as of 21 October 2026. I read the numbers from the league in its open files on 21 October 2026 (Appendix J gives the generation time of each file), and I recomputed the per-run and per-horizon independence values of Section 5.2 from council-forecasts.csv and council-book.jsonl of the same day with a script filed with the registration. I read the conformance evidence of Table F1 and the seals of 21 October 2026 from the live files and the proof page on 21 October 2026 at 15:05 UTC, and the statuses of Table 2, Table F1 and Table F2 on 22 October 2026 at about 19:45 ET, and checked the RFC 3161 tokens with OpenSSL against the authorities' certificates. Three models of three families set the probabilities of the registered predictions, each blind to the others and to my estimates (Section 8.3).
 
-**Data and code availability.** The filed scripts, the event-contract checker and both recount scripts use Python 3.9 or later with no package beyond its standard library and run under `python3 -I`; I ran them with Python 3.15.0 on macOS. The checks of Appendix B need `shasum`, the OpenTimestamps client for Step 6 and OpenSSL 3 or later for Step 9. Nothing is trained, so no result depends on hardware; the models run at their providers, and the version and mode each returned are sealed on its answer line (Table 3). The league's data are open under CC BY 4.0 at <https://trends.polyhelper.ai/api/v1/>, including the sealed book (council-book.jsonl), the forecasts (council-forecasts.csv), the question texts under their hashes (`asks/<sha256>.md`), the statistics (council-stats.json), the protocol and its versions (arena-protocol.json), the portfolio engine's code with SHA-256 hashes (arena-code.json), a recount of every forecast score (`tools/replay_brier.py`) and a recount script that recomputes every published league account from the published trades and prices within the stated publication rounding tolerance (`python3 replay.py https://trends.polyhelper.ai/api/v1/`, Appendix B). The live endpoints change every session, so the analysis does not rest on them: an immutable release of the open files as of the date of each version of the paper, with a manifest of their SHA-256 hashes, is archived on Zenodo (10.5281/zenodo.23552700), and every number in the paper is computed from that release; the filed scripts run on it offline (`--data`). This version reads the analysis release (Zenodo 10.5281/zenodo.23552700, created 22 October 2026). A reader who downloads the live files later can check the archived prefix of the sealed book against them (Appendix B). The primary endpoint with its script, the registered predictions with a resolver for each (resolve.py), the clean list priced by the blind forecasters with all three votes, the Set B scripts, the content SHA-256 of the sealed climatology and a manifest of filed files with their SHA-256, with a README that lists the requirements and the command for each script, are registered on OSF (10.17605/OSF.IO/9Q86N). The paper is archived on Zenodo (10.5281/zenodo.23552697) and its preferred citation is the SSRN preprint (https://ssrn.com/abstract=7653679).
+**Data and code availability.** The filed scripts, the event-contract checker and both recount scripts use Python 3.9 or later with no package beyond its standard library and run under `python3 -I`; I ran them with Python 3.15.0 on macOS. The checks of Appendix B need `shasum`, the OpenTimestamps client for Step 6 and OpenSSL 3 or later for Step 9. Nothing is trained, so no result depends on hardware; the models run at their providers, and the version and mode each returned are sealed on its answer line (Table 3). The league's data are open under CC BY 4.0 at <https://polyhelper.ai/trends/api/v1/>, including the sealed book (council-book.jsonl), the forecasts (council-forecasts.csv), the question texts under their hashes (`asks/<sha256>.md`), the statistics (council-stats.json), the protocol and its versions (arena-protocol.json), the portfolio engine's code with SHA-256 hashes (arena-code.json), a recount of every forecast score (`tools/replay_brier.py`) and a recount script that recomputes every published league account from the published trades and prices within the stated publication rounding tolerance (`python3 replay.py https://polyhelper.ai/trends/api/v1/`, Appendix B). The live endpoints change every session, so the analysis does not rest on them: an immutable release of the open files as of the date of each version of the paper, with a manifest of their SHA-256 hashes, is archived on Zenodo (10.5281/zenodo.23552700), and every number in the paper is computed from that release; the filed scripts run on it offline (`--data`). This version reads the analysis release (Zenodo 10.5281/zenodo.23552700, created 22 October 2026). A reader who downloads the live files later can check the archived prefix of the sealed book against them (Appendix B). The primary endpoint with its script, the registered predictions with a resolver for each (resolve.py), the clean list priced by the blind forecasters with all three votes, the Set B scripts, the content SHA-256 of the sealed climatology and a manifest of filed files with their SHA-256, with a README that lists the requirements and the command for each script, are registered on OSF (10.17605/OSF.IO/9Q86N). The paper is archived on Zenodo (10.5281/zenodo.23552697) and its preferred citation is the SSRN preprint (https://ssrn.com/abstract=7653679).
 
 **Ethics.** The reader experiment of Section 6 collects anonymous up or down forecasts with a stated confidence from visitors of a public page. Readers are assigned to a group by an anonymous random identifier. The experiment collects no names, accounts or contact details. The league does not store or log a reader's IP address. A salted hash of it with the day is kept only to cap votes per address, and no personal data are published or used in the analysis. The results are reported as aggregate counts, and the first forecasts that F29 reads are published under the anonymous identifier alone. I carried out the work as an independent researcher, outside an institutional ethics committee. The forecasters in the league are software models.
 
@@ -746,7 +746,7 @@ Abeliuk, A., Benjamin, D. M., Morstatter, F., & Galstyan, A. (2020). Quantifying
 
 Adams, C., Cain, P., Pinkas, D., & Zuccherato, R. (2001). *Internet X.509 public key infrastructure time-stamp protocol (TSP)* (RFC 3161). Internet Engineering Task Force. <https://doi.org/10.17487/RFC3161>
 
-AI Council · Markets. (2026). *Open data of the AI Council · Markets league: sealed book, forecasts, statistics, protocol, event-contract schema and league accounts* [Data set]. CC BY 4.0. Data as of 20 October 2026 (generated 21 October 2026, 02:42 UTC); conformance status read 21 October 2026, 15:05 UTC. Retrieved 20-21 October 2026, from <https://trends.polyhelper.ai/api/v1/>
+AI Council · Markets. (2026). *Open data of the AI Council · Markets league: sealed book, forecasts, statistics, protocol, event-contract schema and league accounts* [Data set]. CC BY 4.0. Data as of 20 October 2026 (generated 21 October 2026, 02:42 UTC); conformance status read 21 October 2026, 15:05 UTC. Retrieved 20-21 October 2026, from <https://polyhelper.ai/trends/api/v1/>
 
 Aitchison, M., Jeen, S., Shevlane, T., & Day, B. (2026). *Diversity is the strength of the AI crowd* (arXiv:2606.29661). arXiv. <https://arxiv.org/abs/2606.29661>
 
@@ -1067,12 +1067,12 @@ The steps use only public files and standard tools. I ran Steps 1 to 8 on the ev
 **Step 1. Download the book and the stamp.**
 
 ```sh
-curl -sO https://trends.polyhelper.ai/api/v1/council-book.jsonl
-curl -sO https://trends.polyhelper.ai/markets/proof/2026-10-20/130025Z.txt
-curl -sO https://trends.polyhelper.ai/markets/proof/2026-10-20/130025Z.txt.ots
+curl -sO https://polyhelper.ai/trends/api/v1/council-book.jsonl
+curl -sO https://polyhelper.ai/trends/markets/proof/2026-10-20/130025Z.txt
+curl -sO https://polyhelper.ai/trends/markets/proof/2026-10-20/130025Z.txt.ots
 ```
 
-The proof page `https://trends.polyhelper.ai/markets/proof/2026-10-20/` lists every stamp of the day and every book line of the run, with its seal and link.
+The proof page `https://polyhelper.ai/trends/markets/proof/2026-10-20/` lists every stamp of the day and every book line of the run, with its seal and link.
 
 **Step 2. Read the stamped list.** `cat 130025Z.txt` shows, among other books, the line for this one:
 
@@ -1113,7 +1113,7 @@ On the file of 20 October this printed `chain ok: 211 lines`.
 **Step 5. Check the question a run answered.**
 
 ```sh
-curl -s https://trends.polyhelper.ai/api/v1/asks/77d3c627c7c69d2f6e740ccd89113872b1ac08053554a4651bc2d3064b4e6f07.md | shasum -a 256
+curl -s https://polyhelper.ai/trends/api/v1/asks/77d3c627c7c69d2f6e740ccd89113872b1ac08053554a4651bc2d3064b4e6f07.md | shasum -a 256
 # 77d3c627c7c69d2f6e740ccd89113872b1ac08053554a4651bc2d3064b4e6f07  -
 ```
 
@@ -1122,8 +1122,8 @@ curl -s https://trends.polyhelper.ai/api/v1/asks/77d3c627c7c69d2f6e740ccd8911387
 **Step 7. Recount the league.**
 
 ```sh
-curl -s https://trends.polyhelper.ai/api/v1/arena-code-tools-replay.py.txt -o replay.py
-python3 replay.py https://trends.polyhelper.ai/api/v1/
+curl -s https://polyhelper.ai/trends/api/v1/arena-code-tools-replay.py.txt -o replay.py
+python3 replay.py https://polyhelper.ai/trends/api/v1/
 ```
 
 On the files as of 20 October 2026 the script printed (excerpt):
@@ -1137,7 +1137,7 @@ result: the published scores are reproduced
 **Step 8. Check the engine's code.** `arena-code.json` lists each code file with its SHA-256; each file is published as `arena-code-<file>.txt`:
 
 ```sh
-curl -s https://trends.polyhelper.ai/api/v1/arena-code-council_arena.py.txt | shasum -a 256
+curl -s https://polyhelper.ai/trends/api/v1/arena-code-council_arena.py.txt | shasum -a 256
 # 9ff5575c2b5c7736fba06bec1b63a608f5f290aacdee6df6b24a51381f22686c  -
 ```
 
@@ -1146,9 +1146,9 @@ which matches the entry for `council_arena.py`.
 **Step 9. Verify the signed times of 21 October 2026 (level 2+).** Run on 21 October 2026, 09:10 ET, with OpenSSL 3 (both checks pass with OpenSSL 3.6 and 4.0). The FreeTSA certificates are copied under `tsa/` and published by the service (`https://freetsa.org/files/`); DigiCert's chain is in the system trust store.
 
 ```sh
-P=https://trends.polyhelper.ai/markets/proof/2026-10-21
+P=https://polyhelper.ai/trends/markets/proof/2026-10-21
 for f in 130019Z.txt 130019Z.txt.freetsa.tsr 130019Z.txt.digicert.tsr tsa/freetsa-cacert.pem tsa/freetsa-tsa.crt; do curl -sO $P/$f; done
-curl -sO https://trends.polyhelper.ai/api/v1/council-book.jsonl
+curl -sO https://polyhelper.ai/trends/api/v1/council-book.jsonl
 shasum -a 256 130019Z.txt
 # 986bd13907397901ceed70131a70c3674eba05dfdcb9ededbc7cbc0e57bd3714  130019Z.txt
 openssl ts -verify -data 130019Z.txt -in 130019Z.txt.freetsa.tsr -CAfile freetsa-cacert.pem -untrusted freetsa-tsa.crt
@@ -1197,7 +1197,7 @@ Without a Bitcoin node, `ots info 130025Z.txt.ots` shows the attestation to bloc
 
 ## Appendix C. Data dictionary
 
-All files are under `https://trends.polyhelper.ai/api/v1/`, published under CC BY 4.0 with attribution "AI Council · Markets, https://polyhelper.ai/trends/markets/". The index page of that address lists every file and how often it changes, and `arena-dataset.json` describes each file's columns; Table C1 lists the files that the predictions read, with column names as read on 21 October 2026 at 08:16 UTC. A reader-AI that cannot open large files starts from `markets-digest.json` (under 30 KB) or the per-run slices in `council-forecasts-index.json`.
+All files are under `https://polyhelper.ai/trends/api/v1/`, published under CC BY 4.0 with attribution "AI Council · Markets, https://polyhelper.ai/trends/markets/". The index page of that address lists every file and how often it changes, and `arena-dataset.json` describes each file's columns; Table C1 lists the files that the predictions read, with column names as read on 21 October 2026 at 08:16 UTC. A reader-AI that cannot open large files starts from `markets-digest.json` (under 30 KB) or the per-run slices in `council-forecasts-index.json`.
 
 **Table C1.** *Main files.*
 
@@ -1235,7 +1235,7 @@ Table D1 lists the thirty secondary predictions of Section 8 at a glance, and Ta
 
 **Rules that apply to every row.** Unless a row names another window, a prediction is computed on sessions from session 11 (2 November 2026) to its check date. It uses counted lines (one run per session) whose book seal time, max(`at`, `booked_at`), is before the session's 09:30 ET reference, and the same cut applies to Bitcoin, whose reference is the close of the first one-minute bar after the line's seal. Brier scores are one-day and over all rows, draws included. Where a published field also covers earlier sessions, the filed script applies the field's definition to the window.
 
-Fields are those of the open files at <https://trends.polyhelper.ai/api/v1/> as documented on 21 October 2026, and a renamed field is replaced by its documented equivalent with the mapping logged. Where a row needs a value no open field carries, the field is to be published, and the resolver in the OSF scripts computes the value from council-forecasts.csv and council-book.jsonl by the row's rule. "Ranked" means 30 resolved forecasts on at least 10 trading days (the 30/10 rule, Section 4.6), applied within the prediction's window, except F8, which reads the league's flag. Crowd rows are market-sessions on which the sealed question lists a daily contract (Section 4.9), and the contract is the one the models answered with `crowd_up`, the Polymarket contract where Polymarket lists the market and otherwise the Kalshi contract, in both cases with a sealed volume of at least $1,000 (an admission threshold). Intervals are 95% with the session as the cluster, by a bootstrap of 10,000 resamples with seed 20261102 in the filed scripts.
+Fields are those of the open files at <https://polyhelper.ai/trends/api/v1/> as documented on 21 October 2026, and a renamed field is replaced by its documented equivalent with the mapping logged. Where a row needs a value no open field carries, the field is to be published, and the resolver in the OSF scripts computes the value from council-forecasts.csv and council-book.jsonl by the row's rule. "Ranked" means 30 resolved forecasts on at least 10 trading days (the 30/10 rule, Section 4.6), applied within the prediction's window, except F8, which reads the league's flag. Crowd rows are market-sessions on which the sealed question lists a daily contract (Section 4.9), and the contract is the one the models answered with `crowd_up`, the Polymarket contract where Polymarket lists the market and otherwise the Kalshi contract, in both cases with a sealed volume of at least $1,000 (an admission threshold). Intervals are 95% with the session as the cluster, by a bootstrap of 10,000 resamples with seed 20261102 in the filed scripts.
 
 A minimum sample not reached, a missing file or a field without a documented equivalent leaves the prediction unresolved and not a success. No prediction is deleted. p is the registered probability that the prediction comes true, given that it is resolved: the median of three blind votes. Six values (F5, F7, F20, F21, F23, F25) are the votes of 20 October 2026. The other twenty-four and the primary endpoint were voted on 21 October 2026, in three later rounds, each on the text of the predictions rewritten in that round. Wording fixed after the last round specifies how a row resolves and was not re-priced, and all rounds and votes are filed with the registration.
 

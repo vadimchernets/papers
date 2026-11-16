@@ -8,7 +8,7 @@
 
 When an AI model says gold will rise, anyone can score the call at the close, but few can check when it was made. A backtest mixes memory with skill, and an operator's log asks for trust. I propose a standard for measuring AI market forecasts, written as a ladder of checkable requirements, and I run its reference implementation, AI Council · Markets: an open league where fourteen models, seven from US and seven from Chinese laboratories, face one question on one price snapshot. Before each New York open the ten on its Council, five from each side, give probabilities for twelve indicators at four horizons. Each answer is sealed into a hash chain before the price it is scored from, the chain is anchored in Bitcoin and signed by independent time-stamping authorities, and one run per session counts by a rule declared in advance. On 21 October 2026, the first counted morning, every counted answer was signed before the 09:30 ET open. Agreement among the models proved to be a count of independent voices, not a headcount: on two development mornings the seven and eight models sealed before the open were as alike as about 1.6 independent forecasters, nine counted ones were worth 2.23, and the closest pairs crossed the US-China line. Check a seal with three commands, and score my thirty predictions, registered on OSF, before I do.
 
-*Version 5.4, 143 pages: a 47-page main text, with every table and check kept in Appendices A to J. Registered predictions are scored in dated revisions.*
+*Version of 16 November 2026, 143 pages: a 47-page main text, with every table and check kept in Appendices A to J. Registered predictions are scored in dated revisions.*
 
 ## Where this paper lives
 
@@ -18,7 +18,7 @@ When an AI model says gold will rise, anyone can score the call at the close, bu
 | **Archived, citable** | [10.5281/zenodo.23552697](https://doi.org/10.5281/zenodo.23552697) |
 | **Registered predictions (Section 8)** | OSF [10.17605/OSF.IO/9Q86N](https://doi.org/10.17605/OSF.IO/9Q86N) |
 | **Immutable release of the open data** | Zenodo [10.5281/zenodo.23552700](https://doi.org/10.5281/zenodo.23552700) (league files as of 21 October 2026, with a manifest of SHA-256 hashes) |
-| **Live league and open data (CC BY 4.0)** | [https://polyhelper.ai/trends/markets/](https://polyhelper.ai/trends/markets/) · [trends.polyhelper.ai/api/v1](https://trends.polyhelper.ai/api/v1/) |
+| **Live league and open data (CC BY 4.0)** | [https://polyhelper.ai/trends/markets/](https://polyhelper.ai/trends/markets/) · [polyhelper.ai/trends/api/v1](https://polyhelper.ai/trends/api/v1/) |
 | **Full text and PDF on the web** | [polyhelper.ai/research/sealed-before-the-open](https://polyhelper.ai/research/sealed-before-the-open/) |
 | **Full text here** | [paper.md](paper.md) |
 | **PDF here** | [sealed-before-the-open.pdf](sealed-before-the-open.pdf) (as archived on Zenodo) |
@@ -38,9 +38,9 @@ The same text is in three places so that it can be reached when one of them cann
 Only public files and standard tools are needed. The example is the stamp of 20 October 2026 at 13:00:25Z.
 
 ```sh
-curl -sO https://trends.polyhelper.ai/api/v1/council-book.jsonl
-curl -sO https://trends.polyhelper.ai/markets/proof/2026-10-20/130025Z.txt
-curl -sO https://trends.polyhelper.ai/markets/proof/2026-10-20/130025Z.txt.ots
+curl -sO https://polyhelper.ai/trends/api/v1/council-book.jsonl
+curl -sO https://polyhelper.ai/trends/markets/proof/2026-10-20/130025Z.txt
+curl -sO https://polyhelper.ai/trends/markets/proof/2026-10-20/130025Z.txt.ots
 
 # The stamped list names the book prefix it commits to: 159 lines, sha256 59673b9e...cac1a7d9
 head -n 159 council-book.jsonl | shasum -a 256
@@ -67,14 +67,14 @@ print("chain ok:", len(lines), "lines")
 Verify the Bitcoin anchor (`pip install opentimestamps-client`; with a local Bitcoin node `ots verify 130025Z.txt.ots`, without one `ots info 130025Z.txt.ots`, which prints the attestation `BitcoinBlockHeaderAttestation(972334)`), and recount the league's published accounts:
 
 ```sh
-curl -s https://trends.polyhelper.ai/api/v1/arena-code-tools-replay.py.txt -o replay.py
-python3 replay.py https://trends.polyhelper.ai/api/v1/
+curl -s https://polyhelper.ai/trends/api/v1/arena-code-tools-replay.py.txt -o replay.py
+python3 replay.py https://polyhelper.ai/trends/api/v1/
 ```
 
 Level 2+ (from 21 October 2026): the stamped list of that morning is signed by independent RFC 3161 authorities (Appendix B, Step 9; OpenSSL 3):
 
 ```sh
-P=https://trends.polyhelper.ai/markets/proof/2026-10-21
+P=https://polyhelper.ai/trends/markets/proof/2026-10-21
 for f in 130019Z.txt 130019Z.txt.freetsa.tsr 130019Z.txt.digicert.tsr tsa/freetsa-cacert.pem tsa/freetsa-tsa.crt; do curl -sO $P/$f; done
 openssl ts -verify -data 130019Z.txt -in 130019Z.txt.freetsa.tsr -CAfile freetsa-cacert.pem -untrusted freetsa-tsa.crt
 openssl ts -verify -data 130019Z.txt -in 130019Z.txt.digicert.tsr -CAfile /etc/ssl/cert.pem
